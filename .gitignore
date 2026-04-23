@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# 临时 / 草稿 / 本地原图
+/_drafts/
+/_tmp/
+/_originals/
+*.tmp
+
+# 脚本产物
+scripts/node_modules/
+scripts/__pycache__/
+scripts/*.log
+
+# Claude Code 本地配置
+.claude/settings.local.json
