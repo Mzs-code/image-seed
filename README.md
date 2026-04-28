@@ -32,7 +32,7 @@
 
 | 模型 | 说明 | 子分类 | 现有图片 |
 |---|---|---|---|
-| [GPT Image 2](./gpt-image-2/README.md) | OpenAI GPT Image 2 生成的图片 | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster | 23 |
+| [GPT Image 2](./gpt-image-2/README.md) | OpenAI GPT Image 2 生成的图片 | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster / anime | 23 |
 
 > **待归类暂存**：`unclassified-gpt-image-2/` 存放尚未归类的 GPT Image 2 图片，处理完后清空。
 

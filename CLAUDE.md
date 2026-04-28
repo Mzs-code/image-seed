@@ -37,7 +37,7 @@ image-seed/
 | `slide-deck/` | `deck` | 16 styles |
 | `article-illustrator/` | `art` | 8 styles |
 | `unclassified/` | `misc` | — |
-| `gpt-image-2/` | `gpt-image-2` | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster |
+| `gpt-image-2/` | `gpt-image-2` | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster / anime |
 | `unclassified-gpt-image-2/` | — | gpt-image-2 专属暂存区，处理完清空 |
 
 子分类的完整名单见 `scripts/pull_baoyu.sh` 或各场景 README 的「可用子分类」小节。
@@ -147,6 +147,7 @@ gpt-image-2 目录与场景体系正交，按**内容类型**（而非 baoyu-ski
 | `travel/` | 旅游目的地宣传海报 |
 | `app-ui/` | 应用界面营销截图 |
 | `poster/` | 影视/小说/品牌等单图宣传海报 |
+| `anime/` | 动漫/漫画风格：分镜叙事、卡通人物、生活感故事图 |
 
 ### 命名与结构规则
 
