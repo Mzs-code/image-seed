@@ -8,22 +8,24 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) |
 | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) |
-| [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) | [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) | [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) |
-| [claymation](./claymation/README.md) | [kawaii](./kawaii/README.md) | [storybook-watercolor](./storybook-watercolor/README.md) |
-| [![chalkboard](./chalkboard/info-chalkboard-baoyu.webp)](./chalkboard/README.md) | [![cyberpunk-neon](./cyberpunk-neon/info-cyberpunk-neon-baoyu.webp)](./cyberpunk-neon/README.md) | [![bold-graphic](./bold-graphic/info-bold-graphic-baoyu.webp)](./bold-graphic/README.md) |
-| [chalkboard](./chalkboard/README.md) | [cyberpunk-neon](./cyberpunk-neon/README.md) | [bold-graphic](./bold-graphic/README.md) |
-| [![aged-academia](./aged-academia/info-aged-academia-baoyu.webp)](./aged-academia/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-enterprise-invisible-assets.jpg)](./corporate-memphis/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-baoyu.webp)](./corporate-memphis/README.md) |
-| [aged-academia](./aged-academia/README.md) | [corporate-memphis](./corporate-memphis/README.md) | [corporate-memphis](./corporate-memphis/README.md) |
-| [![technical-schematic](./technical-schematic/info-technical-schematic-ai-video-arena-elo-ranking.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-happyhorse-arena-three-traits.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-jetbrains-git-client.png)](./technical-schematic/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) | [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [claymation](./claymation/README.md) | [kawaii](./kawaii/README.md) |
+| [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) | [![chalkboard](./chalkboard/info-chalkboard-baoyu.webp)](./chalkboard/README.md) | [![cyberpunk-neon](./cyberpunk-neon/info-cyberpunk-neon-baoyu.webp)](./cyberpunk-neon/README.md) |
+| [storybook-watercolor](./storybook-watercolor/README.md) | [chalkboard](./chalkboard/README.md) | [cyberpunk-neon](./cyberpunk-neon/README.md) |
+| [![bold-graphic](./bold-graphic/info-bold-graphic-baoyu.webp)](./bold-graphic/README.md) | [![aged-academia](./aged-academia/info-aged-academia-baoyu.webp)](./aged-academia/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-enterprise-invisible-assets.jpg)](./corporate-memphis/README.md) |
+| [bold-graphic](./bold-graphic/README.md) | [aged-academia](./aged-academia/README.md) | [corporate-memphis](./corporate-memphis/README.md) |
+| [![corporate-memphis](./corporate-memphis/info-corporate-memphis-baoyu.webp)](./corporate-memphis/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-ai-video-arena-elo-ranking.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-happyhorse-arena-three-traits.png)](./technical-schematic/README.md) |
+| [corporate-memphis](./corporate-memphis/README.md) | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) |
+| [![technical-schematic](./technical-schematic/info-technical-schematic-jetbrains-git-client.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-public-ai-data-leak-risk.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-baoyu.webp)](./technical-schematic/README.md) |
 | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) |
-| [![technical-schematic](./technical-schematic/info-technical-schematic-public-ai-data-leak-risk.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-baoyu.webp)](./technical-schematic/README.md) | [![origami](./origami/info-origami-baoyu.webp)](./origami/README.md) |
-| [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) | [origami](./origami/README.md) |
-| [![pixel-art](./pixel-art/info-pixel-art-baoyu.webp)](./pixel-art/README.md) | [![ui-wireframe](./ui-wireframe/info-ui-wireframe-baoyu.webp)](./ui-wireframe/README.md) | [![subway-map](./subway-map/info-subway-map-baoyu.webp)](./subway-map/README.md) |
-| [pixel-art](./pixel-art/README.md) | [ui-wireframe](./ui-wireframe/README.md) | [subway-map](./subway-map/README.md) |
-| [![ikea-manual](./ikea-manual/info-ikea-manual-baoyu.webp)](./ikea-manual/README.md) | [![knolling](./knolling/info-knolling-baoyu.webp)](./knolling/README.md) | [![lego-brick](./lego-brick/info-lego-brick-baoyu.webp)](./lego-brick/README.md) |
-| [ikea-manual](./ikea-manual/README.md) | [knolling](./knolling/README.md) | [lego-brick](./lego-brick/README.md) |
+| [![origami](./origami/info-origami-baoyu.webp)](./origami/README.md) | [![pixel-art](./pixel-art/info-pixel-art-baoyu.webp)](./pixel-art/README.md) | [![ui-wireframe](./ui-wireframe/info-ui-wireframe-baoyu.webp)](./ui-wireframe/README.md) |
+| [origami](./origami/README.md) | [pixel-art](./pixel-art/README.md) | [ui-wireframe](./ui-wireframe/README.md) |
+| [![subway-map](./subway-map/info-subway-map-baoyu.webp)](./subway-map/README.md) | [![ikea-manual](./ikea-manual/info-ikea-manual-baoyu.webp)](./ikea-manual/README.md) | [![knolling](./knolling/info-knolling-baoyu.webp)](./knolling/README.md) |
+| [subway-map](./subway-map/README.md) | [ikea-manual](./ikea-manual/README.md) | [knolling](./knolling/README.md) |
+| [![lego-brick](./lego-brick/info-lego-brick-baoyu.webp)](./lego-brick/README.md) |    |    |
+| [lego-brick](./lego-brick/README.md) |    |    |
 
 ## Layouts 布局画廊
 
@@ -51,22 +53,22 @@
 | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) |
 | [![grid-cards](./grid-cards/info-grid-cards-notebooklm-deep-reading-prompts.png)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-popmart-2025-annual-report.jpg)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-baoyu.webp)](./grid-cards/README.md) |
 | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) |
-| [![iceberg](./iceberg/info-iceberg-baoyu.webp)](./iceberg/README.md) | [![journey-path](./journey-path/info-journey-path-orchestration-evolution.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-script-to-skills-evolution.png)](./journey-path/README.md) |
+| [![iceberg](./iceberg/info-iceberg-baoyu.webp)](./iceberg/README.md) | [![journey-path](./journey-path/info-journey-path-fullstack-bug-avoidance.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-orchestration-evolution.png)](./journey-path/README.md) |
 | [iceberg](./iceberg/README.md) | [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) |
-| [![journey-path](./journey-path/info-journey-path-baoyu.webp)](./journey-path/README.md) | [![layers-stack](./layers-stack/info-layers-stack-agent-system-engineering.png)](./layers-stack/README.md) | [![layers-stack](./layers-stack/info-layers-stack-llm-input-structure.png)](./layers-stack/README.md) |
-| [journey-path](./journey-path/README.md) | [layers-stack](./layers-stack/README.md) | [layers-stack](./layers-stack/README.md) |
-| [![layers-stack](./layers-stack/info-layers-stack-baoyu.webp)](./layers-stack/README.md) | [![mind-map](./mind-map/info-mind-map-sincerity-detector.jpg)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-six-masters-work-system.png)](./mind-map/README.md) |
-| [layers-stack](./layers-stack/README.md) | [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) |
-| [![mind-map](./mind-map/info-mind-map-unified-agent-optimization.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-baoyu.webp)](./mind-map/README.md) | [![nested-circles](./nested-circles/info-nested-circles-baoyu.webp)](./nested-circles/README.md) |
-| [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) | [nested-circles](./nested-circles/README.md) |
-| [![priority-quadrants](./priority-quadrants/info-priority-quadrants-baoyu.webp)](./priority-quadrants/README.md) | [![pyramid](./pyramid/info-pyramid-baoyu.webp)](./pyramid/README.md) | [![scale-balance](./scale-balance/info-scale-balance-baoyu.webp)](./scale-balance/README.md) |
-| [priority-quadrants](./priority-quadrants/README.md) | [pyramid](./pyramid/README.md) | [scale-balance](./scale-balance/README.md) |
-| [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-baoyu.webp)](./timeline-horizontal/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-prompt-cache-flow.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-decision.png)](./tree-hierarchy/README.md) |
-| [timeline-horizontal](./timeline-horizontal/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) |
-| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-log-memory-arch.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-baoyu.webp)](./tree-hierarchy/README.md) | [![venn](./venn/info-venn-skills-correct-usage.png)](./venn/README.md) |
-| [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [venn](./venn/README.md) |
-| [![venn](./venn/info-venn-baoyu.webp)](./venn/README.md) |    |    |
-| [venn](./venn/README.md) |    |    |
+| [![journey-path](./journey-path/info-journey-path-script-to-skills-evolution.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-baoyu.webp)](./journey-path/README.md) | [![layers-stack](./layers-stack/info-layers-stack-agent-system-engineering.png)](./layers-stack/README.md) |
+| [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) | [layers-stack](./layers-stack/README.md) |
+| [![layers-stack](./layers-stack/info-layers-stack-llm-input-structure.png)](./layers-stack/README.md) | [![layers-stack](./layers-stack/info-layers-stack-baoyu.webp)](./layers-stack/README.md) | [![mind-map](./mind-map/info-mind-map-sincerity-detector.jpg)](./mind-map/README.md) |
+| [layers-stack](./layers-stack/README.md) | [layers-stack](./layers-stack/README.md) | [mind-map](./mind-map/README.md) |
+| [![mind-map](./mind-map/info-mind-map-six-masters-work-system.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-unified-agent-optimization.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-baoyu.webp)](./mind-map/README.md) |
+| [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) |
+| [![nested-circles](./nested-circles/info-nested-circles-baoyu.webp)](./nested-circles/README.md) | [![priority-quadrants](./priority-quadrants/info-priority-quadrants-baoyu.webp)](./priority-quadrants/README.md) | [![pyramid](./pyramid/info-pyramid-baoyu.webp)](./pyramid/README.md) |
+| [nested-circles](./nested-circles/README.md) | [priority-quadrants](./priority-quadrants/README.md) | [pyramid](./pyramid/README.md) |
+| [![scale-balance](./scale-balance/info-scale-balance-baoyu.webp)](./scale-balance/README.md) | [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-google-ai-code-share.png)](./timeline-horizontal/README.md) | [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-baoyu.webp)](./timeline-horizontal/README.md) |
+| [scale-balance](./scale-balance/README.md) | [timeline-horizontal](./timeline-horizontal/README.md) | [timeline-horizontal](./timeline-horizontal/README.md) |
+| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-prompt-cache-flow.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-decision.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-log-memory-arch.png)](./tree-hierarchy/README.md) |
+| [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) |
+| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-baoyu.webp)](./tree-hierarchy/README.md) | [![venn](./venn/info-venn-skills-correct-usage.png)](./venn/README.md) | [![venn](./venn/info-venn-baoyu.webp)](./venn/README.md) |
+| [tree-hierarchy](./tree-hierarchy/README.md) | [venn](./venn/README.md) | [venn](./venn/README.md) |
 
 ## 可用子分类
 

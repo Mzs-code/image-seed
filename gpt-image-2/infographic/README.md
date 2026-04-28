@@ -10,8 +10,8 @@
 |:---:|:---:|:---:|
 | [![gpt-image-2-infographic-human-digestion](./gpt-image-2-infographic-human-digestion.png)](./gpt-image-2-infographic-human-digestion.png) | [![gpt-image-2-infographic-six-coffee-beans](./gpt-image-2-infographic-six-coffee-beans.png)](./gpt-image-2-infographic-six-coffee-beans.png) | [![gpt-image-2-infographic-golden-retriever](./gpt-image-2-infographic-golden-retriever.png)](./gpt-image-2-infographic-golden-retriever.png) |
 | human-digestion | six-coffee-beans | golden-retriever |
-| [![gpt-image-2-infographic-mojin-xiaowei](./gpt-image-2-infographic-mojin-xiaowei.jpeg)](./gpt-image-2-infographic-mojin-xiaowei.jpeg) |    |    |
-| mojin-xiaowei |    |    |
+| [![gpt-image-2-infographic-mojin-xiaowei](./gpt-image-2-infographic-mojin-xiaowei.jpeg)](./gpt-image-2-infographic-mojin-xiaowei.jpeg) | [![gpt-image-2-infographic-features-overview](./gpt-image-2-infographic-features-overview.jpg)](./gpt-image-2-infographic-features-overview.jpg) |    |
+| mojin-xiaowei | features-overview |    |
 
 ## 元数据
 
@@ -21,5 +21,6 @@
 | [gpt-image-2-infographic-six-coffee-beans](./gpt-image-2-infographic-six-coffee-beans.png) | 全球六大咖啡豆种类：产地、风味、咖啡因含量全解析 | `coffee` `food` `knowledge` `warm` `grid-cards` | — | — |
 | [gpt-image-2-infographic-golden-retriever](./gpt-image-2-infographic-golden-retriever.png) | 金毛寻回犬百科：习性、养护、风险注意事项 | `pet` `dog` `knowledge` `warm` `feature-list` | — | — |
 | [gpt-image-2-infographic-mojin-xiaowei](./gpt-image-2-infographic-mojin-xiaowei.jpeg) | 摸金校尉知识图谱：组织、技能、装备、探墓流程全解 | `culture` `comprehensive` `dark` `technical-schematic` | — | — |
+| [gpt-image-2-infographic-features-overview](./gpt-image-2-infographic-features-overview.jpg) | GPT-Image 2 核心亮点全解析：能力升级 / Thinking / 多尺寸 / 知识能力 / 仍存局限 | `gpt-image-2` `model-features` `tech-popularization` `chinese` `comprehensive` | — | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

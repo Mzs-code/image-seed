@@ -8,8 +8,10 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.png)](./info-journey-path-orchestration-evolution.png) | [![info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.png)](./info-journey-path-script-to-skills-evolution.png) | [![info-journey-path-baoyu](./info-journey-path-baoyu.webp)](./info-journey-path-baoyu.webp) |
-| orchestration-evolution | script-to-skills-evolution | baoyu |
+| [![info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.png)](./info-journey-path-orchestration-evolution.png) | [![info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.png)](./info-journey-path-script-to-skills-evolution.png) | [![info-journey-path-fullstack-bug-avoidance](./info-journey-path-fullstack-bug-avoidance.png)](./info-journey-path-fullstack-bug-avoidance.png) |
+| orchestration-evolution | script-to-skills-evolution | fullstack-bug-avoidance |
+| [![info-journey-path-baoyu](./info-journey-path-baoyu.webp)](./info-journey-path-baoyu.webp) |    |    |
+| baoyu |    |    |
 
 ## 元数据
 
@@ -17,6 +19,7 @@
 |---|---|---|---|---|
 | [info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.png) | 编排方式的变革：代码编排 → 自然语言编排 | `agent` `orchestration` `evolution` `minimal` | — | — |
 | [info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.png) | Skills = 脚本套壳？从苦涩教训看自动化新范式 | `skills` `script` `agent` `evolution` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
+| [info-journey-path-fullstack-bug-avoidance](./info-journey-path-fullstack-bug-avoidance.png) | 进阶篇:全栈实战 — 从零基础到上线的避坑指南 | `craft-handmade` `fullstack` `ai-coding` `learning-path` `chinese` | — | — |
 | [info-journey-path-baoyu](./info-journey-path-baoyu.webp) | `journey-path` 参考示例 | `baoyu-skills` `journey-path` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

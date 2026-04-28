@@ -37,7 +37,7 @@ image-seed/
 | `slide-deck/` | `deck` | 16 styles |
 | `article-illustrator/` | `art` | 8 styles |
 | `unclassified/` | `misc` | — |
-| `gpt-image-2/` | `gpt-image-2` | ecommerce / infographic / xhs / seasonal / travel / app-ui |
+| `gpt-image-2/` | `gpt-image-2` | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster |
 | `unclassified-gpt-image-2/` | — | gpt-image-2 专属暂存区，处理完清空 |
 
 子分类的完整名单见 `scripts/pull_baoyu.sh` 或各场景 README 的「可用子分类」小节。
@@ -137,6 +137,7 @@ gpt-image-2 目录与场景体系正交，按**内容类型**（而非 baoyu-ski
 | `seasonal/` | 二十四节气、传统节日海报与手抄报 |
 | `travel/` | 旅游目的地宣传海报 |
 | `app-ui/` | 应用界面营销截图 |
+| `poster/` | 影视/小说/品牌等单图宣传海报 |
 
 ### 命名与结构规则
 
@@ -182,5 +183,5 @@ gpt-image-2 目录与场景体系正交，按**内容类型**（而非 baoyu-ski
 - **无独立标签索引文件**:<200 张规模下,同步索引必然过期,改用「元数据反引号标签 + GitHub 搜索」。
 - **不强制 webp**:GitHub 对 jpg/png 渲染更稳,单图 < 1MB 即可,格式混用无妨。
 - **gpt-image-2 作顶层目录**:与场景正交的「按生成模型来源」分类维度,放在根 README 独立小节。未来增加 midjourney/flux/gemini 时沿用此模式。
-- **gpt-image-2 内部按内容类型分子分类**:图片量增长后发现「纯按模型来源平铺」不够用，改为 ecommerce/infographic/xhs/seasonal/travel/app-ui 六类。子分类策略与场景体系无关，按实际内容决定；新类型出现时按需新增。
+- **gpt-image-2 内部按内容类型分子分类**:图片量增长后发现「纯按模型来源平铺」不够用，改为 ecommerce/infographic/xhs/seasonal/travel/app-ui/poster 七类。子分类策略与场景体系无关，按实际内容决定；新类型出现时按需新增。
 - **unclassified-gpt-image-2 作独立暂存区**:与 `unclassified/`（场景类）分开，避免混用。
