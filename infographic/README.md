@@ -51,24 +51,26 @@
 | [fishbone](./fishbone/README.md) | [funnel](./funnel/README.md) | [grid-cards](./grid-cards/README.md) |
 | [![grid-cards](./grid-cards/info-grid-cards-claude-code-11-workflows.jpg)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-claude-code-six-rules.png)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-mobile-llm-refusal-dilemma.png)](./grid-cards/README.md) |
 | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) |
-| [![grid-cards](./grid-cards/info-grid-cards-notebooklm-deep-reading-prompts.png)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-popmart-2025-annual-report.jpg)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-baoyu.webp)](./grid-cards/README.md) |
+| [![grid-cards](./grid-cards/info-grid-cards-notebooklm-deep-reading-prompts.png)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-notion-3.webp)](./grid-cards/README.md) | [![grid-cards](./grid-cards/info-grid-cards-popmart-2025-annual-report.jpg)](./grid-cards/README.md) |
 | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) | [grid-cards](./grid-cards/README.md) |
-| [![iceberg](./iceberg/info-iceberg-baoyu.webp)](./iceberg/README.md) | [![journey-path](./journey-path/info-journey-path-fullstack-bug-avoidance.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-orchestration-evolution.png)](./journey-path/README.md) |
-| [iceberg](./iceberg/README.md) | [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) |
-| [![journey-path](./journey-path/info-journey-path-script-to-skills-evolution.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-baoyu.webp)](./journey-path/README.md) | [![layers-stack](./layers-stack/info-layers-stack-agent-system-engineering.png)](./layers-stack/README.md) |
-| [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) | [layers-stack](./layers-stack/README.md) |
-| [![layers-stack](./layers-stack/info-layers-stack-llm-input-structure.png)](./layers-stack/README.md) | [![layers-stack](./layers-stack/info-layers-stack-baoyu.webp)](./layers-stack/README.md) | [![mind-map](./mind-map/info-mind-map-sincerity-detector.jpg)](./mind-map/README.md) |
-| [layers-stack](./layers-stack/README.md) | [layers-stack](./layers-stack/README.md) | [mind-map](./mind-map/README.md) |
-| [![mind-map](./mind-map/info-mind-map-six-masters-work-system.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-unified-agent-optimization.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-baoyu.webp)](./mind-map/README.md) |
+| [![grid-cards](./grid-cards/info-grid-cards-baoyu.webp)](./grid-cards/README.md) | [![iceberg](./iceberg/info-iceberg-baoyu.webp)](./iceberg/README.md) | [![journey-path](./journey-path/info-journey-path-fullstack-bug-avoidance.png)](./journey-path/README.md) |
+| [grid-cards](./grid-cards/README.md) | [iceberg](./iceberg/README.md) | [journey-path](./journey-path/README.md) |
+| [![journey-path](./journey-path/info-journey-path-orchestration-evolution.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-script-to-skills-evolution.png)](./journey-path/README.md) | [![journey-path](./journey-path/info-journey-path-baoyu.webp)](./journey-path/README.md) |
+| [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) | [journey-path](./journey-path/README.md) |
+| [![layers-stack](./layers-stack/info-layers-stack-agent-system-engineering.png)](./layers-stack/README.md) | [![layers-stack](./layers-stack/info-layers-stack-llm-input-structure.png)](./layers-stack/README.md) | [![layers-stack](./layers-stack/info-layers-stack-baoyu.webp)](./layers-stack/README.md) |
+| [layers-stack](./layers-stack/README.md) | [layers-stack](./layers-stack/README.md) | [layers-stack](./layers-stack/README.md) |
+| [![mind-map](./mind-map/info-mind-map-sincerity-detector.jpg)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-six-masters-work-system.png)](./mind-map/README.md) | [![mind-map](./mind-map/info-mind-map-unified-agent-optimization.png)](./mind-map/README.md) |
 | [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) | [mind-map](./mind-map/README.md) |
-| [![nested-circles](./nested-circles/info-nested-circles-baoyu.webp)](./nested-circles/README.md) | [![priority-quadrants](./priority-quadrants/info-priority-quadrants-baoyu.webp)](./priority-quadrants/README.md) | [![pyramid](./pyramid/info-pyramid-baoyu.webp)](./pyramid/README.md) |
-| [nested-circles](./nested-circles/README.md) | [priority-quadrants](./priority-quadrants/README.md) | [pyramid](./pyramid/README.md) |
-| [![scale-balance](./scale-balance/info-scale-balance-baoyu.webp)](./scale-balance/README.md) | [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-google-ai-code-share.png)](./timeline-horizontal/README.md) | [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-baoyu.webp)](./timeline-horizontal/README.md) |
-| [scale-balance](./scale-balance/README.md) | [timeline-horizontal](./timeline-horizontal/README.md) | [timeline-horizontal](./timeline-horizontal/README.md) |
-| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-prompt-cache-flow.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-decision.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-log-memory-arch.png)](./tree-hierarchy/README.md) |
-| [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) |
-| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-baoyu.webp)](./tree-hierarchy/README.md) | [![venn](./venn/info-venn-skills-correct-usage.png)](./venn/README.md) | [![venn](./venn/info-venn-baoyu.webp)](./venn/README.md) |
-| [tree-hierarchy](./tree-hierarchy/README.md) | [venn](./venn/README.md) | [venn](./venn/README.md) |
+| [![mind-map](./mind-map/info-mind-map-baoyu.webp)](./mind-map/README.md) | [![nested-circles](./nested-circles/info-nested-circles-baoyu.webp)](./nested-circles/README.md) | [![priority-quadrants](./priority-quadrants/info-priority-quadrants-baoyu.webp)](./priority-quadrants/README.md) |
+| [mind-map](./mind-map/README.md) | [nested-circles](./nested-circles/README.md) | [priority-quadrants](./priority-quadrants/README.md) |
+| [![pyramid](./pyramid/info-pyramid-baoyu.webp)](./pyramid/README.md) | [![scale-balance](./scale-balance/info-scale-balance-baoyu.webp)](./scale-balance/README.md) | [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-google-ai-code-share.png)](./timeline-horizontal/README.md) |
+| [pyramid](./pyramid/README.md) | [scale-balance](./scale-balance/README.md) | [timeline-horizontal](./timeline-horizontal/README.md) |
+| [![timeline-horizontal](./timeline-horizontal/info-timeline-horizontal-baoyu.webp)](./timeline-horizontal/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-prompt-cache-flow.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-decision.png)](./tree-hierarchy/README.md) |
+| [timeline-horizontal](./timeline-horizontal/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) |
+| [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-session-log-memory-arch.png)](./tree-hierarchy/README.md) | [![tree-hierarchy](./tree-hierarchy/info-tree-hierarchy-baoyu.webp)](./tree-hierarchy/README.md) | [![venn](./venn/info-venn-skills-correct-usage.png)](./venn/README.md) |
+| [tree-hierarchy](./tree-hierarchy/README.md) | [tree-hierarchy](./tree-hierarchy/README.md) | [venn](./venn/README.md) |
+| [![venn](./venn/info-venn-baoyu.webp)](./venn/README.md) |    |    |
+| [venn](./venn/README.md) |    |    |
 
 ## 可用子分类
 

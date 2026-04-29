@@ -8,14 +8,15 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![comic-standard-workplace-colleague-story](./comic-standard-workplace-colleague-story.png)](./comic-standard-workplace-colleague-story.png) | [![comic-standard-baoyu](./comic-standard-baoyu.webp)](./comic-standard-baoyu.webp) |    |
-| workplace-colleague-story | baoyu |    |
+| [![comic-standard-workplace-colleague-story](./comic-standard-workplace-colleague-story.png)](./comic-standard-workplace-colleague-story.png) | [![comic-standard-dopamine-loop](./comic-standard-dopamine-loop.png)](./comic-standard-dopamine-loop.png) | [![comic-standard-baoyu](./comic-standard-baoyu.webp)](./comic-standard-baoyu.webp) |
+| workplace-colleague-story | dopamine-loop | baoyu |
 
 ## 元数据
 
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
 | [comic-standard-workplace-colleague-story](./comic-standard-workplace-colleague-story.png) | 职场困扰：与女同事的若即若离 | `workplace` `story` `xhs-style` `comic-strip` | — | — |
+| [comic-standard-dopamine-loop](./comic-standard-dopamine-loop.png) | 科技公司如何利用多巴胺让人上瘾:6 格循环漫画(看到提醒→大脑释放多巴胺→拿起手机→…) | `dopamine` `tech-critique` `loop` `psychology` `xhs-style` | — | — |
 | [comic-standard-baoyu](./comic-standard-baoyu.webp) | `standard` 参考示例 | `baoyu-skills` `standard` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

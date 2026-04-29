@@ -21,9 +21,9 @@
 
 | 场景 | 说明 | 子分类数 | 现有图片 |
 |---|---|---|---|
-| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 15 |
-| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 64 |
-| [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 7 |
+| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 16 |
+| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 65 |
+| [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 8 |
 | [Slide Deck · 演示文稿](./slide-deck/README.md) | 幻灯片、Keynote 风格 | 16 styles | 17 |
 | [Article Illustrator · 文章插图](./article-illustrator/README.md) | 博客/文章插图 | 8 styles | 10 |
 | [Unclassified · 未分类](./unclassified/README.md) | 场景类待归档图片 | — | 0 |
@@ -32,7 +32,7 @@
 
 | 模型 | 说明 | 子分类 | 现有图片 |
 |---|---|---|---|
-| [GPT Image 2](./gpt-image-2/README.md) | OpenAI GPT Image 2 生成的图片 | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster / anime | 23 |
+| [GPT Image 2](./gpt-image-2/README.md) | OpenAI GPT Image 2 生成的图片 | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster / anime / product-design | 27 |
 
 > **待归类暂存**：`unclassified-gpt-image-2/` 存放尚未归类的 GPT Image 2 图片，处理完后清空。
 

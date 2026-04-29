@@ -14,8 +14,9 @@ OpenAI **GPT Image 2** 模型生成的图片集合。按「生成模型来源」
 | [seasonal](./seasonal/README.md) | 二十四节气、传统节日海报与手抄报 | 2 |
 | [travel](./travel/README.md) | 旅游目的地宣传海报，中国风水墨插画 | 2 |
 | [app-ui](./app-ui/README.md) | 应用界面营销截图 | 6 |
-| [poster](./poster/README.md) | 影视/小说/品牌等单图宣传海报 | 2 |
+| [poster](./poster/README.md) | 影视/小说/品牌等单图宣传海报 | 3 |
 | [anime](./anime/README.md) | 动漫/漫画风格：分镜叙事、卡通人物 | 1 |
+| [product-design](./product-design/README.md) | 实物产品/工业设计/空间装置/创意设计概念图 | 3 |
 
 ## 精选预览
 
@@ -25,5 +26,5 @@ OpenAI **GPT Image 2** 模型生成的图片集合。按「生成模型来源」
 | [ecommerce](./ecommerce/README.md) | [infographic](./infographic/README.md) | [xhs](./xhs/README.md) |
 | [![seasonal](./seasonal/gpt-image-2-seasonal-guyu-tea-field.png)](./seasonal/README.md) | [![travel](./travel/gpt-image-2-travel-ganzhou-song-city.jpeg)](./travel/README.md) | [![app-ui](./app-ui/gpt-image-2-app-ui-ai-interview-home.png)](./app-ui/README.md) |
 | [seasonal](./seasonal/README.md) | [travel](./travel/README.md) | [app-ui](./app-ui/README.md) |
-| [![poster](./poster/gpt-image-2-poster-mortal-cultivation.png)](./poster/README.md) | [![anime](./anime/gpt-image-2-anime-google-decade-story.jpeg)](./anime/README.md) |    |
-| [poster](./poster/README.md) | [anime](./anime/README.md) |    |
+| [![poster](./poster/gpt-image-2-poster-mortal-cultivation.png)](./poster/README.md) | [![anime](./anime/gpt-image-2-anime-google-decade-story.jpeg)](./anime/README.md) | [![product-design](./product-design/gpt-image-2-product-design-coastal-heritage-trail-signage.png)](./product-design/README.md) |
+| [poster](./poster/README.md) | [anime](./anime/README.md) | [product-design](./product-design/README.md) |
