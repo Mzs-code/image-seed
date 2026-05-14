@@ -1,0 +1,301 @@
+/* === Google Fonts: 杂志编辑风字体栈 === */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Serif+SC:wght@500;600;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* === 自定义颜色变量 === */
+:root {
+  --ed-serif: "Playfair Display", "Noto Serif SC", "Songti SC", serif;
+  --ed-sans: "Inter", -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --ed-mono: "JetBrains Mono", ui-monospace, monospace;
+  --ed-rule: rgba(0,0,0,0.08);
+  --ed-muted: rgba(0,0,0,0.55);
+}
+[data-md-color-scheme="slate"] {
+  --ed-rule: rgba(255,255,255,0.10);
+  --ed-muted: rgba(255,255,255,0.60);
+}
+
+/* === 全局排版 === */
+.md-typeset {
+  font-family: var(--ed-sans);
+  font-feature-settings: "ss01", "cv11";
+  line-height: 1.65;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: var(--ed-serif);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+.md-typeset h1 {
+  font-size: 1.7rem;
+  line-height: 1.15;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
+}
+.md-typeset h2 {
+  font-size: 1.15rem;
+  margin-top: 1.8em;
+  padding-top: 0.7em;
+  border-top: 1px solid var(--ed-rule);
+  position: relative;
+}
+.md-typeset h2::before {
+  content: "§";
+  font-family: var(--ed-serif);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--ed-muted);
+  margin-right: 0.35em;
+  font-size: 0.85em;
+}
+.md-typeset h3 {
+  font-size: 0.95rem;
+  margin-top: 1.4em;
+}
+
+/* === 主区放宽 + 顶部 tab 字号略放大 === */
+.md-grid {
+  max-width: 1600px;
+}
+.md-tabs__link {
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.78;
+}
+.md-tabs__link--active {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/* === Hero 刊头(首页顶部) - 紧凑版 === */
+.hero {
+  padding: 0.8rem 0 0.6rem 0;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ed-rule);
+}
+.hero-issue {
+  display: block;
+  font-family: var(--ed-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ed-muted);
+  margin-bottom: 0.5rem;
+}
+.md-typeset .hero h1 {
+  font-family: var(--ed-serif);
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0 0 0.45rem 0;
+  padding: 0;
+  border: none;
+}
+.md-typeset .hero h1::before {
+  content: none;
+}
+.hero-subtitle {
+  display: block;
+  font-family: var(--ed-serif);
+  font-style: italic;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ed-muted);
+  line-height: 1.45;
+  max-width: 42em;
+  margin: 0;
+}
+
+/* === blockquote 杂志引语样式(非 hero) === */
+.md-typeset blockquote {
+  border-left: 2px solid var(--md-default-fg-color);
+  font-family: var(--ed-serif);
+  font-style: italic;
+  font-size: 1.02rem;
+  color: var(--ed-muted);
+  padding-left: 1.4rem;
+  margin: 1.6em 0;
+}
+
+/* === 普通 hr 细线 === */
+.md-typeset hr {
+  border: none;
+  border-top: 1px solid var(--ed-rule);
+  margin: 3rem 0;
+}
+
+/* === 表格(画廊和元数据)分两类样式 === */
+/* 默认所有 table 透明背景 + 细线 */
+.md-typeset table:not([class]) {
+  border: none;
+  font-size: 0.8rem;
+  background: transparent;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border: none;
+  padding: 0.5em 0.5em;
+  vertical-align: middle;
+  background: transparent;
+}
+
+/* 元数据表(有 thead 的)恢复细线表格 */
+.md-typeset table:not([class]):has(thead) th,
+.md-typeset table:not([class]):has(thead) td {
+  border-bottom: 1px solid var(--ed-rule);
+  padding: 0.7em 0.9em;
+  font-family: var(--ed-sans);
+}
+.md-typeset table:not([class]):has(thead) th {
+  background: transparent;
+  font-family: var(--ed-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ed-muted);
+  border-bottom: 1.5px solid var(--md-default-fg-color);
+}
+
+/* === 图片网格:无圆角 + hover 微动 === */
+.md-typeset table:not([class]) td img {
+  border-radius: 2px;
+  transition: transform 280ms cubic-bezier(.2,.7,.3,1),
+              box-shadow 280ms cubic-bezier(.2,.7,.3,1),
+              filter 280ms;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.97);
+}
+.md-typeset table:not([class]) td img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(0,0,0,0.18),
+              0 2px 6px rgba(0,0,0,0.08);
+  filter: saturate(1.05);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td img {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  filter: saturate(0.92);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td img:hover {
+  box-shadow: 0 14px 36px rgba(0,0,0,0.55),
+              0 2px 6px rgba(0,0,0,0.3);
+  filter: saturate(1.02);
+}
+
+/* === 图片下方标签(td 文本)用等宽 mono + 小号 === */
+.md-typeset table:not([class]):not(:has(thead)) td:not(:has(img)) {
+  font-family: var(--ed-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--ed-muted);
+  text-transform: lowercase;
+  padding-top: 0.4em;
+  padding-bottom: 1.8em;
+  text-align: center;
+}
+
+/* === 反引号标签美化 === */
+.md-typeset code {
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+  font-family: var(--ed-mono);
+  font-size: 0.78em;
+  font-weight: 500;
+  background: var(--md-code-bg-color);
+}
+
+/* === 链接 hover 下划线 === */
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--ed-rule);
+  transition: border-color 180ms, color 180ms;
+}
+.md-typeset a:hover {
+  border-bottom-color: currentColor;
+}
+.md-typeset a:has(img) {
+  border-bottom: none;
+}
+.md-typeset a:has(img):hover {
+  border-bottom: none;
+}
+
+/* === 首页(hide nav + toc)极致全宽 === */
+[data-md-color-scheme] .md-content {
+  max-width: none;
+}
+.md-main__inner.md-grid {
+  margin-top: 1.2rem;
+}
+
+/* === 顶部 header 略透明,内容感更强 === */
+.md-header {
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 1px 0 var(--ed-rule);
+}
+[data-md-color-scheme="slate"] .md-header {
+  background: rgba(20,22,26,0.88);
+  color: var(--md-default-fg-color);
+}
+.md-header__title {
+  font-family: var(--ed-serif);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+/* === 右侧 widgets 集成靠右 === */
+/* 搜索框不再占满中段,推到右边贴近 source */
+.md-search {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+.md-search__form {
+  width: 280px;
+}
+.md-header__option[data-md-component="palette"] {
+  margin-left: 0;
+}
+
+/* 隐藏 GitHub 仓库的 star / fork 计数 */
+.md-source__facts {
+  display: none;
+}
+
+/* === 小屏 hero 缩放 === */
+@media (max-width: 768px) {
+  .md-typeset .hero h1 {
+    font-size: 1.7rem;
+  }
+  .hero {
+    padding: 0.6rem 0 0.5rem 0;
+  }
+}
+
+/* === 主区上方间距压缩，让首屏图片更靠上 === */
+.md-content__inner {
+  padding-top: 0.4rem;
+}
+.md-main__inner.md-grid {
+  margin-top: 0.6rem;
+}
+
+/* === 让首页第一个 H2(精选墙)更靠近 hero === */
+.hero + h2,
+.md-typeset .hero + h2 {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: none;
+}

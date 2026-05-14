@@ -1,0 +1,108 @@
+site_name: Image Seed
+site_description: 个人 AI 生图参考/灵感库,场景 × 风格/布局两层结构
+site_url: https://mzs-code.github.io/image-seed/
+repo_url: https://github.com/Mzs-code/image-seed
+repo_name: Mzs-code/image-seed
+edit_uri: edit/main/
+
+docs_dir: .
+
+theme:
+  name: material
+  language: zh
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/image-multiple
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: white
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: 切换到暗色
+    - scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到亮色
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - same-dir
+  - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s​\-_,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)'
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: fade
+      slide_effect: slide
+      width: 90%
+      height: auto
+      zoomable: true
+      draggable: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: README.md
+  - 场景:
+    - 小红书图片: xhs-images/README.md
+    - 信息图: infographic/README.md
+    - 漫画: comic/README.md
+    - 演示文稿: slide-deck/README.md
+    - 文章插图: article-illustrator/README.md
+  - GPT Image 2:
+    - 概览: gpt-image-2/README.md
+    - 电商: gpt-image-2/ecommerce/README.md
+    - 信息图: gpt-image-2/infographic/README.md
+    - 小红书: gpt-image-2/xhs/README.md
+    - 节气节日: gpt-image-2/seasonal/README.md
+    - 旅游: gpt-image-2/travel/README.md
+    - 应用界面: gpt-image-2/app-ui/README.md
+    - 海报: gpt-image-2/poster/README.md
+    - 动漫: gpt-image-2/anime/README.md
+    - 产品设计: gpt-image-2/product-design/README.md
+  - 贡献指南: CONTRIBUTING.md
+
+exclude_docs: |
+  scripts/
+  .github/
+  unclassified-gpt-image-2/
+  CLAUDE.md
+  requirements.txt
+  *.py
+  *.sh

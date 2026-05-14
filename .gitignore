@@ -25,3 +25,7 @@ scripts/*.log
 
 # Claude Code 本地配置
 .claude/settings.local.json
+
+# MkDocs 构建产物 & 本地虚拟环境
+/site/
+/.venv-mkdocs/
