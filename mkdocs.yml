@@ -85,23 +85,18 @@ nav:
     - 漫画: comic/README.md
     - 演示文稿: slide-deck/README.md
     - 文章插图: article-illustrator/README.md
-  - GPT Image 2:
-    - 概览: gpt-image-2/README.md
-    - 电商: gpt-image-2/ecommerce/README.md
-    - 信息图: gpt-image-2/infographic/README.md
-    - 小红书: gpt-image-2/xhs/README.md
-    - 节气节日: gpt-image-2/seasonal/README.md
-    - 旅游: gpt-image-2/travel/README.md
-    - 应用界面: gpt-image-2/app-ui/README.md
-    - 海报: gpt-image-2/poster/README.md
-    - 动漫: gpt-image-2/anime/README.md
-    - 产品设计: gpt-image-2/product-design/README.md
+    - 海报: poster/README.md
+    - 电商: ecommerce/README.md
+    - 节气节日: seasonal/README.md
+    - 旅游: travel/README.md
+    - 应用界面: app-ui/README.md
+    - 动漫: anime/README.md
+    - 产品设计: product-design/README.md
   - 贡献指南: CONTRIBUTING.md
 
 exclude_docs: |
   scripts/
   .github/
-  unclassified-gpt-image-2/
   CLAUDE.md
   requirements.txt
   *.py
