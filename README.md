@@ -31,7 +31,7 @@ hide:
 
 | 场景 | 说明 | 子分类数 | 现有图片 |
 |---|---|---|---|
-| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 17 |
+| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 20 |
 | [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 103 |
 | [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 9 |
 | [Slide Deck · 演示文稿](./slide-deck/README.md) | 幻灯片、Keynote 风格 | 16 styles | 17 |
