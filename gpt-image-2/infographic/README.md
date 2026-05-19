@@ -16,6 +16,10 @@
 | nvidia-openai-corewrave-path | gpt-image-2-capability-map | skill-agent-mcp-plugin |
 | [![gpt-image-2-infographic-claude-feishu-5-agent-flows](./gpt-image-2-infographic-claude-feishu-5-agent-flows.jpg)](./gpt-image-2-infographic-claude-feishu-5-agent-flows.jpg) | [![gpt-image-2-infographic-claude-feishu-5-agent-overview](./gpt-image-2-infographic-claude-feishu-5-agent-overview.jpg)](./gpt-image-2-infographic-claude-feishu-5-agent-overview.jpg) | [![gpt-image-2-infographic-asi-finals-openai-vs-anthropic](./gpt-image-2-infographic-asi-finals-openai-vs-anthropic.jpg)](./gpt-image-2-infographic-asi-finals-openai-vs-anthropic.jpg) |
 | claude-feishu-5-agent-flows | claude-feishu-5-agent-overview | asi-finals-openai-vs-anthropic |
+| [![gpt-image-2-infographic-three-super-ipo-preview](./gpt-image-2-infographic-three-super-ipo-preview.png)](./gpt-image-2-infographic-three-super-ipo-preview.png) | [![gpt-image-2-infographic-microsoft-mdash-ai-security](./gpt-image-2-infographic-microsoft-mdash-ai-security.png)](./gpt-image-2-infographic-microsoft-mdash-ai-security.png) | [![gpt-image-2-infographic-apple-mie-vs-mythos](./gpt-image-2-infographic-apple-mie-vs-mythos.png)](./gpt-image-2-infographic-apple-mie-vs-mythos.png) |
+| three-super-ipo-preview | microsoft-mdash-ai-security | apple-mie-vs-mythos |
+| [![gpt-image-2-infographic-five-day-ai-hacker-blitz](./gpt-image-2-infographic-five-day-ai-hacker-blitz.png)](./gpt-image-2-infographic-five-day-ai-hacker-blitz.png) | [![gpt-image-2-infographic-continual-learning-startup-landscape](./gpt-image-2-infographic-continual-learning-startup-landscape.jpeg)](./gpt-image-2-infographic-continual-learning-startup-landscape.jpeg) |    |
+| five-day-ai-hacker-blitz | continual-learning-startup-landscape |    |
 
 ## 元数据
 
@@ -33,5 +37,10 @@
 | [gpt-image-2-infographic-claude-feishu-5-agent-flows](./gpt-image-2-infographic-claude-feishu-5-agent-flows.jpg) | Claude Code × 飞书 5 个超实用 Agent 办公玩法:会议知识库/工作复盘/对账/协同画板/报销审批,长图 | `claude-code` `feishu` `agent` `workflow` `office` `chinese` | — | — |
 | [gpt-image-2-infographic-claude-feishu-5-agent-overview](./gpt-image-2-infographic-claude-feishu-5-agent-overview.jpg) | Claude Code × 飞书 5 大玩法总览版:CLI 协同/会议系列/工作流编排/重复任务/生成可视化网页,科技蓝 | `claude-code` `feishu` `agent` `overview` `tech-blue` `chinese` | — | — |
 | [gpt-image-2-infographic-asi-finals-openai-vs-anthropic](./gpt-image-2-infographic-asi-finals-openai-vs-anthropic.jpg) | ASI 决赛 OpenAI 阵营 vs Anthropic 阵营:核心模型/资本/算力资源对比,赛博 UI 双卡片 | `asi` `openai` `anthropic` `vs` `tech-blue` `chinese` `versus` | 新智元 | — |
+| [gpt-image-2-infographic-three-super-ipo-preview](./gpt-image-2-infographic-three-super-ipo-preview.png) | 3 大超级 IPO 前瞻:SpaceX (含 xAI) / OpenAI / Anthropic 估值目标 3 万亿美元,蓝色星空数据卡片 | `ipo` `spacex` `openai` `anthropic` `valuation` `dark-blue` `chinese` | 新智元·桃子 | — |
+| [gpt-image-2-infographic-microsoft-mdash-ai-security](./gpt-image-2-infographic-microsoft-mdash-ai-security.png) | 微软 CyberGym MDASH 多智能体 AI 安全系统 5 步流程:准备/扫描/验证/去重/证明,赛博紫蓝霓虹 | `ai-security` `microsoft` `mdash` `agent` `flow` `cyberpunk` `chinese` | 新智元 | — |
+| [gpt-image-2-infographic-apple-mie-vs-mythos](./gpt-image-2-infographic-apple-mie-vs-mythos.png) | 苹果 MIE 防线 vs Claude Mythos 攻防对比:120 小时攻破时间线,「奥本海默时刻」概念,暗红黑 | `ai-security` `apple` `claude-mythos` `vs` `timeline` `dark` `chinese` | 新智元 | — |
+| [gpt-image-2-infographic-five-day-ai-hacker-blitz](./gpt-image-2-infographic-five-day-ai-hacker-blitz.png) | 五天 AI 黑客闪电战:Claude Mythos M5 攻陷时刻表 4/22→5/1,Kernel 0day + macOS 沦陷,深蓝赛博 | `ai-security` `claude-mythos` `timeline` `m5` `cyberpunk` `dark-blue` `chinese` | 新智元 | — |
+| [gpt-image-2-infographic-continual-learning-startup-landscape](./gpt-image-2-infographic-continual-learning-startup-landscape.jpeg) | a16z infra Continual Learning 创业公司地图:Non-Parametric(Context/Modules)vs Parametric(Model Weights)分类景观 | `landscape-map` `continual-learning` `a16z` `startup` `taxonomy` `minimal` `english` | [a16z.news](https://a16z.news/subscribe) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。
