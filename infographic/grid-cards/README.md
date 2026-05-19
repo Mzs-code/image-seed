@@ -10,8 +10,10 @@
 |:---:|:---:|:---:|
 | [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.png)](./info-grid-cards-claude-code-six-rules.png) | [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.png)](./info-grid-cards-notebooklm-deep-reading-prompts.png) | [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) |
 | claude-code-six-rules | notebooklm-deep-reading-prompts | notion-3 |
-| [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.png)](./info-grid-cards-no-agents-md-pain.png) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |   |
-| no-agents-md-pain | baoyu |   |
+| [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.png)](./info-grid-cards-no-agents-md-pain.png) | [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.png)](./info-grid-cards-six-coffee-beans.png) | [![info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg)](./info-grid-cards-features-overview.jpg) |
+| no-agents-md-pain | six-coffee-beans | features-overview |
+| [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |   |
+| claude-feishu-5-agent-overview | baoyu |   |
 
 ## 元数据
 
@@ -21,6 +23,9 @@
 | [info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.png) | 6 个 NotebookLM 深度阅读提示词 | `notebooklm` `reading` `prompts` `colorful` | — | — |
 | [info-grid-cards-notion-3](./info-grid-cards-notion-3.webp) | Notion 3.0 产品功能 bento 网格:任务追踪/权限/AI connectors/Agent 个性化/数据库性能等 9 模块 | `notion` `bento` `product-launch` `feature-grid` | — | — |
 | [info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.png) | 没有 AGENTS.md 的日子:前后端割裂/不识别私域组件/不知项目规矩/不会启动自测,4 格手绘卡片 | `agents-md` `claude-code` `hand-drawn` `pain-points` `kawaii` | — | — |
+| [info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.png) | 全球六大咖啡豆种类：产地、风味、咖啡因含量全解析 | `coffee` `food` `knowledge` `warm` `grid-cards` `gpt-image-2` | — | — |
+| [info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg) | GPT-Image 2 核心亮点全解析：能力升级 / Thinking / 多尺寸 / 知识能力 / 仍存局限 | `gpt-image-2-features` `model-features` `tech-popularization` `chinese` `comprehensive` `gpt-image-2` | — | — |
+| [info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | Claude Code × 飞书 5 大玩法总览版:CLI 协同/会议系列/工作流编排/重复任务/生成可视化网页,科技蓝 | `claude-code` `feishu` `agent` `overview` `tech-blue` `chinese` `gpt-image-2` | — | — |
 | [info-grid-cards-baoyu](./info-grid-cards-baoyu.webp) | `grid-cards` 参考示例 | `baoyu-skills` `grid-cards` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

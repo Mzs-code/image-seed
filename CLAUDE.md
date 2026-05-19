@@ -6,54 +6,55 @@
 
 ```
 image-seed/
-├── README.md                    # 总导航(场景表 + 按生成模型小节 + 精选墙)
+├── README.md                    # 总导航(场景表 + 精选墙)
 ├── CONTRIBUTING.md              # 新增/归类图片 checklist + 命名规范
 ├── CLAUDE.md                    # 本文件
 ├── .gitignore
 ├── <scenario>/                  # 场景目录
 │   ├── README.md                # 场景画廊(3 列平铺,每图一格)
-│   └── <substyle>/              # 子分类(有图才建)
-│       ├── README.md            # 子分类画廊 + 元数据表
-│       └── *.webp/jpg/png
-├── gpt-image-2/                 # 按生成模型来源(补充维度,与场景正交)
-│   ├── README.md                # 子分类导航 + 精选预览
-│   └── <substyle>/              # 子分类(按内容类型,见下方表格)
-│       ├── README.md            # 子分类画廊 + 元数据表
-│       └── *.jpg/png
-├── unclassified/                # 场景类图片待归类缓冲
-├── unclassified-gpt-image-2/   # gpt-image-2 图片待归类缓冲
+│   ├── <substyle>/              # 子分类(有图才建,适用于细分场景)
+│   │   ├── README.md            # 子分类画廊 + 元数据表
+│   │   └── *.webp/jpg/png
+│   └── *.webp/jpg/png           # 扁平场景直接放图(无 substyle 时)
+├── unclassified/                # 图片待归类缓冲(场景类)
 └── scripts/
-    ├── gen_scenario_readmes.py  # 图片增删后必跑
+    ├── gen_scenario_readmes.py  # 图片增删后必跑(仅对带 styles/layouts 的场景)
     └── pull_baoyu.sh            # baoyu-skills 更新时重跑
 ```
 
 ## 场景与缩写
 
-| 场景目录 | 文件名前缀 | 子分类维度 |
+| 场景目录 | 文件名前缀 | 结构 |
 |---|---|---|
 | `xhs-images/` | `xhs` | 9 styles + 6 layouts |
 | `infographic/` | `info` | 17 styles + 20 layouts |
 | `comic/` | `comic` | 6 layouts |
 | `slide-deck/` | `deck` | 16 styles |
 | `article-illustrator/` | `art` | 8 styles |
-| `unclassified/` | `misc` | — |
-| `gpt-image-2/` | `gpt-image-2` | ecommerce / infographic / xhs / seasonal / travel / app-ui / poster / anime / product-design |
-| `unclassified-gpt-image-2/` | — | gpt-image-2 专属暂存区，处理完清空 |
+| `poster/` | `poster` | 扁平(有图才建子分类) |
+| `ecommerce/` | `ecommerce` | 扁平 |
+| `seasonal/` | `seasonal` | 扁平 |
+| `travel/` | `travel` | 扁平 |
+| `app-ui/` | `appui` | 扁平 |
+| `anime/` | `anime` | 扁平 |
+| `product-design/` | `prod` | 扁平 |
+| `unclassified/` | `misc` | 暂存区,处理完清空 |
 
-子分类的完整名单见 `scripts/pull_baoyu.sh` 或各场景 README 的「可用子分类」小节。
+带 styles/layouts 的 5 个场景由 `scripts/gen_scenario_readmes.py` 自动生成 README;7 个扁平场景的 README 手动维护(画廊 + 元数据表合一)。
 
 ## 文件命名规则
 
-格式:`<scenario-prefix>-<substyle>-<subject>-<modifier>[-nn].<ext>`
+格式:`<scenario-prefix>-[<substyle>-]<subject>-<modifier>[-nn].<ext>`
 
 - 仅 `a-z 0-9 -`,全小写连字符;总长 ≤ 70 字符
 - 不用 `copy`/`new`/`final`/`v2` 等噪声词
 - baoyu 官方示例统一后缀:`<prefix>-<substyle>-baoyu.webp`(下载脚本按此模式)
 - 本地收藏图用语义化名:如 `deck-sketch-notes-how-ai-learns.jpg`
+- 扁平场景没有 substyle 段,直接 `<scenario-prefix>-<subject>.<ext>`,如 `poster-mortal-cultivation.png`
 
 ## 场景 README 布局规则(重要约束)
 
-**3 列平铺大网格,每张图占一格。** 参考基准:baoyu-skills 的 README 风格,以及当前的 `infographic/README.md`。
+带 styles/layouts 的 5 个场景:**3 列平铺大网格,每张图占一格。** 参考基准:baoyu-skills 的 README 风格,以及当前的 `infographic/README.md`。
 
 核心规则:
 1. **平铺结构**:一个大 3 列 Markdown 表格,所有子分类的所有图全在这一个表格里
@@ -64,6 +65,8 @@ image-seed/
 6. **点击行为**:缩略图和文字标签都跳转到 **子分类 README**(不跳图片,不跳目录)
 
 运行 `python3 scripts/gen_scenario_readmes.py` 自动按以上规则重生成 5 个场景 README。
+
+扁平场景(7 个新场景)的 README 等价于一个"放大版的子分类 README":**画廊 + 元数据表**,两块都手维护。布局规则与下方「子分类 README 布局规则」相同。
 
 ## 子分类 README 布局规则
 
@@ -131,55 +134,27 @@ image-seed/
 - 全小写、连字符、1–2 词:`warm` `rain` `cel-shading` `low-light` `pastel`
 - 优先复用已有标签,避免 `dark`/`darkness`/`night-dark` 并存
 - 仅在元数据表中用,反引号包裹(`` `rain` ``);便于 GitHub 仓库搜索跨场景命中
-
-## gpt-image-2 子分类规则
-
-gpt-image-2 目录与场景体系正交，按**内容类型**（而非 baoyu-skills 风格/布局）建子分类。
-
-### 现有子分类
-
-| 子分类 | 说明 |
-|---|---|
-| `ecommerce/` | 电商详情页、直播间 UI、搭配页 |
-| `infographic/` | 知识百科、科普教育类信息图 |
-| `xhs/` | 小红书风格图文：生活记录、穿搭指南 |
-| `seasonal/` | 二十四节气、传统节日海报与手抄报 |
-| `travel/` | 旅游目的地宣传海报 |
-| `app-ui/` | 应用界面营销截图 |
-| `poster/` | 影视/小说/品牌等单图宣传海报 |
-| `anime/` | 动漫/漫画风格：分镜叙事、卡通人物、生活感故事图 |
-| `product-design/` | 实物产品/工业设计/空间装置/创意设计概念图 |
-
-### 命名与结构规则
-
-- 文件名格式：`gpt-image-2-<substyle>-<subject>[-modifier].<ext>`，例如 `gpt-image-2-travel-guizhou-ink-map.jpeg`
-- 子分类 README 格式与场景子分类相同：**画廊**（3 列平铺）+ **元数据表**
-- `gpt-image-2/README.md` 维护为**子分类导航表 + 精选预览**格式（每个子分类各取 1 张代表图组成 3×2 网格）
-- 新内容类型出现时，按需新建子分类目录（有图才建）
-
-### unclassified-gpt-image-2 暂存区
-
-- 专门存放待归类的 gpt-image-2 图片，处理完后清空
-- 暂存文件可保留原始文件名（hash 名、序号名均可），归类时统一按上方命名规则改名
-- 归类流程：确定内容类型 → 选择/新建子分类目录 → 移动并重命名 → 更新子分类 README → 更新 `gpt-image-2/README.md` 精选预览和导航表数字 → 更新根 README 图片数字
+- **模型来源**也用标签记录:GPT Image 2 生成的图打 `` `gpt-image-2` `` 标签。未来增加 midjourney/flux/gemini 时同理(`` `midjourney` `` 等)
 
 ## 新增/修改图片后必须更新的地方
 
 见 CONTRIBUTING.md 的 checklist,核心:
 
-1. 子分类 README 的画廊和元数据表(手改)
-2. 跑 `python3 scripts/gen_scenario_readmes.py`(自动更新 5 个场景 README 的平铺网格)
+1. 子分类 README(或扁平场景 README)的画廊和元数据表(手改)
+2. 跑 `python3 scripts/gen_scenario_readmes.py`(自动更新 5 个非扁平场景 README 的平铺网格)
 3. 根 README 的场景导航表数字(手改)
 
 ## 常用脚本
 
 ### `scripts/gen_scenario_readmes.py`
 
-扫描各子分类目录下的实际图片文件,重新生成 5 个场景 README。**图片任何增删后都要跑**。核心逻辑:
+扫描各子分类目录下的实际图片文件,重新生成 5 个非扁平场景 README(`xhs-images`、`infographic`、`comic`、`slide-deck`、`article-illustrator`)。**图片任何增删后都要跑**。核心逻辑:
 
 - 按子分类顺序遍历,每张图一个 tile
 - 本地图排前、baoyu 排后
 - 输出 3 列 Markdown 表格,相邻同子分类标签=同组
+
+7 个扁平场景的 README **不由脚本生成**,手动维护。
 
 ### `scripts/pull_baoyu.sh`
 
@@ -193,6 +168,4 @@ gpt-image-2 目录与场景体系正交，按**内容类型**（而非 baoyu-ski
 - **子分类目录按需创建**:不预建空目录;有图才建,场景 README 的「可用子分类」清单作为"词典"引导。
 - **无独立标签索引文件**:<200 张规模下,同步索引必然过期,改用「元数据反引号标签 + GitHub 搜索」。
 - **不强制 webp**:GitHub 对 jpg/png 渲染更稳,单图 < 1MB 即可,格式混用无妨。
-- **gpt-image-2 作顶层目录**:与场景正交的「按生成模型来源」分类维度,放在根 README 独立小节。未来增加 midjourney/flux/gemini 时沿用此模式。
-- **gpt-image-2 内部按内容类型分子分类**:图片量增长后发现「纯按模型来源平铺」不够用，改为 ecommerce/infographic/xhs/seasonal/travel/app-ui/poster 七类。子分类策略与场景体系无关，按实际内容决定；新类型出现时按需新增。
-- **unclassified-gpt-image-2 作独立暂存区**:与 `unclassified/`（场景类）分开，避免混用。
+- **2026-05 废弃 gpt-image-2 顶层目录**:原先曾用 `gpt-image-2/` 作为「按生成模型来源」的正交维度,实践发现与场景体系并行维护两套数字增加负担、且粒度对不齐。统一回归单一场景维度:7 个原 gpt-image-2 子分类(`poster`/`ecommerce`/`seasonal`/`travel`/`app-ui`/`anime`/`product-design`)升格为顶层扁平场景;`gpt-image-2/infographic` 17 张并入 `infographic/` 各 styles/layouts;`gpt-image-2/xhs` 3 张并入 `xhs-images/` 各 styles/layouts;模型来源以 `` `gpt-image-2` `` 标签保留在元数据表中。未来若引入新模型(midjourney/flux/gemini),走同样的「场景体系归类 + 模型标签」方式,不再开模型来源顶层目录。

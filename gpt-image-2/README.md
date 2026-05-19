@@ -1,30 +1,21 @@
-# GPT Image 2 · 按模型来源分类
+# GPT Image 2 · 已迁移
 
-OpenAI **GPT Image 2** 模型生成的图片集合。按「生成模型来源」组织,作为主体「场景 × 风格/布局」分类体系之外的补充维度 — 适合想参考某个模型风格/质感时直接检索。
+> ⚠️ 本目录正在合并入场景体系,即将清空。
+
+原 9 个子分类的去向:
+
+| 原子分类 | 新位置 | 状态 |
+|---|---|---|
+| `ecommerce/` | [`/ecommerce/`](../ecommerce/README.md) | ✅ 已升格为顶层场景 |
+| `seasonal/` | [`/seasonal/`](../seasonal/README.md) | ✅ 已升格 |
+| `travel/` | [`/travel/`](../travel/README.md) | ✅ 已升格 |
+| `app-ui/` | [`/app-ui/`](../app-ui/README.md) | ✅ 已升格 |
+| `poster/` | [`/poster/`](../poster/README.md) | ✅ 已升格 |
+| `anime/` | [`/anime/`](../anime/README.md) | ✅ 已升格 |
+| `product-design/` | [`/product-design/`](../product-design/README.md) | ✅ 已升格 |
+| `infographic/` | [`/infographic/`](../infographic/README.md) 各 styles/layouts | ✅ 已并入(17 张分散到 kawaii / technical-schematic / grid-cards / feature-list / comparison-table / journey-path / mind-map / layers-stack / timeline-horizontal / tree-hierarchy) |
+| `xhs/` | [`/xhs-images/`](../xhs-images/README.md) 各 styles/layouts | ⏳ 待并入 |
+
+模型来源信息以 `` `gpt-image-2` `` 标签保留在各子分类元数据表中,跨场景搜索 `gpt-image-2` 即可。
 
 [← 返回总索引](../README.md)
-
-## 子分类导航
-
-| 子分类 | 说明 | 图片数 |
-|---|---|---|
-| [ecommerce](./ecommerce/README.md) | 电商详情页、直播间 UI、搭配页 | 3 |
-| [infographic](./infographic/README.md) | 知识百科、科普教育类信息图 | 17 |
-| [xhs](./xhs/README.md) | 小红书风格图文：生活记录、穿搭指南 | 3 |
-| [seasonal](./seasonal/README.md) | 二十四节气、传统节日海报与手抄报 | 3 |
-| [travel](./travel/README.md) | 旅游目的地宣传海报，中国风水墨插画 | 2 |
-| [app-ui](./app-ui/README.md) | 应用界面营销截图 | 6 |
-| [poster](./poster/README.md) | 影视/小说/品牌等单图宣传海报 | 8 |
-| [anime](./anime/README.md) | 动漫/漫画风格：分镜叙事、卡通人物 | 1 |
-| [product-design](./product-design/README.md) | 实物产品/工业设计/空间装置/创意设计概念图 | 3 |
-
-## 精选预览
-
-|   |   |   |
-|:---:|:---:|:---:|
-| [![ecommerce](./ecommerce/gpt-image-2-ecommerce-spring-fashion-lookbook.png)](./ecommerce/README.md) | [![infographic](./infographic/gpt-image-2-infographic-golden-retriever.png)](./infographic/README.md) | [![xhs](./xhs/gpt-image-2-xhs-cycling-diary.png)](./xhs/README.md) |
-| [ecommerce](./ecommerce/README.md) | [infographic](./infographic/README.md) | [xhs](./xhs/README.md) |
-| [![seasonal](./seasonal/gpt-image-2-seasonal-guyu-tea-field.png)](./seasonal/README.md) | [![travel](./travel/gpt-image-2-travel-ganzhou-song-city.jpeg)](./travel/README.md) | [![app-ui](./app-ui/gpt-image-2-app-ui-ai-interview-home.png)](./app-ui/README.md) |
-| [seasonal](./seasonal/README.md) | [travel](./travel/README.md) | [app-ui](./app-ui/README.md) |
-| [![poster](./poster/gpt-image-2-poster-mortal-cultivation.png)](./poster/README.md) | [![anime](./anime/gpt-image-2-anime-google-decade-story.jpeg)](./anime/README.md) | [![product-design](./product-design/gpt-image-2-product-design-coastal-heritage-trail-signage.png)](./product-design/README.md) |
-| [poster](./poster/README.md) | [anime](./anime/README.md) | [product-design](./product-design/README.md) |
