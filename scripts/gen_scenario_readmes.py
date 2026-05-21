@@ -200,6 +200,7 @@ def build_substyle_gallery(scenario, substyle, prefix):
         path_prefix="./",
         prefix=prefix,
         substyle=substyle,
+        scenario=scenario,
     )
 
 
@@ -213,10 +214,11 @@ def build_flat_scenario_gallery(scenario, prefix):
         path_prefix="./",
         prefix=prefix,
         substyle=None,
+        scenario=scenario,
     )
 
 
-def _build_gallery(images, path_prefix, prefix, substyle):
+def _build_gallery(images, path_prefix, prefix, substyle, scenario=None):
     if not images:
         return "*(暂无图片)*"
     lines = ["|   |   |   |", "|:---:|:---:|:---:|"]
@@ -228,7 +230,9 @@ def _build_gallery(images, path_prefix, prefix, substyle):
         for f in group:
             stem = f.rsplit(".", 1)[0]
             img_cells.append(f"[![{stem}]({path_prefix}{f})]({path_prefix}{f})")
-            label_cells.append(make_label(f, prefix, substyle))
+            label = make_label(f, prefix, substyle)
+            badge = " 📝" if scenario and has_sidecar(scenario, substyle, f) else ""
+            label_cells.append(label + badge)
         while len(img_cells) < cols:
             img_cells.append("  ")
             label_cells.append("  ")

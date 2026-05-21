@@ -38,7 +38,7 @@ hide:
 | [Article Illustrator · 文章插图](./article-illustrator/README.md) | 博客/文章插图 | 8 styles | 13 |
 | [Poster · 海报](./poster/README.md) | 影视/小说/品牌等单图宣传海报 | 扁平 | 9 |
 | [Ecommerce · 电商](./ecommerce/README.md) | 电商详情页、直播间 UI、搭配页 | 扁平 | 3 |
-| [Seasonal · 节气节日](./seasonal/README.md) | 节气、传统节日海报与手抄报 | 扁平 | 3 |
+| [Seasonal · 节气节日](./seasonal/README.md) | 节气、传统节日海报与手抄报 | 扁平 | 7 |
 | [Travel · 旅游](./travel/README.md) | 旅游目的地宣传海报 | 扁平 | 2 |
 | [App UI · 应用界面](./app-ui/README.md) | 应用界面营销截图 | 扁平 | 6 |
 | [Anime · 动漫](./anime/README.md) | 动漫/漫画风格、生活感故事图 | 扁平 | 1 |

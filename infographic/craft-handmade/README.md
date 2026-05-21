@@ -11,13 +11,13 @@
 |   |   |   |
 |:---:|:---:|:---:|
 | [![info-craft-handmade-agent-architecture-cli](./info-craft-handmade-agent-architecture-cli.webp)](./info-craft-handmade-agent-architecture-cli.webp) | [![info-craft-handmade-agent-dev-pipeline](./info-craft-handmade-agent-dev-pipeline.jpeg)](./info-craft-handmade-agent-dev-pipeline.jpeg) | [![info-craft-handmade-agent-runtime-orchestration](./info-craft-handmade-agent-runtime-orchestration.jpeg)](./info-craft-handmade-agent-runtime-orchestration.jpeg) |
-| agent-architecture-cli | agent-dev-pipeline | agent-runtime-orchestration |
+| agent-architecture-cli | agent-dev-pipeline 📝 | agent-runtime-orchestration 📝 |
 | [![info-craft-handmade-c4-banking-system](./info-craft-handmade-c4-banking-system.jpeg)](./info-craft-handmade-c4-banking-system.jpeg) | [![info-craft-handmade-claude-managed-agents](./info-craft-handmade-claude-managed-agents.jpeg)](./info-craft-handmade-claude-managed-agents.jpeg) | [![info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.webp)](./info-craft-handmade-core-ability-to-skill.webp) |
-| c4-banking-system | claude-managed-agents | core-ability-to-skill |
+| c4-banking-system 📝 | claude-managed-agents 📝 | core-ability-to-skill |
 | [![info-craft-handmade-english-learning-guide](./info-craft-handmade-english-learning-guide.jpeg)](./info-craft-handmade-english-learning-guide.jpeg) | [![info-craft-handmade-fourier-transform](./info-craft-handmade-fourier-transform.jpg)](./info-craft-handmade-fourier-transform.jpg) | [![info-craft-handmade-hermes-agent](./info-craft-handmade-hermes-agent.jpeg)](./info-craft-handmade-hermes-agent.jpeg) |
-| english-learning-guide | fourier-transform | hermes-agent |
+| english-learning-guide | fourier-transform 📝 | hermes-agent 📝 |
 | [![info-craft-handmade-opentelemetry-architecture](./info-craft-handmade-opentelemetry-architecture.jpeg)](./info-craft-handmade-opentelemetry-architecture.jpeg) | [![info-craft-handmade-baoyu](./info-craft-handmade-baoyu.webp)](./info-craft-handmade-baoyu.webp) |    |
-| opentelemetry-architecture | baoyu |    |
+| opentelemetry-architecture 📝 | baoyu |    |
 
 ## 元数据
 

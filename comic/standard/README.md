@@ -11,9 +11,9 @@
 |   |   |   |
 |:---:|:---:|:---:|
 | [![comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.webp)](./comic-standard-chatgpt-plus-subscription.webp) | [![comic-standard-dopamine-loop](./comic-standard-dopamine-loop.webp)](./comic-standard-dopamine-loop.webp) | [![comic-standard-ultraman-vs-calabash-brothers-0](./comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./comic-standard-ultraman-vs-calabash-brothers-0.jpg) |
-| chatgpt-plus-subscription | dopamine-loop | ultraman-vs-calabash-brothers-0 |
+| chatgpt-plus-subscription | dopamine-loop | ultraman-vs-calabash-brothers-0 📝 |
 | [![comic-standard-ultraman-vs-calabash-brothers-1](./comic-standard-ultraman-vs-calabash-brothers-1.jpg)](./comic-standard-ultraman-vs-calabash-brothers-1.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-2](./comic-standard-ultraman-vs-calabash-brothers-2.jpg)](./comic-standard-ultraman-vs-calabash-brothers-2.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-3](./comic-standard-ultraman-vs-calabash-brothers-3.jpg)](./comic-standard-ultraman-vs-calabash-brothers-3.jpg) |
-| ultraman-vs-calabash-brothers-1 | ultraman-vs-calabash-brothers-2 | ultraman-vs-calabash-brothers-3 |
+| ultraman-vs-calabash-brothers-1 📝 | ultraman-vs-calabash-brothers-2 📝 | ultraman-vs-calabash-brothers-3 📝 |
 | [![comic-standard-workplace-colleague-story](./comic-standard-workplace-colleague-story.webp)](./comic-standard-workplace-colleague-story.webp) | [![comic-standard-baoyu](./comic-standard-baoyu.webp)](./comic-standard-baoyu.webp) |    |
 | workplace-colleague-story | baoyu |    |
 
