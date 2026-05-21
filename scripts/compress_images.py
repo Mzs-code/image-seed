@@ -1,23 +1,34 @@
 #!/usr/bin/env python3
-"""压缩超标 PNG/JPG → WebP,自动改同目录 README 引用。
+"""压缩 PNG/JPG → WebP,自动改全仓 .md 引用。
 
 用法:
-  scripts/compress_images.py <path>                         # 处理目录递归
-  scripts/compress_images.py <path> --threshold-kb 500      # 阈值改 500KB
-  scripts/compress_images.py <path> --dry-run               # 只看不动
-  scripts/compress_images.py <path> --keep-original         # 留原图便于对比
-  scripts/compress_images.py <path> --quality 90            # 提高质量(默认 85)
+  # 投递/归类前的标准化处理(推荐) —— PNG 全转 + JPG/JPEG > 10 MB 转
+  scripts/compress_images.py unclassified/ --preset intake
+  scripts/compress_images.py .             --preset intake
 
-行为:
-  1. 递归扫指定路径下所有 .png/.jpg/.jpeg
-  2. 跳过 ≤ threshold-kb 的图(默认 1024 KB = 1 MB)
-  3. PNG/JPG → WebP(同目录、同 basename、改后缀)
-  4. 默认删原图;同步替换该目录 README.md 里 `<oldname>.png` → `<oldname>.webp`
-  5. 完成后提示跑 gen_scenario_readmes.py 让画廊重生成
+  # 通用阈值模式(老用法):压所有 > N KB 的图
+  scripts/compress_images.py <path>                       # 默认 > 1 MB
+  scripts/compress_images.py <path> --threshold-kb 500
+  scripts/compress_images.py <path> --exts png            # 只压 PNG
+
+  # 调试
+  scripts/compress_images.py <path> --dry-run             # 只看不动
+  scripts/compress_images.py <path> --keep-original       # 留原图便于对比
+  scripts/compress_images.py <path> --quality 90          # 提高质量(默认 85)
+
+预设 `intake` 规则:
+  - **所有 PNG 必转 WebP**(无损源,转换零风险)
+  - **JPG/JPEG > 10 MB 转 WebP**(超大照片才动,普通体积保持 JPG 以避免双重压缩)
+  - 用于:`unclassified/` 投递时预处理 / 全仓清扫 / 新归类前标准化
+
+行为(所有模式共通):
+  1. PNG/JPG → WebP(同目录、同 basename、改后缀)
+  2. 默认删原图
+  3. 自动 grep 替换**全仓 .md 文件**(含根 README、子分类、CLAUDE.md 等)里的引用
+  4. 完成后跑 gen_scenario_readmes.py 让画廊和数字同步
 
 注意:
-  - 不动 .webp(已经是 WebP)
-  - 不动 < 阈值 的图(基本已经压过)
+  - 不动 .webp / .gif
   - 转换后建议人眼复核 2-3 张观感,有损伤就 --quality 90 重做
 """
 import argparse
@@ -82,13 +93,48 @@ def update_references(repo_root, old_name, new_name):
     return updated
 
 
+def parse_exts(raw):
+    """解析 `--exts` 参数:`png,jpg` → ('.png', '.jpg')。"""
+    out = []
+    for e in raw.lower().split(","):
+        e = e.strip().lstrip(".")
+        if e:
+            out.append("." + e)
+    return tuple(out)
+
+
+def should_process(path, args, allowed_exts):
+    """根据模式判断是否处理此文件。"""
+    ext = os.path.splitext(path)[1].lower()
+    if ext not in allowed_exts:
+        return False
+    size = os.path.getsize(path)
+    if args.preset == "intake":
+        if ext == ".png":
+            return True
+        if ext in (".jpg", ".jpeg"):
+            return size >= args.jpg_max_mb * 1024 * 1024
+        return False
+    # 阈值模式
+    return size >= args.threshold_kb * 1024
+
+
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    parser = argparse.ArgumentParser(
+        description=__doc__.split("\n")[0],
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     parser.add_argument("path", help="目录或文件路径")
+    parser.add_argument("--preset", choices=["intake"], default=None,
+                        help="预设模式:intake = PNG 全转 + JPG/JPEG > --jpg-max-mb 转(默认 10 MB)")
+    parser.add_argument("--exts", default=".png,.jpg,.jpeg",
+                        help="处理的扩展名,逗号分隔(默认 .png,.jpg,.jpeg)")
+    parser.add_argument("--threshold-kb", type=int, default=1024,
+                        help="阈值模式下,只压 > 此 KB 的图(默认 1024,即 1 MB);preset 模式下忽略此值")
+    parser.add_argument("--jpg-max-mb", type=int, default=10,
+                        help="intake preset 下,JPG/JPEG 超过此 MB 才转(默认 10)")
     parser.add_argument("--quality", type=int, default=85, help="WebP 质量 (0-100, 默认 85)")
     parser.add_argument("--method", type=int, default=6, help="WebP 编码 effort (0-6, 默认 6 最佳)")
-    parser.add_argument("--threshold-kb", type=int, default=1024,
-                        help="只压 > 此 KB 的图(默认 1024)")
     parser.add_argument("--dry-run", action="store_true", help="只列出不实际操作")
     parser.add_argument("--keep-original", action="store_true", help="保留原图(默认删除)")
     args = parser.parse_args()
@@ -97,10 +143,13 @@ def main():
         print(f"路径不存在: {args.path}", file=sys.stderr)
         sys.exit(1)
 
+    allowed_exts = parse_exts(args.exts)
+
     # 收集目标文件
     targets = []
     if os.path.isfile(args.path):
-        targets = [args.path]
+        if should_process(args.path, args, allowed_exts):
+            targets = [args.path]
     else:
         for root, dirs, files in os.walk(args.path):
             # 跳过 site/ / .venv* / .git / 隐藏目录(构建产物 / 依赖)
@@ -108,18 +157,20 @@ def main():
                        if not d.startswith(".")
                        and d not in ("site", "node_modules", "__pycache__")]
             for f in files:
-                if not f.lower().endswith(SRC_EXTS):
-                    continue
                 p = os.path.join(root, f)
-                if os.path.getsize(p) >= args.threshold_kb * 1024:
+                if should_process(p, args, allowed_exts):
                     targets.append(p)
 
     targets.sort(key=lambda p: -os.path.getsize(p))
     if not targets:
-        print(f"没找到 > {args.threshold_kb} KB 的可压图")
+        if args.preset:
+            print(f"没找到匹配 --preset {args.preset} 的目标")
+        else:
+            print(f"没找到 > {args.threshold_kb} KB 的可压图")
         return
 
-    print(f"找到 {len(targets)} 张超标图(> {args.threshold_kb} KB)")
+    mode_desc = f"--preset {args.preset}" if args.preset else f"--threshold-kb {args.threshold_kb}"
+    print(f"找到 {len(targets)} 张目标图({mode_desc},exts={','.join(allowed_exts)})")
     print(f"参数: quality={args.quality}, method={args.method}, "
           f"{'dry-run' if args.dry_run else '保留原图' if args.keep_original else '删原图 + 改 README'}")
     print()

@@ -3,7 +3,11 @@
 ## 新增一张图(已明确分类)
 
 1. [ ] 选场景 + 子分类(拿不准 → `unclassified/`)
-2. [ ] 压缩到 <1MB(`jpg` q=85 / `webp` q=80)
+2. [ ] **预处理图片**(规范化格式):跑 `scripts/compress_images.py <图所在目录> --preset intake`,自动:
+   - 所有 PNG → WebP(无损源,zero-risk;90%+ 减重)
+   - 所有 JPG/JPEG **> 10 MB** → WebP(超大照片才动,避免普通 JPG 双重压缩)
+   - 同步替换全仓 .md 里的引用
+   - 跑完得到 `.webp` 替代品
 3. [ ] 重命名:`<scenario-prefix>-[<substyle>-]<subject>-<modifier>[-nn].<ext>`,全小写连字符。扁平场景(`poster/`、`ecommerce/` 等)无 substyle 段
 4. [ ] 若该子分类目录不存在 → 新建目录(如 `xhs-images/cute/`)
 5. [ ] 拷贝图片到目标目录
@@ -36,9 +40,30 @@
 
 1. [ ] 图片直接放入 `unclassified/`,文件名可保留原始名(如 `640.png`、`screenshot-2026-05-21.jpg`)
 2. [ ] **若有 prompt → 同时新建同 basename 的 sidecar**:`unclassified/640.md`(和图片成对放,后续 `git mv` 一起搬)
-3. [ ] 不必更新 `unclassified/README.md` 画廊(归类时再处理)
+3. [ ] **(推荐)预处理图片格式**:
+   ```bash
+   scripts/compress_images.py unclassified/ --preset intake
+   ```
+   投递时图通常未被任何 .md 引用,跑完只改文件本身,零外部影响。归类前文件已是 `.webp`(或本来就是合规格式),`mv-with-sidecar.sh` 自动识别扩展名跟着搬。
+4. [ ] 不必更新 `unclassified/README.md` 画廊(归类时再处理)
 
 > 设计动机:sidecar 与图片同 basename 是「图文成对」的唯一可靠机制 —— 暂存时建立的配对,归类时一并 `git mv`,不会因为忘了搬 prompt 而脱钩。
+
+## 图片格式规则
+
+| 输入格式 | 处理 | 原因 |
+|---|---|---|
+| PNG | **必转 WebP** | 无损源,转 WebP 平均 -90%,几乎零质量损失;不会双重压缩 |
+| JPG/JPEG ≤ 10 MB | 保留 | 已 lossy,再 WebP 有双重压缩风险;体积可控 |
+| JPG/JPEG > 10 MB | **必转 WebP** | 超大照片体量收益压过质量损失 |
+| WebP | 保留 | 已是目标格式 |
+| GIF | 保留 | 动图,不动 |
+
+实施工具:`scripts/compress_images.py --preset intake` 自动按这套规则处理。预设详情见脚本头注释。
+
+**单图大小目标**:< 500 KB(WebP 经 intake 处理后,信息图 / 海报 / 插画都能达到)。GitHub 单文件上限 100 MB,LFS 上限更高,但我们的目标是渲染流畅 / 国内访问 / 仓库克隆轻。
+
+## 命名规范
 
 ## 命名规范
 

@@ -162,10 +162,31 @@ image-seed/
 
 **跑完必须对照去重清单手动删除已知重复项**(见脚本头注释)。
 
+### `scripts/compress_images.py`
+
+图片格式标准化 + 全仓 .md 引用同步替换。最常用:
+
+```bash
+# 投递 / 归类前预处理(规则:PNG 全转,JPG/JPEG > 10 MB 转)
+scripts/compress_images.py unclassified/ --preset intake
+
+# 全仓清扫
+scripts/compress_images.py . --preset intake
+
+# 通用阈值模式(老用法)
+scripts/compress_images.py <path> --threshold-kb 1024
+```
+
+转换后自动 grep 替换 README / CLAUDE.md / CONTRIBUTING.md 等所有 .md 里的引用。配合 `gen_scenario_readmes.py` 让画廊数字同步。
+
+### `scripts/mv-with-sidecar.sh`
+
+归类时一次性搬图 + sidecar(同 basename / 同 trunk / 显式目标三种关联)。详见 CONTRIBUTING.md。
+
 ## 关键历史决策备忘
 
 - **两层结构**:场景 → 子分类。不嵌 `styles/`/`layouts/` 子目录,扁平更直接。
 - **子分类目录按需创建**:不预建空目录;有图才建,场景 README 的「可用子分类」清单作为"词典"引导。
 - **无独立标签索引文件**:<200 张规模下,同步索引必然过期,改用「元数据反引号标签 + GitHub 搜索」。
-- **不强制 webp**:GitHub 对 jpg/png 渲染更稳,单图 < 1MB 即可,格式混用无妨。
+- **图片格式规则**(2026-05 升级):**PNG 必转 WebP**(无损源,平均 -90%),**JPG/JPEG > 10 MB 转 WebP**(超大照片才动,避免普通 JPG 双重压缩);WebP / 小 JPG / 小 JPEG / GIF 保留原格式。工具:`scripts/compress_images.py --preset intake`。单图目标 < 500 KB。早期「不强制 webp」的旧规则已废除 —— 2026-05 一次性把仓库 50+ 张超标 PNG 转 WebP,共减重 124 MB / 72%。
 - **2026-05 废弃 gpt-image-2 顶层目录**:原先曾用 `gpt-image-2/` 作为「按生成模型来源」的正交维度,实践发现与场景体系并行维护两套数字增加负担、且粒度对不齐。统一回归单一场景维度:7 个原 gpt-image-2 子分类(`poster`/`ecommerce`/`seasonal`/`travel`/`app-ui`/`anime`/`product-design`)升格为顶层扁平场景;`gpt-image-2/infographic` 17 张并入 `infographic/` 各 styles/layouts;`gpt-image-2/xhs` 3 张并入 `xhs-images/` 各 styles/layouts;模型来源以 `` `gpt-image-2` `` 标签保留在元数据表中。未来若引入新模型(midjourney/flux/gemini),走同样的「场景体系归类 + 模型标签」方式,不再开模型来源顶层目录。
