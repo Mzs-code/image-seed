@@ -31,9 +31,9 @@ hide:
 
 | 场景 | 说明 | 子分类数 | 现有图片 |
 |---|---|---|---|
-| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 20 |
-| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 104 |
-| [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 9 |
+| [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 30 |
+| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 105 |
+| [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 13 |
 | [Slide Deck · 演示文稿](./slide-deck/README.md) | 幻灯片、Keynote 风格 | 16 styles | 17 |
 | [Article Illustrator · 文章插图](./article-illustrator/README.md) | 博客/文章插图 | 8 styles | 13 |
 | [Poster · 海报](./poster/README.md) | 影视/小说/品牌等单图宣传海报 | 扁平 | 9 |
@@ -59,6 +59,7 @@ hide:
 - **命名**:`<scenario>-<substyle>-<subject>-<modifier>[-nn].<ext>`,全小写连字符
 - **格式**:`.jpg` / `.png` / `.webp` 皆可,单图 < 1MB(上限 2MB,不用 LFS)
 - **标签**:元数据表用反引号包裹关键词,便于 GitHub 仓库搜索跨场景找灵感
+- **Prompt**:若图有原始 prompt,同 trunk 配 `.md` sidecar(单图 `poster-foo.png` ↔ `poster-foo.md`;多图共享时 `poster-foo-01/02.png` ↔ 同一份 `poster-foo.md`)。sidecar 推荐顶部嵌入图片预览 + 自由 markdown 写 prompt 正文,frontmatter 全选填。元数据表 Prompt 列写 `[prompt: <摘要>…](./trunk.md)` —— 详见 [CONTRIBUTING.md](./CONTRIBUTING.md#prompt-sidecar-文件)
 
 新增图片详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
