@@ -1,35 +1,47 @@
 #!/usr/bin/env bash
-# 一次性搬迁图片 + 同 trunk 的 sidecar (.md)。
+# 一次性搬迁图片 + 关联的 sidecar (.md)。
 #
 # 用法:
-#   scripts/mv-with-sidecar.sh <src-no-ext> <dst-no-ext>
+#   scripts/mv-with-sidecar.sh <src-no-ext> <dst-no-ext> [<sidecar-dst-no-ext>]
 #
-# 例:
+# 例 1:同 basename(单图)
 #   scripts/mv-with-sidecar.sh unclassified/1 \
 #     infographic/craft-handmade/info-craft-handmade-fourier-transform
 #
-# 支持两种 sidecar 关联:
-#   (a) 同 basename: 1.jpg ↔ 1.md(单图情形)
-#   (b) 同 trunk:    2-0.jpeg / 2-1.jpeg / ... ↔ 2.md(多变体共享 prompt)
+# 例 2:同 trunk(多变体共享)
+#   scripts/mv-with-sidecar.sh unclassified/2-0 \
+#     xhs-images/minimal/xhs-minimal-tea-oil-guide-0
+#   (后续 2-1..2-9 同样调用,trunk sidecar 第一次搬完后自动跳过)
+#
+# 例 3:跨 trunk 共享模板(显式 sidecar 目标)
+#   scripts/mv-with-sidecar.sh unclassified/1-0 \
+#     infographic/craft-handmade/info-craft-handmade-claude-managed-agents \
+#     infographic/craft-handmade/info-craft-handmade-knowledge-diagram-template
+#
+# 支持三种 sidecar 关联:
+#   (a) 同 basename: 1.jpg ↔ 1.md
+#   (b) 同 trunk:    2-0.jpeg / 2-1.jpeg / ... ↔ 2.md
+#   (c) 显式重命名:  第三参数指定 sidecar 目标(跨 trunk 共享模板时用)
 #
 # 算法:
-#   1. 先找同 basename .md;
-#   2. 没有则找 trunk .md(trunk = basename 去掉 `-N`/`-NN`/`-NNN` 后缀);
-#   3. trunk 情形下,sidecar 搬到目标 trunk(后续变体跑同脚本会探测到 trunk sidecar
-#      已在目标位置,自动跳过,实现"第一张图带 sidecar、后续变体共用")
+#   1. 第三参数给出 → 用它作 sidecar 目标
+#   2. 否则先找同 basename .md
+#   3. 否则找 trunk .md(trunk = basename 去掉 `-N`/`-NN`/`-NNN` 后缀)
+#   4. trunk / 显式目标已存在时自动跳过 sidecar(允许多张图重复调用)
 #
 # 自动识别图片扩展名(.jpg .jpeg .png .webp .gif),已存在目标拒绝覆盖。
 
 set -euo pipefail
 
-if [[ $# -ne 2 ]]; then
-  echo "用法: $0 <src-no-ext> <dst-no-ext>" >&2
+if [[ $# -lt 2 || $# -gt 3 ]]; then
+  echo "用法: $0 <src-no-ext> <dst-no-ext> [<sidecar-dst-no-ext>]" >&2
   echo "  src/dst 都不含扩展名;脚本自己探测 .jpg/.png/.webp/.jpeg/.gif" >&2
   exit 2
 fi
 
 SRC="$1"
 DST="$2"
+SIDECAR_DST_EXPLICIT="${3:-}"
 
 # 找图片扩展名
 SRC_IMG=""
@@ -64,10 +76,18 @@ fi
 SRC_TRUNK="$(echo "${SRC}" | sed -E 's/-[0-9]+$//')"
 DST_TRUNK="$(echo "${DST}" | sed -E 's/-[0-9]+$//')"
 
-# 探测 sidecar(优先同 basename,其次同 trunk)
+# 探测 sidecar(优先显式参数,其次同 basename,再其次同 trunk)
 SIDECAR_SRC=""
 SIDECAR_DST=""
-if [[ -f "${SRC}.md" ]]; then
+if [[ -n "${SIDECAR_DST_EXPLICIT}" ]]; then
+  # 显式 sidecar 目标:跨 trunk 共享模板情形
+  if [[ -f "${SRC_TRUNK}.md" ]]; then
+    SIDECAR_SRC="${SRC_TRUNK}.md"
+  elif [[ -f "${SRC}.md" ]]; then
+    SIDECAR_SRC="${SRC}.md"
+  fi
+  SIDECAR_DST="${SIDECAR_DST_EXPLICIT}.md"
+elif [[ -f "${SRC}.md" ]]; then
   SIDECAR_SRC="${SRC}.md"
   SIDECAR_DST="${DST}.md"
 elif [[ "${SRC}" != "${SRC_TRUNK}" && -f "${SRC_TRUNK}.md" ]]; then

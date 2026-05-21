@@ -90,11 +90,47 @@ def collect_images(scenario, substyle):
     return non_baoyu + baoyu
 
 
+_PROMPT_CACHE = {}
+META_HEAD_RE = re.compile(r"^## 元数据\s*$", re.MULTILINE)
+META_ROW_RE = re.compile(r"^\| \[([^\]]+)\]")
+PROMPT_LINK_RE = re.compile(r"\[prompt[^\]]*\]\([^)]+\.md\)")
+
+
+def _get_prompt_set(scenario, substyle):
+    """扫子分类(或扁平场景)README 元数据段,返回带 prompt 链接的图 stem 集合。
+
+    元数据驱动 angle 优于文件命名约定:
+    - 单图同 basename / 多变体同 trunk / 跨 trunk 共享模板,三种情形统一识别
+    - 与用户实际看到的 README 表格一致(no false positive)
+    """
+    key = (scenario, substyle)
+    if key in _PROMPT_CACHE:
+        return _PROMPT_CACHE[key]
+    d = os.path.join(ROOT, scenario, substyle) if substyle else os.path.join(ROOT, scenario)
+    readme = os.path.join(d, "README.md")
+    stems = set()
+    if os.path.isfile(readme):
+        with open(readme) as f:
+            text = f.read()
+        head = META_HEAD_RE.search(text)
+        if head:
+            body = text[head.end():]
+            # 截到下一个 H2 之前
+            nxt = re.search(r"^## ", body, re.MULTILINE)
+            if nxt:
+                body = body[:nxt.start()]
+            for line in body.splitlines():
+                row = META_ROW_RE.match(line)
+                if row and PROMPT_LINK_RE.search(line):
+                    stems.add(row.group(1))
+    _PROMPT_CACHE[key] = stems
+    return stems
+
+
 def has_sidecar(scenario, substyle, image_filename):
-    """检查图片同 trunk 是否存在 .md sidecar(trunk = basename 去 -NN)。"""
+    """该图是否有 prompt:以元数据表 Prompt 列为准(非文件系统检查)。"""
     stem = image_filename.rsplit(".", 1)[0]
-    trunk = NN_SUFFIX_RE.sub("", stem)
-    return os.path.isfile(os.path.join(ROOT, scenario, substyle, f"{trunk}.md"))
+    return stem in _get_prompt_set(scenario, substyle)
 
 
 def build_grid(scenario, substyles):

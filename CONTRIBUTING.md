@@ -147,12 +147,25 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
 
 ### Prompt 模板(同一份 prompt 应用于不同主题图)
 
-特殊情形:你有一段 prompt 模板含占位符(如 `【数学概念/知识点】`),用它生成主题各异的多张图(傅里叶、贝叶斯、拉普拉斯...)。
+特殊情形:你有一段 prompt 模板含占位符(如 `【数学概念/知识点】`、`{请输入你的内容或者参考图片}`),用它生成主题各异的多张图(傅里叶、贝叶斯、拉普拉斯…或 Claude Managed Agents / Hermes Agent / C4 Banking…)。
 
 这些图**主题不同**(不是变体),但**模板共享**。两种处理任选:
 
 - **(简)各图各自 sidecar,内容复制模板**:`info-craft-handmade-fourier-transform.md` / `-bayes.md` / `-laplace.md` 各一份。drift 风险但路径最直观
-- **(优)共用一份模板 sidecar,各图 README 都链接它**:命名取语义而非 trunk,例如 `_template-math-vis.md`(下划线前缀让目录里它排在最上)。各图 README Prompt 列写 `[prompt: 数学可视化模板…](./_template-math-vis.md)`,链接共指。此时 trunk 同名约定**放宽**:sidecar 名不必等于图 trunk
+- **(优)共用一份模板 sidecar,各图 README 都链接它**(推荐):sidecar 文件名后缀加 `-template.md`,如 `info-craft-handmade-knowledge-diagram-template.md`。各图 README 元数据 Prompt 列都写 `[prompt: <模板摘要>…](./info-craft-handmade-knowledge-diagram-template.md)`,链接共指。此时 trunk 同名约定**放宽**:sidecar 名不必等于图 trunk
+
+**实际操作(option 2)**:
+1. 6 张图各自语义命名(如 `info-craft-handmade-claude-managed-agents.jpeg` / `-hermes-agent.jpeg` …)
+2. sidecar 单独命名:`info-craft-handmade-knowledge-diagram-template.md`
+3. 用 `mv-with-sidecar.sh` 的第三参数显式指定 sidecar 目标:
+   ```bash
+   scripts/mv-with-sidecar.sh unclassified/1-0 \
+     infographic/craft-handmade/info-craft-handmade-claude-managed-agents \
+     infographic/craft-handmade/info-craft-handmade-knowledge-diagram-template
+   ```
+   后续 5 张图重复跑同命令(改 src 和 dst-img),sidecar 已在目标位置时自动跳过
+4. README 元数据各行加 `` `template-shared` `` 标签便于识别;Prompt 列都指向同一份 sidecar
+5. **角标识别**:`gen_scenario_readmes.py` 通过扫元数据 Prompt 列(而非文件名)决定角标 —— 所以**只要元数据填了链接,就会正确加 📝**,无论是同 trunk 还是模板共享
 
 ### README 元数据表的 Prompt 列
 
@@ -174,7 +187,7 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
 
 1. 重生成 5 个非扁平场景的平铺网格 README
 2. **重写所有子分类 + 7 个扁平场景 README 的「画廊」段**(以 `## 画廊` 为锚,到下一个 `## ` 标题之前的内容会被完全替换;只动画廊,元数据段不动)
-3. **检测同 trunk `.md` sidecar 存在,在场景网格的 label 行加 📝 角标**(让 prompt-rich 图在导航层就能识别)
+3. **扫子分类元数据表 Prompt 列,在场景网格的 label 行加 📝 角标**(元数据驱动 — 只要 Prompt 列有 `[prompt: …](./….md)` 链接,该图就会被识别;同 trunk / 同 basename / 跨 trunk 模板共享三种情形统一处理)
 4. **回填根 README 场景导航表的「现有图片」数字**(扫各场景图片数,不数 sidecar)
 
 跑法不变:`python3 scripts/gen_scenario_readmes.py`。
