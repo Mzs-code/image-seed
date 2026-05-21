@@ -6,12 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![appui-ai-interview-home](./appui-ai-interview-home.png)](./appui-ai-interview-home.png) | [![appui-ai-interview-chat](./appui-ai-interview-chat.png)](./appui-ai-interview-chat.png) | [![appui-ai-interview-listen](./appui-ai-interview-listen.png)](./appui-ai-interview-listen.png) |
-| ai-interview-home | ai-interview-chat | ai-interview-listen |
-| [![appui-ai-interview-graphic](./appui-ai-interview-graphic.png)](./appui-ai-interview-graphic.png) | [![appui-molecular-pathology-rag](./appui-molecular-pathology-rag.png)](./appui-molecular-pathology-rag.png) | [![appui-face-similarity-report](./appui-face-similarity-report.png)](./appui-face-similarity-report.png) |
-| ai-interview-graphic | molecular-pathology-rag | face-similarity-report |
+| [![appui-ai-interview-chat](./appui-ai-interview-chat.png)](./appui-ai-interview-chat.png) | [![appui-ai-interview-graphic](./appui-ai-interview-graphic.png)](./appui-ai-interview-graphic.png) | [![appui-ai-interview-home](./appui-ai-interview-home.png)](./appui-ai-interview-home.png) |
+| ai-interview-chat | ai-interview-graphic | ai-interview-home |
+| [![appui-ai-interview-listen](./appui-ai-interview-listen.png)](./appui-ai-interview-listen.png) | [![appui-face-similarity-report](./appui-face-similarity-report.png)](./appui-face-similarity-report.png) | [![appui-molecular-pathology-rag](./appui-molecular-pathology-rag.png)](./appui-molecular-pathology-rag.png) |
+| ai-interview-listen | face-similarity-report | molecular-pathology-rag |
 
 ## 元数据
 

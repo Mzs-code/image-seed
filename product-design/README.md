@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![prod-mountain-trail-signage](./prod-mountain-trail-signage.png)](./prod-mountain-trail-signage.png) | [![prod-coastal-heritage-trail-signage](./prod-coastal-heritage-trail-signage.png)](./prod-coastal-heritage-trail-signage.png) | [![prod-zen-pavilion-signage](./prod-zen-pavilion-signage.png)](./prod-zen-pavilion-signage.png) |
-| mountain-trail-signage | coastal-heritage-trail-signage | zen-pavilion-signage |
+| [![prod-coastal-heritage-trail-signage](./prod-coastal-heritage-trail-signage.png)](./prod-coastal-heritage-trail-signage.png) | [![prod-mountain-trail-signage](./prod-mountain-trail-signage.png)](./prod-mountain-trail-signage.png) | [![prod-zen-pavilion-signage](./prod-zen-pavilion-signage.png)](./prod-zen-pavilion-signage.png) |
+| coastal-heritage-trail-signage | mountain-trail-signage | zen-pavilion-signage |
 
 ## 元数据
 

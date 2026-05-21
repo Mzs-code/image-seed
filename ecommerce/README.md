@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![ecommerce-spring-fashion-lookbook](./ecommerce-spring-fashion-lookbook.png)](./ecommerce-spring-fashion-lookbook.png) | [![ecommerce-ai-glasses-detail](./ecommerce-ai-glasses-detail.png)](./ecommerce-ai-glasses-detail.png) | [![ecommerce-livestream-claude-opus](./ecommerce-livestream-claude-opus.jpg)](./ecommerce-livestream-claude-opus.jpg) |
-| spring-fashion-lookbook | ai-glasses-detail | livestream-claude-opus |
+| [![ecommerce-ai-glasses-detail](./ecommerce-ai-glasses-detail.png)](./ecommerce-ai-glasses-detail.png) | [![ecommerce-livestream-claude-opus](./ecommerce-livestream-claude-opus.jpg)](./ecommerce-livestream-claude-opus.jpg) | [![ecommerce-spring-fashion-lookbook](./ecommerce-spring-fashion-lookbook.png)](./ecommerce-spring-fashion-lookbook.png) |
+| ai-glasses-detail | livestream-claude-opus | spring-fashion-lookbook |
 
 ## 元数据
 

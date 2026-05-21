@@ -6,14 +6,16 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![poster-mortal-cultivation](./poster-mortal-cultivation.png)](./poster-mortal-cultivation.png) | [![poster-calma-coffee](./poster-calma-coffee.png)](./poster-calma-coffee.png) | [![poster-obsidian-crystal](./poster-obsidian-crystal.png)](./poster-obsidian-crystal.png) |
-| mortal-cultivation | calma-coffee | obsidian-crystal |
-| [![poster-xiaban-red](./poster-xiaban-red.png)](./poster-xiaban-red.png) | [![poster-ai-evolution-stairs](./poster-ai-evolution-stairs.jpeg)](./poster-ai-evolution-stairs.jpeg) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) |
-| xiaban-red | ai-evolution-stairs | monkey-singularity |
-| [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) | [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.png)](./poster-karpathy-anthropic-transfer.png) |
-| mythos-cyber-attack | digital-nomad-remote-work | karpathy-anthropic-transfer |
+| [![poster-ai-evolution-stairs](./poster-ai-evolution-stairs.jpeg)](./poster-ai-evolution-stairs.jpeg) | [![poster-calma-coffee](./poster-calma-coffee.png)](./poster-calma-coffee.png) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) |
+| ai-evolution-stairs | calma-coffee | digital-nomad-remote-work |
+| [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.png)](./poster-karpathy-anthropic-transfer.png) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) | [![poster-mortal-cultivation](./poster-mortal-cultivation.png)](./poster-mortal-cultivation.png) |
+| karpathy-anthropic-transfer | monkey-singularity | mortal-cultivation |
+| [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-obsidian-crystal](./poster-obsidian-crystal.png)](./poster-obsidian-crystal.png) | [![poster-xiaban-red](./poster-xiaban-red.png)](./poster-xiaban-red.png) |
+| mythos-cyber-attack | obsidian-crystal | xiaban-red |
 
 ## 元数据
 

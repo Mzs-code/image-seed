@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![xhs-cute-generation-kids](./xhs-cute-generation-kids.png)](./xhs-cute-generation-kids.png) | [![xhs-cute-baoyu](./xhs-cute-baoyu.webp)](./xhs-cute-baoyu.webp) |    |

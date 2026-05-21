@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![xhs-pop-baoyu](./xhs-pop-baoyu.webp)](./xhs-pop-baoyu.webp) |    |    |
-| baoyu |    |    |
+| [![xhs-pop-openclaw-skillhub-promo](./xhs-pop-openclaw-skillhub-promo.jpg)](./xhs-pop-openclaw-skillhub-promo.jpg) | [![xhs-pop-baoyu](./xhs-pop-baoyu.webp)](./xhs-pop-baoyu.webp) |    |
+| openclaw-skillhub-promo | baoyu |    |
 
 ## 元数据
 

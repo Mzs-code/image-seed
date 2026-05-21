@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![deck-scientific-baoyu](./deck-scientific-baoyu.webp)](./deck-scientific-baoyu.webp) |    |    |

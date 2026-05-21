@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![art-watercolor-reasoning-vs-engineering-cost](./art-watercolor-reasoning-vs-engineering-cost.jpg)](./art-watercolor-reasoning-vs-engineering-cost.jpg) | [![art-watercolor-baoyu](./art-watercolor-baoyu.webp)](./art-watercolor-baoyu.webp) |    |

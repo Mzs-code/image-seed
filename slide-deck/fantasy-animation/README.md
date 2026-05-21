@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![deck-fantasy-animation-baoyu](./deck-fantasy-animation-baoyu.webp)](./deck-fantasy-animation-baoyu.webp) |    |    |

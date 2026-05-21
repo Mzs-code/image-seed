@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![xhs-fresh-cycling-diary](./xhs-fresh-cycling-diary.png)](./xhs-fresh-cycling-diary.png) | [![xhs-fresh-baoyu](./xhs-fresh-baoyu.webp)](./xhs-fresh-baoyu.webp) |    |

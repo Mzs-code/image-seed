@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-circular-flow-agent-architecture](./info-circular-flow-agent-architecture.png)](./info-circular-flow-agent-architecture.png) | [![info-circular-flow-baoyu](./info-circular-flow-baoyu.webp)](./info-circular-flow-baoyu.webp) |    |
-| agent-architecture | baoyu |    |
+| [![info-circular-flow-agent-architecture](./info-circular-flow-agent-architecture.png)](./info-circular-flow-agent-architecture.png) | [![info-circular-flow-agent-loop-diagram](./info-circular-flow-agent-loop-diagram.png)](./info-circular-flow-agent-loop-diagram.png) | [![info-circular-flow-baoyu](./info-circular-flow-baoyu.webp)](./info-circular-flow-baoyu.webp) |
+| agent-architecture | agent-loop-diagram | baoyu |
 
 ## 元数据
 

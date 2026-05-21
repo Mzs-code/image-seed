@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![xhs-chalkboard-baoyu](./xhs-chalkboard-baoyu.webp)](./xhs-chalkboard-baoyu.webp) |    |    |

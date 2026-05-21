@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![info-pyramid-baoyu](./info-pyramid-baoyu.webp)](./info-pyramid-baoyu.webp) |    |    |

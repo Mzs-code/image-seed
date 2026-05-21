@@ -8,12 +8,16 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![standard](./standard/comic-standard-chatgpt-plus-subscription.png)](./standard/README.md) | [![standard](./standard/comic-standard-dopamine-loop.png)](./standard/README.md) | [![standard](./standard/comic-standard-workplace-colleague-story.png)](./standard/README.md) |
-| [standard](./standard/README.md) | [standard](./standard/README.md) | [standard](./standard/README.md) |
-| [![standard](./standard/comic-standard-baoyu.webp)](./standard/README.md) | [![cinematic](./cinematic/comic-cinematic-baoyu.webp)](./cinematic/README.md) | [![dense](./dense/comic-dense-baoyu.webp)](./dense/README.md) |
-| [standard](./standard/README.md) | [cinematic](./cinematic/README.md) | [dense](./dense/README.md) |
-| [![splash](./splash/comic-splash-baoyu.webp)](./splash/README.md) | [![mixed](./mixed/comic-mixed-baoyu.webp)](./mixed/README.md) | [![webtoon](./webtoon/comic-webtoon-baoyu.webp)](./webtoon/README.md) |
-| [splash](./splash/README.md) | [mixed](./mixed/README.md) | [webtoon](./webtoon/README.md) |
+| [![standard](./standard/comic-standard-chatgpt-plus-subscription.png)](./standard/README.md) | [![standard](./standard/comic-standard-dopamine-loop.png)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./standard/README.md) |
+| [standard](./standard/README.md) | [standard](./standard/README.md) | [standard](./standard/README.md) 📝 |
+| [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-1.jpg)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-2.jpg)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-3.jpg)](./standard/README.md) |
+| [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 |
+| [![standard](./standard/comic-standard-workplace-colleague-story.png)](./standard/README.md) | [![standard](./standard/comic-standard-baoyu.webp)](./standard/README.md) | [![cinematic](./cinematic/comic-cinematic-baoyu.webp)](./cinematic/README.md) |
+| [standard](./standard/README.md) | [standard](./standard/README.md) | [cinematic](./cinematic/README.md) |
+| [![dense](./dense/comic-dense-baoyu.webp)](./dense/README.md) | [![splash](./splash/comic-splash-baoyu.webp)](./splash/README.md) | [![mixed](./mixed/comic-mixed-baoyu.webp)](./mixed/README.md) |
+| [dense](./dense/README.md) | [splash](./splash/README.md) | [mixed](./mixed/README.md) |
+| [![webtoon](./webtoon/comic-webtoon-baoyu.webp)](./webtoon/README.md) |    |    |
+| [webtoon](./webtoon/README.md) |    |    |
 
 ## 可用子分类
 

@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![info-do-dont-claude-code-myths](./info-do-dont-claude-code-myths.png)](./info-do-dont-claude-code-myths.png) | [![info-do-dont-single-model-limitation](./info-do-dont-single-model-limitation.png)](./info-do-dont-single-model-limitation.png) | [![info-do-dont-baoyu](./info-do-dont-baoyu.webp)](./info-do-dont-baoyu.webp) |

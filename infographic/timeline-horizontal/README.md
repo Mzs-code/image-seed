@@ -6,12 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-timeline-horizontal-google-ai-code-share](./info-timeline-horizontal-google-ai-code-share.png)](./info-timeline-horizontal-google-ai-code-share.png) | [![info-timeline-horizontal-anthropic-revenue-growth](./info-timeline-horizontal-anthropic-revenue-growth.jpg)](./info-timeline-horizontal-anthropic-revenue-growth.jpg) | [![info-timeline-horizontal-amazon-anthropic-investment](./info-timeline-horizontal-amazon-anthropic-investment.jpg)](./info-timeline-horizontal-amazon-anthropic-investment.jpg) |
-| google-ai-code-share | anthropic-revenue-growth | amazon-anthropic-investment |
-| [![info-timeline-horizontal-apple-mie-vs-mythos](./info-timeline-horizontal-apple-mie-vs-mythos.png)](./info-timeline-horizontal-apple-mie-vs-mythos.png) | [![info-timeline-horizontal-five-day-ai-hacker-blitz](./info-timeline-horizontal-five-day-ai-hacker-blitz.png)](./info-timeline-horizontal-five-day-ai-hacker-blitz.png) | [![info-timeline-horizontal-baoyu](./info-timeline-horizontal-baoyu.webp)](./info-timeline-horizontal-baoyu.webp) |
-| apple-mie-vs-mythos | five-day-ai-hacker-blitz | baoyu |
+| [![info-timeline-horizontal-amazon-anthropic-investment](./info-timeline-horizontal-amazon-anthropic-investment.jpg)](./info-timeline-horizontal-amazon-anthropic-investment.jpg) | [![info-timeline-horizontal-anthropic-revenue-growth](./info-timeline-horizontal-anthropic-revenue-growth.jpg)](./info-timeline-horizontal-anthropic-revenue-growth.jpg) | [![info-timeline-horizontal-apple-mie-vs-mythos](./info-timeline-horizontal-apple-mie-vs-mythos.png)](./info-timeline-horizontal-apple-mie-vs-mythos.png) |
+| amazon-anthropic-investment | anthropic-revenue-growth | apple-mie-vs-mythos |
+| [![info-timeline-horizontal-five-day-ai-hacker-blitz](./info-timeline-horizontal-five-day-ai-hacker-blitz.png)](./info-timeline-horizontal-five-day-ai-hacker-blitz.png) | [![info-timeline-horizontal-google-ai-code-share](./info-timeline-horizontal-google-ai-code-share.png)](./info-timeline-horizontal-google-ai-code-share.png) | [![info-timeline-horizontal-baoyu](./info-timeline-horizontal-baoyu.webp)](./info-timeline-horizontal-baoyu.webp) |
+| five-day-ai-hacker-blitz | google-ai-code-share | baoyu |
 
 ## 元数据
 

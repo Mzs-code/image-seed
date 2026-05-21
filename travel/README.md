@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![travel-guizhou-ink-map](./travel-guizhou-ink-map.jpeg)](./travel-guizhou-ink-map.jpeg) | [![travel-ganzhou-song-city](./travel-ganzhou-song-city.jpeg)](./travel-ganzhou-song-city.jpeg) |    |
-| guizhou-ink-map | ganzhou-song-city |    |
+| [![travel-ganzhou-song-city](./travel-ganzhou-song-city.jpeg)](./travel-ganzhou-song-city.jpeg) | [![travel-guizhou-ink-map](./travel-guizhou-ink-map.jpeg)](./travel-guizhou-ink-map.jpeg) |    |
+| ganzhou-song-city | guizhou-ink-map |    |
 
 ## 元数据
 

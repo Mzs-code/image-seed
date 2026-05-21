@@ -6,10 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-layers-stack-llm-input-structure](./info-layers-stack-llm-input-structure.png)](./info-layers-stack-llm-input-structure.png) | [![info-layers-stack-skill-agent-mcp-plugin](./info-layers-stack-skill-agent-mcp-plugin.jpeg)](./info-layers-stack-skill-agent-mcp-plugin.jpeg) | [![info-layers-stack-baoyu](./info-layers-stack-baoyu.webp)](./info-layers-stack-baoyu.webp) |
-| llm-input-structure | skill-agent-mcp-plugin | baoyu |
+| [![info-layers-stack-agent-system-engineering](./info-layers-stack-agent-system-engineering.png)](./info-layers-stack-agent-system-engineering.png) | [![info-layers-stack-llm-input-structure](./info-layers-stack-llm-input-structure.png)](./info-layers-stack-llm-input-structure.png) | [![info-layers-stack-skill-agent-mcp-plugin](./info-layers-stack-skill-agent-mcp-plugin.jpeg)](./info-layers-stack-skill-agent-mcp-plugin.jpeg) |
+| agent-system-engineering | llm-input-structure | skill-agent-mcp-plugin |
+| [![info-layers-stack-baoyu](./info-layers-stack-baoyu.webp)](./info-layers-stack-baoyu.webp) |    |    |
+| baoyu |    |    |
 
 ## 元数据
 

@@ -6,10 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-technical-schematic-jetbrains-git-client](./info-technical-schematic-jetbrains-git-client.png)](./info-technical-schematic-jetbrains-git-client.png) | [![info-technical-schematic-mojin-xiaowei](./info-technical-schematic-mojin-xiaowei.jpeg)](./info-technical-schematic-mojin-xiaowei.jpeg) | [![info-technical-schematic-baoyu](./info-technical-schematic-baoyu.webp)](./info-technical-schematic-baoyu.webp) |
-| jetbrains-git-client | mojin-xiaowei | baoyu |
+| [![info-technical-schematic-ai-video-arena-elo-ranking](./info-technical-schematic-ai-video-arena-elo-ranking.png)](./info-technical-schematic-ai-video-arena-elo-ranking.png) | [![info-technical-schematic-happyhorse-arena-three-traits](./info-technical-schematic-happyhorse-arena-three-traits.png)](./info-technical-schematic-happyhorse-arena-three-traits.png) | [![info-technical-schematic-jetbrains-git-client](./info-technical-schematic-jetbrains-git-client.png)](./info-technical-schematic-jetbrains-git-client.png) |
+| ai-video-arena-elo-ranking | happyhorse-arena-three-traits | jetbrains-git-client |
+| [![info-technical-schematic-mojin-xiaowei](./info-technical-schematic-mojin-xiaowei.jpeg)](./info-technical-schematic-mojin-xiaowei.jpeg) | [![info-technical-schematic-public-ai-data-leak-risk](./info-technical-schematic-public-ai-data-leak-risk.png)](./info-technical-schematic-public-ai-data-leak-risk.png) | [![info-technical-schematic-baoyu](./info-technical-schematic-baoyu.webp)](./info-technical-schematic-baoyu.webp) |
+| mojin-xiaowei | public-ai-data-leak-risk | baoyu |
 
 ## 元数据
 

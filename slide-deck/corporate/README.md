@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![deck-corporate-brand-platform-flow](./deck-corporate-brand-platform-flow.png)](./deck-corporate-brand-platform-flow.png) | [![deck-corporate-baoyu](./deck-corporate-baoyu.webp)](./deck-corporate-baoyu.webp) |    |

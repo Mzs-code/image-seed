@@ -6,14 +6,18 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.png)](./info-grid-cards-claude-code-six-rules.png) | [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.png)](./info-grid-cards-notebooklm-deep-reading-prompts.png) | [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) |
-| claude-code-six-rules | notebooklm-deep-reading-prompts | notion-3 |
-| [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.png)](./info-grid-cards-no-agents-md-pain.png) | [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.png)](./info-grid-cards-six-coffee-beans.png) | [![info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg)](./info-grid-cards-features-overview.jpg) |
-| no-agents-md-pain | six-coffee-beans | features-overview |
-| [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |   |
-| claude-feishu-5-agent-overview | baoyu |   |
+| [![info-grid-cards-anthropic-harness-design](./info-grid-cards-anthropic-harness-design.png)](./info-grid-cards-anthropic-harness-design.png) | [![info-grid-cards-claude-code-11-workflows](./info-grid-cards-claude-code-11-workflows.jpg)](./info-grid-cards-claude-code-11-workflows.jpg) | [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.png)](./info-grid-cards-claude-code-six-rules.png) |
+| anthropic-harness-design | claude-code-11-workflows | claude-code-six-rules |
+| [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | [![info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg)](./info-grid-cards-features-overview.jpg) | [![info-grid-cards-mobile-llm-refusal-dilemma](./info-grid-cards-mobile-llm-refusal-dilemma.png)](./info-grid-cards-mobile-llm-refusal-dilemma.png) |
+| claude-feishu-5-agent-overview | features-overview | mobile-llm-refusal-dilemma |
+| [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.png)](./info-grid-cards-no-agents-md-pain.png) | [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.png)](./info-grid-cards-notebooklm-deep-reading-prompts.png) | [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) |
+| no-agents-md-pain | notebooklm-deep-reading-prompts | notion-3 |
+| [![info-grid-cards-popmart-2025-annual-report](./info-grid-cards-popmart-2025-annual-report.jpg)](./info-grid-cards-popmart-2025-annual-report.jpg) | [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.png)](./info-grid-cards-six-coffee-beans.png) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |
+| popmart-2025-annual-report | six-coffee-beans | baoyu |
 
 ## 元数据
 

@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![art-warm-ai-meetup-group-illustration](./art-warm-ai-meetup-group-illustration.png)](./art-warm-ai-meetup-group-illustration.png) | [![art-warm-agents-md-readme-for-ai](./art-warm-agents-md-readme-for-ai.png)](./art-warm-agents-md-readme-for-ai.png) | [![art-warm-claude-code-codex-dream](./art-warm-claude-code-codex-dream.png)](./art-warm-claude-code-codex-dream.png) |
-| ai-meetup-group-illustration | agents-md-readme-for-ai | claude-code-codex-dream |
+| [![art-warm-agents-md-readme-for-ai](./art-warm-agents-md-readme-for-ai.png)](./art-warm-agents-md-readme-for-ai.png) | [![art-warm-ai-meetup-group-illustration](./art-warm-ai-meetup-group-illustration.png)](./art-warm-ai-meetup-group-illustration.png) | [![art-warm-claude-code-codex-dream](./art-warm-claude-code-codex-dream.png)](./art-warm-claude-code-codex-dream.png) |
+| agents-md-readme-for-ai | ai-meetup-group-illustration | claude-code-codex-dream |
 | [![art-warm-baoyu](./art-warm-baoyu.webp)](./art-warm-baoyu.webp) |    |    |
 | baoyu |    |    |
 

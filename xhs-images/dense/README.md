@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![xhs-dense-korean-bbq-platter](./xhs-dense-korean-bbq-platter.jpg)](./xhs-dense-korean-bbq-platter.jpg) | [![xhs-dense-baoyu](./xhs-dense-baoyu.webp)](./xhs-dense-baoyu.webp) |    |

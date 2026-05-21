@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![info-bridge-agent-delegation](./info-bridge-agent-delegation.png)](./info-bridge-agent-delegation.png) | [![info-bridge-baoyu](./info-bridge-baoyu.webp)](./info-bridge-baoyu.webp) |    |

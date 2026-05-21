@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![art-notion-claude-code-token-guide-cover](./art-notion-claude-code-token-guide-cover.png)](./art-notion-claude-code-token-guide-cover.png) | [![art-notion-baoyu](./art-notion-baoyu.webp)](./art-notion-baoyu.webp) |    |

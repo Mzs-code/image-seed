@@ -6,6 +6,8 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
 | [![info-venn-skills-correct-usage](./info-venn-skills-correct-usage.png)](./info-venn-skills-correct-usage.png) | [![info-venn-baoyu](./info-venn-baoyu.webp)](./info-venn-baoyu.webp) |    |

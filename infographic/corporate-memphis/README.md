@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-corporate-memphis-baoyu](./info-corporate-memphis-baoyu.webp)](./info-corporate-memphis-baoyu.webp) |    |    |
-| baoyu |    |    |
+| [![info-corporate-memphis-enterprise-invisible-assets](./info-corporate-memphis-enterprise-invisible-assets.jpg)](./info-corporate-memphis-enterprise-invisible-assets.jpg) | [![info-corporate-memphis-baoyu](./info-corporate-memphis-baoyu.webp)](./info-corporate-memphis-baoyu.webp) |    |
+| enterprise-invisible-assets | baoyu |    |
 
 ## 元数据
 

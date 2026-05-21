@@ -6,12 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-tree-hierarchy-session-decision](./info-tree-hierarchy-session-decision.png)](./info-tree-hierarchy-session-decision.png) | [![info-tree-hierarchy-prompt-cache-flow](./info-tree-hierarchy-prompt-cache-flow.png)](./info-tree-hierarchy-prompt-cache-flow.png) | [![info-tree-hierarchy-continual-learning-startup-landscape](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg)](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg) |
-| session-decision | prompt-cache-flow | continual-learning-startup-landscape |
-| [![info-tree-hierarchy-baoyu](./info-tree-hierarchy-baoyu.webp)](./info-tree-hierarchy-baoyu.webp) |    |    |
-| baoyu |    |    |
+| [![info-tree-hierarchy-continual-learning-startup-landscape](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg)](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg) | [![info-tree-hierarchy-prompt-cache-flow](./info-tree-hierarchy-prompt-cache-flow.png)](./info-tree-hierarchy-prompt-cache-flow.png) | [![info-tree-hierarchy-session-decision](./info-tree-hierarchy-session-decision.png)](./info-tree-hierarchy-session-decision.png) |
+| continual-learning-startup-landscape | prompt-cache-flow | session-decision |
+| [![info-tree-hierarchy-session-log-memory-arch](./info-tree-hierarchy-session-log-memory-arch.png)](./info-tree-hierarchy-session-log-memory-arch.png) | [![info-tree-hierarchy-baoyu](./info-tree-hierarchy-baoyu.webp)](./info-tree-hierarchy-baoyu.webp) |    |
+| session-log-memory-arch | baoyu |    |
 
 ## 元数据
 

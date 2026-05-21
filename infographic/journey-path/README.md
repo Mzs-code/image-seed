@@ -6,12 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.png)](./info-journey-path-orchestration-evolution.png) | [![info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.png)](./info-journey-path-script-to-skills-evolution.png) | [![info-journey-path-fullstack-bug-avoidance](./info-journey-path-fullstack-bug-avoidance.png)](./info-journey-path-fullstack-bug-avoidance.png) |
-| orchestration-evolution | script-to-skills-evolution | fullstack-bug-avoidance |
-| [![info-journey-path-nvidia-openai-corewrave-path](./info-journey-path-nvidia-openai-corewrave-path.jpeg)](./info-journey-path-nvidia-openai-corewrave-path.jpeg) | [![info-journey-path-claude-feishu-5-agent-flows](./info-journey-path-claude-feishu-5-agent-flows.jpg)](./info-journey-path-claude-feishu-5-agent-flows.jpg) | [![info-journey-path-microsoft-mdash-ai-security](./info-journey-path-microsoft-mdash-ai-security.png)](./info-journey-path-microsoft-mdash-ai-security.png) |
-| nvidia-openai-corewrave-path | claude-feishu-5-agent-flows | microsoft-mdash-ai-security |
+| [![info-journey-path-claude-feishu-5-agent-flows](./info-journey-path-claude-feishu-5-agent-flows.jpg)](./info-journey-path-claude-feishu-5-agent-flows.jpg) | [![info-journey-path-fullstack-bug-avoidance](./info-journey-path-fullstack-bug-avoidance.png)](./info-journey-path-fullstack-bug-avoidance.png) | [![info-journey-path-microsoft-mdash-ai-security](./info-journey-path-microsoft-mdash-ai-security.png)](./info-journey-path-microsoft-mdash-ai-security.png) |
+| claude-feishu-5-agent-flows | fullstack-bug-avoidance | microsoft-mdash-ai-security |
+| [![info-journey-path-nvidia-openai-corewrave-path](./info-journey-path-nvidia-openai-corewrave-path.jpeg)](./info-journey-path-nvidia-openai-corewrave-path.jpeg) | [![info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.png)](./info-journey-path-orchestration-evolution.png) | [![info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.png)](./info-journey-path-script-to-skills-evolution.png) |
+| nvidia-openai-corewrave-path | orchestration-evolution | script-to-skills-evolution |
 | [![info-journey-path-baoyu](./info-journey-path-baoyu.webp)](./info-journey-path-baoyu.webp) |    |    |
 | baoyu |    |    |
 

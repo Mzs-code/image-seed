@@ -10,22 +10,24 @@
 |:---:|:---:|:---:|
 | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) |
 | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) |
-| [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) | [![kawaii](./kawaii/info-kawaii-human-digestion.png)](./kawaii/README.md) |
-| [craft-handmade](./craft-handmade/README.md) | [claymation](./claymation/README.md) | [kawaii](./kawaii/README.md) |
-| [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) | [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) | [![chalkboard](./chalkboard/info-chalkboard-baoyu.webp)](./chalkboard/README.md) |
-| [kawaii](./kawaii/README.md) | [storybook-watercolor](./storybook-watercolor/README.md) | [chalkboard](./chalkboard/README.md) |
-| [![cyberpunk-neon](./cyberpunk-neon/info-cyberpunk-neon-baoyu.webp)](./cyberpunk-neon/README.md) | [![bold-graphic](./bold-graphic/info-bold-graphic-baoyu.webp)](./bold-graphic/README.md) | [![aged-academia](./aged-academia/info-aged-academia-baoyu.webp)](./aged-academia/README.md) |
-| [cyberpunk-neon](./cyberpunk-neon/README.md) | [bold-graphic](./bold-graphic/README.md) | [aged-academia](./aged-academia/README.md) |
-| [![corporate-memphis](./corporate-memphis/info-corporate-memphis-enterprise-invisible-assets.jpg)](./corporate-memphis/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-baoyu.webp)](./corporate-memphis/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-ai-video-arena-elo-ranking.png)](./technical-schematic/README.md) |
-| [corporate-memphis](./corporate-memphis/README.md) | [corporate-memphis](./corporate-memphis/README.md) | [technical-schematic](./technical-schematic/README.md) |
-| [![technical-schematic](./technical-schematic/info-technical-schematic-happyhorse-arena-three-traits.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-jetbrains-git-client.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-mojin-xiaowei.jpeg)](./technical-schematic/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-fourier-transform.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) |
+| [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) | [claymation](./claymation/README.md) |
+| [![kawaii](./kawaii/info-kawaii-human-digestion.png)](./kawaii/README.md) | [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) | [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) |
+| [kawaii](./kawaii/README.md) | [kawaii](./kawaii/README.md) | [storybook-watercolor](./storybook-watercolor/README.md) |
+| [![chalkboard](./chalkboard/info-chalkboard-baoyu.webp)](./chalkboard/README.md) | [![cyberpunk-neon](./cyberpunk-neon/info-cyberpunk-neon-baoyu.webp)](./cyberpunk-neon/README.md) | [![bold-graphic](./bold-graphic/info-bold-graphic-baoyu.webp)](./bold-graphic/README.md) |
+| [chalkboard](./chalkboard/README.md) | [cyberpunk-neon](./cyberpunk-neon/README.md) | [bold-graphic](./bold-graphic/README.md) |
+| [![aged-academia](./aged-academia/info-aged-academia-baoyu.webp)](./aged-academia/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-enterprise-invisible-assets.jpg)](./corporate-memphis/README.md) | [![corporate-memphis](./corporate-memphis/info-corporate-memphis-baoyu.webp)](./corporate-memphis/README.md) |
+| [aged-academia](./aged-academia/README.md) | [corporate-memphis](./corporate-memphis/README.md) | [corporate-memphis](./corporate-memphis/README.md) |
+| [![technical-schematic](./technical-schematic/info-technical-schematic-ai-video-arena-elo-ranking.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-happyhorse-arena-three-traits.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-jetbrains-git-client.png)](./technical-schematic/README.md) |
 | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) |
-| [![technical-schematic](./technical-schematic/info-technical-schematic-public-ai-data-leak-risk.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-baoyu.webp)](./technical-schematic/README.md) | [![origami](./origami/info-origami-baoyu.webp)](./origami/README.md) |
-| [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) | [origami](./origami/README.md) |
-| [![pixel-art](./pixel-art/info-pixel-art-baoyu.webp)](./pixel-art/README.md) | [![ui-wireframe](./ui-wireframe/info-ui-wireframe-baoyu.webp)](./ui-wireframe/README.md) | [![subway-map](./subway-map/info-subway-map-baoyu.webp)](./subway-map/README.md) |
-| [pixel-art](./pixel-art/README.md) | [ui-wireframe](./ui-wireframe/README.md) | [subway-map](./subway-map/README.md) |
-| [![ikea-manual](./ikea-manual/info-ikea-manual-baoyu.webp)](./ikea-manual/README.md) | [![knolling](./knolling/info-knolling-baoyu.webp)](./knolling/README.md) | [![lego-brick](./lego-brick/info-lego-brick-baoyu.webp)](./lego-brick/README.md) |
-| [ikea-manual](./ikea-manual/README.md) | [knolling](./knolling/README.md) | [lego-brick](./lego-brick/README.md) |
+| [![technical-schematic](./technical-schematic/info-technical-schematic-mojin-xiaowei.jpeg)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-public-ai-data-leak-risk.png)](./technical-schematic/README.md) | [![technical-schematic](./technical-schematic/info-technical-schematic-baoyu.webp)](./technical-schematic/README.md) |
+| [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) | [technical-schematic](./technical-schematic/README.md) |
+| [![origami](./origami/info-origami-baoyu.webp)](./origami/README.md) | [![pixel-art](./pixel-art/info-pixel-art-baoyu.webp)](./pixel-art/README.md) | [![ui-wireframe](./ui-wireframe/info-ui-wireframe-baoyu.webp)](./ui-wireframe/README.md) |
+| [origami](./origami/README.md) | [pixel-art](./pixel-art/README.md) | [ui-wireframe](./ui-wireframe/README.md) |
+| [![subway-map](./subway-map/info-subway-map-baoyu.webp)](./subway-map/README.md) | [![ikea-manual](./ikea-manual/info-ikea-manual-baoyu.webp)](./ikea-manual/README.md) | [![knolling](./knolling/info-knolling-baoyu.webp)](./knolling/README.md) |
+| [subway-map](./subway-map/README.md) | [ikea-manual](./ikea-manual/README.md) | [knolling](./knolling/README.md) |
+| [![lego-brick](./lego-brick/info-lego-brick-baoyu.webp)](./lego-brick/README.md) |    |    |
+| [lego-brick](./lego-brick/README.md) |    |    |
 
 ## Layouts 布局画廊
 

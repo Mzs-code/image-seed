@@ -6,12 +6,14 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-feature-list-claude-agent-sdk](./info-feature-list-claude-agent-sdk.png)](./info-feature-list-claude-agent-sdk.png) | [![info-feature-list-claude-code-three-strategies](./info-feature-list-claude-code-three-strategies.png)](./info-feature-list-claude-code-three-strategies.png) | [![info-feature-list-agent-optimization-methods](./info-feature-list-agent-optimization-methods.png)](./info-feature-list-agent-optimization-methods.png) |
-| claude-agent-sdk | claude-code-three-strategies | agent-optimization-methods |
-| [![info-feature-list-golden-retriever](./info-feature-list-golden-retriever.png)](./info-feature-list-golden-retriever.png) | [![info-feature-list-baoyu](./info-feature-list-baoyu.webp)](./info-feature-list-baoyu.webp) |    |
-| golden-retriever | baoyu |    |
+| [![info-feature-list-agent-optimization-methods](./info-feature-list-agent-optimization-methods.png)](./info-feature-list-agent-optimization-methods.png) | [![info-feature-list-claude-agent-sdk](./info-feature-list-claude-agent-sdk.png)](./info-feature-list-claude-agent-sdk.png) | [![info-feature-list-claude-code-three-strategies](./info-feature-list-claude-code-three-strategies.png)](./info-feature-list-claude-code-three-strategies.png) |
+| agent-optimization-methods | claude-agent-sdk | claude-code-three-strategies |
+| [![info-feature-list-golden-retriever](./info-feature-list-golden-retriever.png)](./info-feature-list-golden-retriever.png) | [![info-feature-list-happyhorse-cold-water](./info-feature-list-happyhorse-cold-water.png)](./info-feature-list-happyhorse-cold-water.png) | [![info-feature-list-baoyu](./info-feature-list-baoyu.webp)](./info-feature-list-baoyu.webp) |
+| golden-retriever | happyhorse-cold-water | baoyu |
 
 ## 元数据
 

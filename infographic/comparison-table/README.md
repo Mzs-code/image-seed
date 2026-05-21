@@ -6,16 +6,20 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-comparison-table-ai-coding-era](./info-comparison-table-ai-coding-era.jpg)](./info-comparison-table-ai-coding-era.jpg) | [![info-comparison-table-claude-code-access](./info-comparison-table-claude-code-access.png)](./info-comparison-table-claude-code-access.png) | [![info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.png)](./info-comparison-table-cache-hit-miss.png) |
-| ai-coding-era | claude-code-access | cache-hit-miss |
-| [![info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.png)](./info-comparison-table-1m-context-risk.png) | [![info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.png)](./info-comparison-table-cache-prefix-match.png) | [![info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.png)](./info-comparison-table-script-vs-skills.png) |
-| 1m-context-risk | cache-prefix-match | script-vs-skills |
-| [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.png)](./info-comparison-table-script-vs-agent.png) | [![info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg)](./info-comparison-table-claude-code-three-frameworks.jpeg) | [![info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg)](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) |
-| script-vs-agent | claude-code-three-frameworks | asi-finals-openai-vs-anthropic |
-| [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.png)](./info-comparison-table-three-super-ipo-preview.png) | [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |
-| three-super-ipo-preview | us-chip-giants-chinese-ceos | baoyu |
+| [![info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.png)](./info-comparison-table-1m-context-risk.png) | [![info-comparison-table-ai-coding-era](./info-comparison-table-ai-coding-era.jpg)](./info-comparison-table-ai-coding-era.jpg) | [![info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg)](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) |
+| 1m-context-risk | ai-coding-era | asi-finals-openai-vs-anthropic |
+| [![info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.png)](./info-comparison-table-cache-hit-miss.png) | [![info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.png)](./info-comparison-table-cache-prefix-match.png) | [![info-comparison-table-chatbot-copilot-agent](./info-comparison-table-chatbot-copilot-agent.png)](./info-comparison-table-chatbot-copilot-agent.png) |
+| cache-hit-miss | cache-prefix-match | chatbot-copilot-agent |
+| [![info-comparison-table-claude-code-access](./info-comparison-table-claude-code-access.png)](./info-comparison-table-claude-code-access.png) | [![info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg)](./info-comparison-table-claude-code-three-frameworks.jpeg) | [![info-comparison-table-claude-code-vs-managed-agents](./info-comparison-table-claude-code-vs-managed-agents.png)](./info-comparison-table-claude-code-vs-managed-agents.png) |
+| claude-code-access | claude-code-three-frameworks | claude-code-vs-managed-agents |
+| [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.png)](./info-comparison-table-script-vs-agent.png) | [![info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.png)](./info-comparison-table-script-vs-skills.png) | [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.png)](./info-comparison-table-three-super-ipo-preview.png) |
+| script-vs-agent | script-vs-skills | three-super-ipo-preview |
+| [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |    |
+| us-chip-giants-chinese-ceos | baoyu |    |
 
 ## 元数据
 
@@ -26,6 +30,8 @@
 | [info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.png) | 缓存命中 vs 未命中：1/10 vs 10× 成本对比 | `claude-code` `cache` `cost` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.png) | 1M 上下文的陷阱：200K vs 1M 缓存失效风险 | `claude-code` `context` `risk` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.png) | 缓存命中秘密：前缀必须完全一致可视化 | `claude-code` `cache` `prefix` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
+| [info-comparison-table-chatbot-copilot-agent](./info-comparison-table-chatbot-copilot-agent.png) | 三种 AI 范式:Chatbot vs Copilot vs Agent — 对话式 / 代码副驾驶 / Code Agent,蓝色手绘风对比图 | `ai` `chatbot` `copilot` `agent` `hand-drawn` `blue` `chinese` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
+| [info-comparison-table-claude-code-vs-managed-agents](./info-comparison-table-claude-code-vs-managed-agents.png) | Claude Code vs Managed Agents:运行位置/面向/时长/工具/智能体数量/权限管理 6 维对比 | `claude-code` `managed-agents` `comparison` `kawaii` `chinese` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.png) | 脚本 vs Skills：固定代码 vs 自然语言目标特性对比 | `skills` `script` `agent` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.png) | 什么时候用脚本 vs Agent：银行柜台 vs 项目经理比喻 | `script` `agent` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg) | 2026 Claude Code 编程革命:Superpowers / GSD / Gstack 三大开源框架深度对比手绘信息图 | `claude-code` `framework-comparison` `hand-drawn` `kawaii` `chinese` `dev` `gpt-image-2` | — | — |

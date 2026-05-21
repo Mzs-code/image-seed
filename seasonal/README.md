@@ -6,10 +6,12 @@
 
 ## 画廊
 
+<!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
+
 |   |   |   |
 |:---:|:---:|:---:|
-| [![seasonal-lixia-handnote](./seasonal-lixia-handnote.png)](./seasonal-lixia-handnote.png) | [![seasonal-guyu-tea-field](./seasonal-guyu-tea-field.png)](./seasonal-guyu-tea-field.png) | [![seasonal-labor-day-poster](./seasonal-labor-day-poster.png)](./seasonal-labor-day-poster.png) |
-| lixia-handnote | guyu-tea-field | labor-day-poster |
+| [![seasonal-guyu-tea-field](./seasonal-guyu-tea-field.png)](./seasonal-guyu-tea-field.png) | [![seasonal-labor-day-poster](./seasonal-labor-day-poster.png)](./seasonal-labor-day-poster.png) | [![seasonal-lixia-handnote](./seasonal-lixia-handnote.png)](./seasonal-lixia-handnote.png) |
+| guyu-tea-field | labor-day-poster | lixia-handnote |
 
 ## 元数据
 
