@@ -12,8 +12,8 @@
 | mortal-cultivation | calma-coffee | obsidian-crystal |
 | [![poster-xiaban-red](./poster-xiaban-red.png)](./poster-xiaban-red.png) | [![poster-ai-evolution-stairs](./poster-ai-evolution-stairs.jpeg)](./poster-ai-evolution-stairs.jpeg) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) |
 | xiaban-red | ai-evolution-stairs | monkey-singularity |
-| [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) |    |
-| mythos-cyber-attack | digital-nomad-remote-work |    |
+| [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) | [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.png)](./poster-karpathy-anthropic-transfer.png) |
+| mythos-cyber-attack | digital-nomad-remote-work | karpathy-anthropic-transfer |
 
 ## 元数据
 
@@ -27,5 +27,6 @@
 | [poster-monkey-singularity](./poster-monkey-singularity.jpeg) | 草原猿猴回望奇点能量塔,左侧自然黄昏 / 右侧紫色赛博粒子,意识跃迁意象 | `poster` `singularity` `evolution` `monkey` `split-scene` `surreal` `gpt-image-2` | 新智元 | — |
 | [poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg) | Mythos 降维打击:25 分钟入侵 vs 数周 MTTR,绿色幽灵 + 红色裂缝 + 服务器机房 | `poster` `cybersecurity` `mythos` `dark` `green-red` `dramatic` `gpt-image-2` | 新智元 | — |
 | [poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg) | 数字游民概念插画:一家三口湖畔露营 + 半透明远程办公小屋叠加,温润水彩风 | `poster` `digital-nomad` `remote-work` `watercolor` `family` `nature` `concept` `gpt-image-2` | — | — |
+| [poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.png) | Karpathy 从 OpenAI 转会 Anthropic「TRANSFER」运动转会风海报,橙黑赛博粒子背景 + 双方 LOGO 对位 | `poster` `tech-news` `transfer` `karpathy` `openai-anthropic` `orange-black` `cyber` `sports-style` `chinese-meme` `gpt-image-2` | 新智元 | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

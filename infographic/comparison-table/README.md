@@ -14,8 +14,8 @@
 | 1m-context-risk | cache-prefix-match | script-vs-skills |
 | [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.png)](./info-comparison-table-script-vs-agent.png) | [![info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg)](./info-comparison-table-claude-code-three-frameworks.jpeg) | [![info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg)](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) |
 | script-vs-agent | claude-code-three-frameworks | asi-finals-openai-vs-anthropic |
-| [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.png)](./info-comparison-table-three-super-ipo-preview.png) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |    |
-| three-super-ipo-preview | baoyu |    |
+| [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.png)](./info-comparison-table-three-super-ipo-preview.png) | [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |
+| three-super-ipo-preview | us-chip-giants-chinese-ceos | baoyu |
 
 ## 元数据
 
@@ -31,6 +31,7 @@
 | [info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg) | 2026 Claude Code 编程革命:Superpowers / GSD / Gstack 三大开源框架深度对比手绘信息图 | `claude-code` `framework-comparison` `hand-drawn` `kawaii` `chinese` `dev` `gpt-image-2` | — | — |
 | [info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) | ASI 决赛 OpenAI 阵营 vs Anthropic 阵营:核心模型/资本/算力资源对比,赛博 UI 双卡片 | `asi` `openai` `anthropic` `vs` `tech-blue` `chinese` `versus` `gpt-image-2` | 新智元 | — |
 | [info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.png) | 3 大超级 IPO 前瞻:SpaceX (含 xAI) / OpenAI / Anthropic 估值目标 3 万亿美元,蓝色星空数据卡片 | `ipo` `spacex` `openai` `anthropic` `valuation` `dark-blue` `chinese` `gpt-image-2` | 新智元·桃子 | — |
+| [info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | 美国四大芯片巨头(NVIDIA/Broadcom/AMD/Intel)CEO 全是华人:黄仁勋/陈福阳/苏姿丰/陈立武 4 列卡片对比(出生年/出生地/祖籍/市值),深蓝电路板背景 | `chip-giants` `ceo` `chinese-american` `nvidia` `amd` `intel` `broadcom` `tech-blue` `card-comparison` `chinese` `gpt-image-2` | 公众号·黑科技派 | — |
 | [info-comparison-table-baoyu](./info-comparison-table-baoyu.webp) | `comparison-table` 参考示例 | `baoyu-skills` `comparison-table` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。
