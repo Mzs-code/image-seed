@@ -8,11 +8,11 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![cute](./cute/xhs-cute-generation-kids.png)](./cute/README.md) | [![cute](./cute/xhs-cute-baoyu.webp)](./cute/README.md) | [![fresh](./fresh/xhs-fresh-cycling-diary.png)](./fresh/README.md) |
+| [![cute](./cute/xhs-cute-generation-kids.png)](./cute/README.md) | [![cute](./cute/xhs-cute-baoyu.webp)](./cute/README.md) | [![fresh](./fresh/xhs-fresh-cycling-diary.webp)](./fresh/README.md) |
 | [cute](./cute/README.md) | [cute](./cute/README.md) | [fresh](./fresh/README.md) |
 | [![fresh](./fresh/xhs-fresh-baoyu.webp)](./fresh/README.md) | [![warm](./warm/xhs-warm-baoyu.webp)](./warm/README.md) | [![bold](./bold/xhs-bold-baoyu.webp)](./bold/README.md) |
 | [fresh](./fresh/README.md) | [warm](./warm/README.md) | [bold](./bold/README.md) |
-| [![minimal](./minimal/xhs-minimal-spring-layering-guide.png)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-0.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-1.jpeg)](./minimal/README.md) |
+| [![minimal](./minimal/xhs-minimal-spring-layering-guide.webp)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-0.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-1.jpeg)](./minimal/README.md) |
 | [minimal](./minimal/README.md) | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 |
 | [![minimal](./minimal/xhs-minimal-tea-oil-guide-2.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-3.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-4.jpeg)](./minimal/README.md) |
 | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 |

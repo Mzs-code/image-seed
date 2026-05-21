@@ -50,7 +50,7 @@ image-seed/
 - 不用 `copy`/`new`/`final`/`v2` 等噪声词
 - baoyu 官方示例统一后缀:`<prefix>-<substyle>-baoyu.webp`(下载脚本按此模式)
 - 本地收藏图用语义化名:如 `deck-sketch-notes-how-ai-learns.jpg`
-- 扁平场景没有 substyle 段,直接 `<scenario-prefix>-<subject>.<ext>`,如 `poster-mortal-cultivation.png`
+- 扁平场景没有 substyle 段,直接 `<scenario-prefix>-<subject>.<ext>`,如 `poster-mortal-cultivation.webp`
 
 ## 场景 README 布局规则(重要约束)
 

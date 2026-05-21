@@ -62,8 +62,8 @@
 - `deck-blueprint-cover.jpg`
 - `comic-webtoon-fight-scene-01.png`
 - `art-watercolor-mountain-dawn.webp`
-- `poster-mortal-cultivation.png`(扁平,无 substyle)
-- `seasonal-lixia-handnote.png`(扁平)
+- `poster-mortal-cultivation.webp`(扁平,无 substyle)
+- `seasonal-lixia-handnote.webp`(扁平)
 
 ## 场景缩写表
 

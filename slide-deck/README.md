@@ -10,7 +10,7 @@
 |:---:|:---:|:---:|
 | [![blueprint](./blueprint/deck-blueprint-baoyu.webp)](./blueprint/README.md) | [![chalkboard](./chalkboard/deck-chalkboard-baoyu.webp)](./chalkboard/README.md) | [![bold-editorial](./bold-editorial/deck-bold-editorial-baoyu.webp)](./bold-editorial/README.md) |
 | [blueprint](./blueprint/README.md) | [chalkboard](./chalkboard/README.md) | [bold-editorial](./bold-editorial/README.md) |
-| [![corporate](./corporate/deck-corporate-brand-platform-flow.png)](./corporate/README.md) | [![corporate](./corporate/deck-corporate-baoyu.webp)](./corporate/README.md) | [![dark-atmospheric](./dark-atmospheric/deck-dark-atmospheric-baoyu.webp)](./dark-atmospheric/README.md) |
+| [![corporate](./corporate/deck-corporate-brand-platform-flow.webp)](./corporate/README.md) | [![corporate](./corporate/deck-corporate-baoyu.webp)](./corporate/README.md) | [![dark-atmospheric](./dark-atmospheric/deck-dark-atmospheric-baoyu.webp)](./dark-atmospheric/README.md) |
 | [corporate](./corporate/README.md) | [corporate](./corporate/README.md) | [dark-atmospheric](./dark-atmospheric/README.md) |
 | [![editorial-infographic](./editorial-infographic/deck-editorial-infographic-baoyu.webp)](./editorial-infographic/README.md) | [![fantasy-animation](./fantasy-animation/deck-fantasy-animation-baoyu.webp)](./fantasy-animation/README.md) | [![intuition-machine](./intuition-machine/deck-intuition-machine-baoyu.webp)](./intuition-machine/README.md) |
 | [editorial-infographic](./editorial-infographic/README.md) | [fantasy-animation](./fantasy-animation/README.md) | [intuition-machine](./intuition-machine/README.md) |

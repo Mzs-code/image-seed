@@ -10,7 +10,7 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![xhs-minimal-spring-layering-guide](./xhs-minimal-spring-layering-guide.png)](./xhs-minimal-spring-layering-guide.png) | [![xhs-minimal-tea-oil-guide-0](./xhs-minimal-tea-oil-guide-0.jpeg)](./xhs-minimal-tea-oil-guide-0.jpeg) | [![xhs-minimal-tea-oil-guide-1](./xhs-minimal-tea-oil-guide-1.jpeg)](./xhs-minimal-tea-oil-guide-1.jpeg) |
+| [![xhs-minimal-spring-layering-guide](./xhs-minimal-spring-layering-guide.webp)](./xhs-minimal-spring-layering-guide.webp) | [![xhs-minimal-tea-oil-guide-0](./xhs-minimal-tea-oil-guide-0.jpeg)](./xhs-minimal-tea-oil-guide-0.jpeg) | [![xhs-minimal-tea-oil-guide-1](./xhs-minimal-tea-oil-guide-1.jpeg)](./xhs-minimal-tea-oil-guide-1.jpeg) |
 | spring-layering-guide | tea-oil-guide-0 | tea-oil-guide-1 |
 | [![xhs-minimal-tea-oil-guide-2](./xhs-minimal-tea-oil-guide-2.jpeg)](./xhs-minimal-tea-oil-guide-2.jpeg) | [![xhs-minimal-tea-oil-guide-3](./xhs-minimal-tea-oil-guide-3.jpeg)](./xhs-minimal-tea-oil-guide-3.jpeg) | [![xhs-minimal-tea-oil-guide-4](./xhs-minimal-tea-oil-guide-4.jpeg)](./xhs-minimal-tea-oil-guide-4.jpeg) |
 | tea-oil-guide-2 | tea-oil-guide-3 | tea-oil-guide-4 |
@@ -23,7 +23,7 @@
 
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
-| [xhs-minimal-spring-layering-guide](./xhs-minimal-spring-layering-guide.png) | 春季女装轻层叠穿搭指南:Look 示范 + 单品清单 + 生活贴士 | `fashion` `spring` `xhs` `guide` `minimal` `gpt-image-2` | — | — |
+| [xhs-minimal-spring-layering-guide](./xhs-minimal-spring-layering-guide.webp) | 春季女装轻层叠穿搭指南:Look 示范 + 单品清单 + 生活贴士 | `fashion` `spring` `xhs` `guide` `minimal` `gpt-image-2` | — | — |
 | [xhs-minimal-tea-oil-guide-0](./xhs-minimal-tea-oil-guide-0.jpeg) | 茶油选购指南 NO.01 封面:大字「茶」裁切 + 茶油瓶水墨主图 | `xhs` `oriental-editorial` `tea-oil` `ppt` `series` `gpt-image-2` | — | [prompt: 东方编辑美学课件…](./xhs-minimal-tea-oil-guide.md) |
 | [xhs-minimal-tea-oil-guide-1](./xhs-minimal-tea-oil-guide-1.jpeg) | NO.02:看原料(茶籽来源 / 品种 / 产地) | `xhs` `oriental-editorial` `tea-oil` `ppt` `series` `gpt-image-2` | — | [prompt: 东方编辑美学课件…](./xhs-minimal-tea-oil-guide.md) |
 | [xhs-minimal-tea-oil-guide-2](./xhs-minimal-tea-oil-guide-2.jpeg) | NO.03:看工艺(冷榨 vs 热榨) | `xhs` `oriental-editorial` `tea-oil` `ppt` `series` `gpt-image-2` | — | [prompt: 东方编辑美学课件…](./xhs-minimal-tea-oil-guide.md) |

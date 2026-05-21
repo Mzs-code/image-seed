@@ -10,7 +10,7 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-mind-map-gpt-image-2-capability-map](./info-mind-map-gpt-image-2-capability-map.jpeg)](./info-mind-map-gpt-image-2-capability-map.jpeg) | [![info-mind-map-sincerity-detector](./info-mind-map-sincerity-detector.jpg)](./info-mind-map-sincerity-detector.jpg) | [![info-mind-map-six-masters-work-system](./info-mind-map-six-masters-work-system.png)](./info-mind-map-six-masters-work-system.png) |
+| [![info-mind-map-gpt-image-2-capability-map](./info-mind-map-gpt-image-2-capability-map.jpeg)](./info-mind-map-gpt-image-2-capability-map.jpeg) | [![info-mind-map-sincerity-detector](./info-mind-map-sincerity-detector.jpg)](./info-mind-map-sincerity-detector.jpg) | [![info-mind-map-six-masters-work-system](./info-mind-map-six-masters-work-system.webp)](./info-mind-map-six-masters-work-system.webp) |
 | gpt-image-2-capability-map | sincerity-detector | six-masters-work-system |
 | [![info-mind-map-unified-agent-optimization](./info-mind-map-unified-agent-optimization.png)](./info-mind-map-unified-agent-optimization.png) | [![info-mind-map-baoyu](./info-mind-map-baoyu.webp)](./info-mind-map-baoyu.webp) |    |
 | unified-agent-optimization | baoyu |    |
