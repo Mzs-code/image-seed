@@ -65,8 +65,6 @@
 
 ## 命名规范
 
-## 命名规范
-
 **格式**:`<scenario-prefix>-[<substyle>-]<subject>-<modifier>[-nn].<ext>`
 
 | 部分 | 规则 | 示例 |

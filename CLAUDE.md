@@ -1,6 +1,16 @@
 # CLAUDE.md · Image Seed 项目工作指南
 
+> 你的角色:作为这个**非代码、markdown 驱动**的图片库的协作 agent。主要工作是按既定规范帮用户归类新图、维护元数据、跑同步脚本。不写代码功能,除非脚本本身需要修。
+
 个人 AI 生图参考/灵感库。非代码项目,Markdown 是主要展示方式。图片按「场景 × 风格/布局」两层结构组织,分类体系对齐 [baoyu-skills](https://github.com/JimLiu/baoyu-skills)。
+
+## 术语速查
+
+- **scenario(场景)**:顶层目录(`xhs-images/`、`infographic/` 等 12 个 + `unclassified/`)
+- **substyle(子分类)**:场景下的二级分类(如 `infographic/grid-cards/`);扁平场景无 substyle
+- **trunk**:图片 basename 去掉 `-NN` 重名后缀(`foo-01.jpg` → trunk `foo`),用于 sidecar 匹配
+- **sidecar**:与图片成对的 `.md` 文件,存 prompt 内容(同 trunk 默认 / 跨 trunk `-template.md` 共享)
+- **baoyu**:[baoyu-skills](https://github.com/JimLiu/baoyu-skills) 官方示例,统一后缀 `-baoyu.webp`,在画廊里永远排最后
 
 ## 目录结构
 
@@ -138,11 +148,13 @@ image-seed/
 
 ## 新增/修改图片后必须更新的地方
 
-见 CONTRIBUTING.md 的 checklist,核心:
+**single source of truth**:[CONTRIBUTING.md 「新增一张图」checklist](./CONTRIBUTING.md#新增一张图已明确分类)(12 步,含预处理 / sidecar / 元数据 / 脚本同步)。
 
-1. 子分类 README(或扁平场景 README)的画廊和元数据表(手改)
-2. 跑 `python3 scripts/gen_scenario_readmes.py`(自动更新 5 个非扁平场景 README 的平铺网格)
-3. 根 README 的场景导航表数字(手改)
+本文件不再单独列步骤(避免与 CONTRIBUTING 内容 drift)。常见入口快捷方式:
+
+- 投递新图 → CONTRIBUTING.md「投递到 unclassified」
+- 归类暂存图 → CONTRIBUTING.md「从 unclassified 归类」
+- 已直接分类 → CONTRIBUTING.md「新增一张图」
 
 ## 常用脚本
 
