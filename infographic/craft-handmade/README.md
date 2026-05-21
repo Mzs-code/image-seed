@@ -12,7 +12,7 @@
 |:---:|:---:|:---:|
 | [![info-craft-handmade-agent-architecture-cli](./info-craft-handmade-agent-architecture-cli.webp)](./info-craft-handmade-agent-architecture-cli.webp) | [![info-craft-handmade-agent-dev-pipeline](./info-craft-handmade-agent-dev-pipeline.jpeg)](./info-craft-handmade-agent-dev-pipeline.jpeg) | [![info-craft-handmade-agent-runtime-orchestration](./info-craft-handmade-agent-runtime-orchestration.jpeg)](./info-craft-handmade-agent-runtime-orchestration.jpeg) |
 | agent-architecture-cli | agent-dev-pipeline | agent-runtime-orchestration |
-| [![info-craft-handmade-c4-banking-system](./info-craft-handmade-c4-banking-system.jpeg)](./info-craft-handmade-c4-banking-system.jpeg) | [![info-craft-handmade-claude-managed-agents](./info-craft-handmade-claude-managed-agents.jpeg)](./info-craft-handmade-claude-managed-agents.jpeg) | [![info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.png)](./info-craft-handmade-core-ability-to-skill.png) |
+| [![info-craft-handmade-c4-banking-system](./info-craft-handmade-c4-banking-system.jpeg)](./info-craft-handmade-c4-banking-system.jpeg) | [![info-craft-handmade-claude-managed-agents](./info-craft-handmade-claude-managed-agents.jpeg)](./info-craft-handmade-claude-managed-agents.jpeg) | [![info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.webp)](./info-craft-handmade-core-ability-to-skill.webp) |
 | c4-banking-system | claude-managed-agents | core-ability-to-skill |
 | [![info-craft-handmade-english-learning-guide](./info-craft-handmade-english-learning-guide.jpeg)](./info-craft-handmade-english-learning-guide.jpeg) | [![info-craft-handmade-fourier-transform](./info-craft-handmade-fourier-transform.jpg)](./info-craft-handmade-fourier-transform.jpg) | [![info-craft-handmade-hermes-agent](./info-craft-handmade-hermes-agent.jpeg)](./info-craft-handmade-hermes-agent.jpeg) |
 | english-learning-guide | fourier-transform | hermes-agent |
@@ -24,7 +24,7 @@
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
 | [info-craft-handmade-agent-architecture-cli](./info-craft-handmade-agent-architecture-cli.webp) | 代码智能体架构:CLI → 智能体循环 → 工具系统 → LLM | `agent` `architecture` `cli` `chinese` | — | — |
-| [info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.png) | 企业核心能力封装成 Skill:内部流程 / 操作经验 / 方法论 | `skill` `enterprise` `linework` `chinese` | — | — |
+| [info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.webp) | 企业核心能力封装成 Skill:内部流程 / 操作经验 / 方法论 | `skill` `enterprise` `linework` `chinese` | — | — |
 | [info-craft-handmade-english-learning-guide](./info-craft-handmade-english-learning-guide.jpeg) | 英语学习进阶指南(从入门到流利):5 个阶段 + 学习工具 + 实践方式 | `learning-path` `english` `pastel` `chinese` | — | — |
 | [info-craft-handmade-fourier-transform](./info-craft-handmade-fourier-transform.jpg) | 傅里叶变换数学可视化:把信号从时间/空间看见频率的世界,7 大模块(定义/正交性/几何直觉/常见信号/重要性质/本质总结/应用场景),浅色纸张 + 学术手账风 | `math-vis` `fourier` `handnote` `pastel` `chinese` | — | [prompt: 数学可视化讲义风模板…](./info-craft-handmade-fourier-transform.md) |
 | [info-craft-handmade-claude-managed-agents](./info-craft-handmade-claude-managed-agents.jpeg) | Claude Managed Agents 核心架构:记忆 + 做梦 + Agent 执行 + Grader + 主 Agent 调度 + Webhook + 实际案例 + Bottom Line | `claude` `managed-agents` `architecture` `hand-drawn` `chinese` `template-shared` `gpt-image-2` | — | [prompt: 手绘知识图解模板…](./info-craft-handmade-knowledge-diagram-template.md) |

@@ -10,7 +10,7 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.png)](./comic-standard-chatgpt-plus-subscription.png) | [![comic-standard-dopamine-loop](./comic-standard-dopamine-loop.webp)](./comic-standard-dopamine-loop.webp) | [![comic-standard-ultraman-vs-calabash-brothers-0](./comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./comic-standard-ultraman-vs-calabash-brothers-0.jpg) |
+| [![comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.webp)](./comic-standard-chatgpt-plus-subscription.webp) | [![comic-standard-dopamine-loop](./comic-standard-dopamine-loop.webp)](./comic-standard-dopamine-loop.webp) | [![comic-standard-ultraman-vs-calabash-brothers-0](./comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./comic-standard-ultraman-vs-calabash-brothers-0.jpg) |
 | chatgpt-plus-subscription | dopamine-loop | ultraman-vs-calabash-brothers-0 |
 | [![comic-standard-ultraman-vs-calabash-brothers-1](./comic-standard-ultraman-vs-calabash-brothers-1.jpg)](./comic-standard-ultraman-vs-calabash-brothers-1.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-2](./comic-standard-ultraman-vs-calabash-brothers-2.jpg)](./comic-standard-ultraman-vs-calabash-brothers-2.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-3](./comic-standard-ultraman-vs-calabash-brothers-3.jpg)](./comic-standard-ultraman-vs-calabash-brothers-3.jpg) |
 | ultraman-vs-calabash-brothers-1 | ultraman-vs-calabash-brothers-2 | ultraman-vs-calabash-brothers-3 |
@@ -21,7 +21,7 @@
 
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
-| [comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.png) | ChatGPT Plus 订阅四格漫画 | `chatgpt` `subscription` `comic-strip` `xhs-style` | — | — |
+| [comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.webp) | ChatGPT Plus 订阅四格漫画 | `chatgpt` `subscription` `comic-strip` `xhs-style` | — | — |
 | [comic-standard-dopamine-loop](./comic-standard-dopamine-loop.webp) | 科技公司如何利用多巴胺让人上瘾:6 格循环漫画(看到提醒→大脑释放多巴胺→拿起手机→…) | `dopamine` `tech-critique` `loop` `psychology` `xhs-style` | — | — |
 | [comic-standard-ultraman-vs-calabash-brothers-0](./comic-standard-ultraman-vs-calabash-brothers-0.jpg) | 奥特曼大战葫芦娃绘本 Page 1:奥特曼来到葫芦山,七个葫芦娃惊呆,「你是谁?」 | `comic` `story-book` `kids` `ultraman` `calabash` `watercolor` `chinese` `series` `gpt-image-2` | — | [prompt: 儿童绘本内页插画模板…](./comic-standard-ultraman-vs-calabash-brothers.md) |
 | [comic-standard-ultraman-vs-calabash-brothers-1](./comic-standard-ultraman-vs-calabash-brothers-1.jpg) | Page 2:大娃举石头 / 二娃凝视,奥特曼摆姿势光光闪过,池边比试热闹 | `comic` `story-book` `kids` `ultraman` `calabash` `watercolor` `chinese` `series` `gpt-image-2` | — | [prompt: 儿童绘本内页插画模板…](./comic-standard-ultraman-vs-calabash-brothers.md) |

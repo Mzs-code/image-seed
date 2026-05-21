@@ -10,7 +10,7 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-technical-schematic-ai-video-arena-elo-ranking](./info-technical-schematic-ai-video-arena-elo-ranking.png)](./info-technical-schematic-ai-video-arena-elo-ranking.png) | [![info-technical-schematic-happyhorse-arena-three-traits](./info-technical-schematic-happyhorse-arena-three-traits.png)](./info-technical-schematic-happyhorse-arena-three-traits.png) | [![info-technical-schematic-jetbrains-git-client](./info-technical-schematic-jetbrains-git-client.webp)](./info-technical-schematic-jetbrains-git-client.webp) |
+| [![info-technical-schematic-ai-video-arena-elo-ranking](./info-technical-schematic-ai-video-arena-elo-ranking.webp)](./info-technical-schematic-ai-video-arena-elo-ranking.webp) | [![info-technical-schematic-happyhorse-arena-three-traits](./info-technical-schematic-happyhorse-arena-three-traits.webp)](./info-technical-schematic-happyhorse-arena-three-traits.webp) | [![info-technical-schematic-jetbrains-git-client](./info-technical-schematic-jetbrains-git-client.webp)](./info-technical-schematic-jetbrains-git-client.webp) |
 | ai-video-arena-elo-ranking | happyhorse-arena-three-traits | jetbrains-git-client |
 | [![info-technical-schematic-mojin-xiaowei](./info-technical-schematic-mojin-xiaowei.jpeg)](./info-technical-schematic-mojin-xiaowei.jpeg) | [![info-technical-schematic-public-ai-data-leak-risk](./info-technical-schematic-public-ai-data-leak-risk.webp)](./info-technical-schematic-public-ai-data-leak-risk.webp) | [![info-technical-schematic-baoyu](./info-technical-schematic-baoyu.webp)](./info-technical-schematic-baoyu.webp) |
 | mojin-xiaowei | public-ai-data-leak-risk | baoyu |

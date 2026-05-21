@@ -10,7 +10,7 @@
 |:---:|:---:|:---:|
 | [![notion](./notion/art-notion-claude-code-token-guide-cover.webp)](./notion/README.md) | [![notion](./notion/art-notion-baoyu.webp)](./notion/README.md) | [![elegant](./elegant/art-elegant-baoyu.webp)](./elegant/README.md) |
 | [notion](./notion/README.md) | [notion](./notion/README.md) | [elegant](./elegant/README.md) |
-| [![warm](./warm/art-warm-agents-md-readme-for-ai.png)](./warm/README.md) | [![warm](./warm/art-warm-ai-meetup-group-illustration.webp)](./warm/README.md) | [![warm](./warm/art-warm-claude-code-codex-dream.png)](./warm/README.md) |
+| [![warm](./warm/art-warm-agents-md-readme-for-ai.webp)](./warm/README.md) | [![warm](./warm/art-warm-ai-meetup-group-illustration.webp)](./warm/README.md) | [![warm](./warm/art-warm-claude-code-codex-dream.webp)](./warm/README.md) |
 | [warm](./warm/README.md) | [warm](./warm/README.md) | [warm](./warm/README.md) |
 | [![warm](./warm/art-warm-baoyu.webp)](./warm/README.md) | [![minimal](./minimal/art-minimal-baoyu.webp)](./minimal/README.md) | [![blueprint](./blueprint/art-blueprint-baoyu.webp)](./blueprint/README.md) |
 | [warm](./warm/README.md) | [minimal](./minimal/README.md) | [blueprint](./blueprint/README.md) |
