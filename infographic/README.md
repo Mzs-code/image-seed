@@ -8,9 +8,13 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) |
-| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) |
-| [![craft-handmade](./craft-handmade/info-craft-handmade-fourier-transform.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.png)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-dev-pipeline.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-runtime-orchestration.jpeg)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-c4-banking-system.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-claude-managed-agents.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.png)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-fourier-transform.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-hermes-agent.jpeg)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-opentelemetry-architecture.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) |
 | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) | [claymation](./claymation/README.md) |
 | [![kawaii](./kawaii/info-kawaii-human-digestion.png)](./kawaii/README.md) | [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) | [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) |
 | [kawaii](./kawaii/README.md) | [kawaii](./kawaii/README.md) | [storybook-watercolor](./storybook-watercolor/README.md) |
