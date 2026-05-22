@@ -10,16 +10,16 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.webp)](./info-comparison-table-1m-context-risk.webp) | [![info-comparison-table-ai-coding-era](./info-comparison-table-ai-coding-era.jpg)](./info-comparison-table-ai-coding-era.jpg) | [![info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg)](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) |
-| 1m-context-risk | ai-coding-era | asi-finals-openai-vs-anthropic |
-| [![info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.webp)](./info-comparison-table-cache-hit-miss.webp) | [![info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.webp)](./info-comparison-table-cache-prefix-match.webp) | [![info-comparison-table-chatbot-copilot-agent](./info-comparison-table-chatbot-copilot-agent.webp)](./info-comparison-table-chatbot-copilot-agent.webp) |
-| cache-hit-miss | cache-prefix-match | chatbot-copilot-agent |
-| [![info-comparison-table-claude-code-access](./info-comparison-table-claude-code-access.webp)](./info-comparison-table-claude-code-access.webp) | [![info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg)](./info-comparison-table-claude-code-three-frameworks.jpeg) | [![info-comparison-table-claude-code-vs-managed-agents](./info-comparison-table-claude-code-vs-managed-agents.webp)](./info-comparison-table-claude-code-vs-managed-agents.webp) |
-| claude-code-access | claude-code-three-frameworks | claude-code-vs-managed-agents |
-| [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.webp)](./info-comparison-table-script-vs-agent.webp) | [![info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.webp)](./info-comparison-table-script-vs-skills.webp) | [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.webp)](./info-comparison-table-three-super-ipo-preview.webp) |
-| script-vs-agent | script-vs-skills | three-super-ipo-preview |
-| [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |    |
-| us-chip-giants-chinese-ceos | baoyu |    |
+| [![info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.webp)](./info-comparison-table-1m-context-risk.webp) | [![info-comparison-table-ai-coding-era](./info-comparison-table-ai-coding-era.jpg)](./info-comparison-table-ai-coding-era.jpg) | [![info-comparison-table-anthropic-profit-vs-openai-loss](./info-comparison-table-anthropic-profit-vs-openai-loss.webp)](./info-comparison-table-anthropic-profit-vs-openai-loss.webp) |
+| 1m-context-risk | ai-coding-era | anthropic-profit-vs-openai-loss |
+| [![info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg)](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) | [![info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.webp)](./info-comparison-table-cache-hit-miss.webp) | [![info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.webp)](./info-comparison-table-cache-prefix-match.webp) |
+| asi-finals-openai-vs-anthropic | cache-hit-miss | cache-prefix-match |
+| [![info-comparison-table-chatbot-copilot-agent](./info-comparison-table-chatbot-copilot-agent.webp)](./info-comparison-table-chatbot-copilot-agent.webp) | [![info-comparison-table-claude-code-access](./info-comparison-table-claude-code-access.webp)](./info-comparison-table-claude-code-access.webp) | [![info-comparison-table-claude-code-three-frameworks](./info-comparison-table-claude-code-three-frameworks.jpeg)](./info-comparison-table-claude-code-three-frameworks.jpeg) |
+| chatbot-copilot-agent | claude-code-access | claude-code-three-frameworks |
+| [![info-comparison-table-claude-code-vs-managed-agents](./info-comparison-table-claude-code-vs-managed-agents.webp)](./info-comparison-table-claude-code-vs-managed-agents.webp) | [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.webp)](./info-comparison-table-script-vs-agent.webp) | [![info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.webp)](./info-comparison-table-script-vs-skills.webp) |
+| claude-code-vs-managed-agents | script-vs-agent | script-vs-skills |
+| [![info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.webp)](./info-comparison-table-three-super-ipo-preview.webp) | [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |
+| three-super-ipo-preview | us-chip-giants-chinese-ceos | baoyu |
 
 ## 元数据
 
@@ -38,6 +38,7 @@
 | [info-comparison-table-asi-finals-openai-vs-anthropic](./info-comparison-table-asi-finals-openai-vs-anthropic.jpg) | ASI 决赛 OpenAI 阵营 vs Anthropic 阵营:核心模型/资本/算力资源对比,赛博 UI 双卡片 | `asi` `openai` `anthropic` `vs` `tech-blue` `chinese` `versus` `gpt-image-2` | 新智元 | — |
 | [info-comparison-table-three-super-ipo-preview](./info-comparison-table-three-super-ipo-preview.webp) | 3 大超级 IPO 前瞻:SpaceX (含 xAI) / OpenAI / Anthropic 估值目标 3 万亿美元,蓝色星空数据卡片 | `ipo` `spacex` `openai` `anthropic` `valuation` `dark-blue` `chinese` `gpt-image-2` | 新智元·桃子 | — |
 | [info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | 美国四大芯片巨头(NVIDIA/Broadcom/AMD/Intel)CEO 全是华人:黄仁勋/陈福阳/苏姿丰/陈立武 4 列卡片对比(出生年/出生地/祖籍/市值),深蓝电路板背景 | `chip-giants` `ceo` `chinese-american` `nvidia` `amd` `intel` `broadcom` `tech-blue` `card-comparison` `chinese` `gpt-image-2` | 公众号·黑科技派 | — |
+| [info-comparison-table-anthropic-profit-vs-openai-loss](./info-comparison-table-anthropic-profit-vs-openai-loss.webp) | AI 决赛变天:Anthropic Q2 营收 109 亿首次盈利 vs OpenAI Q1 营业利润率 -122%,橙绿对撞双卡 | `anthropic` `openai` `revenue` `profit` `vs` `orange-green` `chinese` `gpt-image-2` | 新智元·好困 | — |
 | [info-comparison-table-baoyu](./info-comparison-table-baoyu.webp) | `comparison-table` 参考示例 | `baoyu-skills` `comparison-table` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

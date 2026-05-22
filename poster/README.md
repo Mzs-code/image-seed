@@ -12,8 +12,10 @@
 |:---:|:---:|:---:|
 | [![poster-ai-evolution-stairs](./poster-ai-evolution-stairs.jpeg)](./poster-ai-evolution-stairs.jpeg) | [![poster-calma-coffee](./poster-calma-coffee.webp)](./poster-calma-coffee.webp) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) |
 | ai-evolution-stairs | calma-coffee | digital-nomad-remote-work |
-| [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.webp)](./poster-karpathy-anthropic-transfer.webp) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) | [![poster-mortal-cultivation](./poster-mortal-cultivation.webp)](./poster-mortal-cultivation.webp) |
-| karpathy-anthropic-transfer | monkey-singularity | mortal-cultivation |
+| [![poster-github-reverse-bite-microsoft](./poster-github-reverse-bite-microsoft.webp)](./poster-github-reverse-bite-microsoft.webp) | [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.webp)](./poster-karpathy-anthropic-transfer.webp) | [![poster-microsoft-anthropic-token-invoice](./poster-microsoft-anthropic-token-invoice.webp)](./poster-microsoft-anthropic-token-invoice.webp) |
+| github-reverse-bite-microsoft | karpathy-anthropic-transfer | microsoft-anthropic-token-invoice |
+| [![poster-moat-fall-cursor-claude-code](./poster-moat-fall-cursor-claude-code.webp)](./poster-moat-fall-cursor-claude-code.webp) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) | [![poster-mortal-cultivation](./poster-mortal-cultivation.webp)](./poster-mortal-cultivation.webp) |
+| moat-fall-cursor-claude-code | monkey-singularity | mortal-cultivation |
 | [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-obsidian-crystal](./poster-obsidian-crystal.webp)](./poster-obsidian-crystal.webp) | [![poster-xiaban-red](./poster-xiaban-red.webp)](./poster-xiaban-red.webp) |
 | mythos-cyber-attack | obsidian-crystal | xiaban-red |
 
@@ -30,5 +32,8 @@
 | [poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg) | Mythos 降维打击:25 分钟入侵 vs 数周 MTTR,绿色幽灵 + 红色裂缝 + 服务器机房 | `poster` `cybersecurity` `mythos` `dark` `green-red` `dramatic` `gpt-image-2` | 新智元 | — |
 | [poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg) | 数字游民概念插画:一家三口湖畔露营 + 半透明远程办公小屋叠加,温润水彩风 | `poster` `digital-nomad` `remote-work` `watercolor` `family` `nature` `concept` `gpt-image-2` | — | — |
 | [poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.webp) | Karpathy 从 OpenAI 转会 Anthropic「TRANSFER」运动转会风海报,橙黑赛博粒子背景 + 双方 LOGO 对位 | `poster` `tech-news` `transfer` `karpathy` `openai-anthropic` `orange-black` `cyber` `sports-style` `chinese-meme` `gpt-image-2` | 新智元 | — |
+| [poster-microsoft-anthropic-token-invoice](./poster-microsoft-anthropic-token-invoice.webp) | 微软投了 OpenAI 但开发者都用 Claude Code:Satya 持 Anthropic Token Invoice 头疼、Azure 管道把 token 输向 Anthropic 的写实讽刺场景 | `poster` `meme` `satire` `microsoft` `anthropic` `claude-code` `photorealistic` `chinese-meme` `gpt-image-2` | 新智元 | — |
+| [poster-moat-fall-cursor-claude-code](./poster-moat-fall-cursor-claude-code.webp) | 护城河失守:Cursor 与 Claude Code 降维打击,2024→2025 时间线 + 战场史诗背景 + 巨头 logo 倒塌 | `poster` `tech-news` `moat-fall` `cursor` `claude-code` `cinematic` `epic` `chinese` `gpt-image-2` | 新智元 | — |
+| [poster-github-reverse-bite-microsoft](./poster-github-reverse-bite-microsoft.webp) | GitHub 商业化反噬微软:章鱼巨兽吞噬 GitHub 大楼 + 470 万 Copilot 付费用户 / 30 亿美元营收数据,戏剧化反派场景 | `poster` `tech-news` `github` `microsoft` `monster` `dramatic` `dark` `chinese` `gpt-image-2` | 新智元 | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

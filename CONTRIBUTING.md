@@ -38,8 +38,8 @@
 
 拿不准场景时,先丢到 `unclassified/`,后续再用「从 unclassified 归类」流程处理。
 
-1. [ ] 图片直接放入 `unclassified/`,文件名可保留原始名(如 `640.png`、`screenshot-2026-05-21.jpg`)
-2. [ ] **若有 prompt → 同时新建同 basename 的 sidecar**:`unclassified/640.md`(和图片成对放,后续 `git mv` 一起搬)
+1. [ ] 图片直接放入 `unclassified/`,文件名可保留原始名(如 `screenshot-2026-05-21.jpg`、`IMG_8421.png`)
+2. [ ] **若有 prompt → 同时新建同 basename 的 sidecar**:`unclassified/screenshot-2026-05-21.md`(和图片成对放,后续 `git mv` 一起搬)
 3. [ ] **(推荐)预处理图片格式**:
    ```bash
    scripts/compress_images.py unclassified/ --preset intake
