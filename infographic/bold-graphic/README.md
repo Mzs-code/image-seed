@@ -10,13 +10,14 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-bold-graphic-baoyu](./info-bold-graphic-baoyu.webp)](./info-bold-graphic-baoyu.webp) |    |    |
-| baoyu |    |    |
+| [![info-bold-graphic-anthropic-profit-vs-openai-loss](./info-bold-graphic-anthropic-profit-vs-openai-loss.webp)](./info-bold-graphic-anthropic-profit-vs-openai-loss.webp) | [![info-bold-graphic-baoyu](./info-bold-graphic-baoyu.webp)](./info-bold-graphic-baoyu.webp) |    |
+| anthropic-profit-vs-openai-loss | baoyu |    |
 
 ## 元数据
 
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
+| [info-bold-graphic-anthropic-profit-vs-openai-loss](./info-bold-graphic-anthropic-profit-vs-openai-loss.webp) | AI 决赛变天:Anthropic Q2 营收 109 亿首次盈利 vs OpenAI Q1 营业利润率 -122%,橙绿对撞双卡 + 粗黑大数字 | `anthropic` `openai` `revenue` `profit` `vs` `orange-green` `bold-numbers` `chinese` `gpt-image-2` | 新智元·好困 | — |
 | [info-bold-graphic-baoyu](./info-bold-graphic-baoyu.webp) | `bold-graphic` 参考示例 | `baoyu-skills` `bold-graphic` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

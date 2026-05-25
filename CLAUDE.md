@@ -138,12 +138,70 @@ image-seed/
 
 **默认:画风优先,布局次之。** 同一作者/同 prompt 模板的一组图常画风一致但布局各异 — 按画风归类画廊里一眼识别成组,按布局归类会把同组拆散到 3–5 个 layout 目录,浏览价值低。布局信息保留在文件名 `<subject>-<modifier>` 段便于检索,如 `info-craft-handmade-autowired-iceberg.webp` 是 craft-handmade 画风的冰山图。
 
-**例外:布局优先的两种情况**
+#### 强画风 vs 弱画风(决定是否迁)
+
+**强画风 — 触发即按 style 归类**(画风有明确归属、识别度高,迁到对应 style 子分类):
+
+| style | 视觉指纹 |
+|---|---|
+| `craft-handmade` | 浅色背景 + 手绘卡通边框 + pastel + 卡通角色/小怪兽(讲义风) |
+| `cyberpunk-neon` | 深色背景 + 霓虹电光 + 赛博 UI / 黑客剪影 / 3D 机库 |
+| `aged-academia` | 泛黄古卷 + 真人绘画 + 古典字体 |
+| `bold-graphic` | 粗黑大数字 + 强色对比 + 极简版面 |
+| `kawaii` | 萌系大眼睛卡通角色 + 萌系科普(**注意:仅 emoji + pastel 卡片不够强,不算**) |
+| `chalkboard` `pixel-art` `claymation` `origami` `knolling` `lego-brick` `corporate-memphis` `storybook-watercolor` 等 | 各有强烈视觉指纹,触发即迁 |
+
+**弱画风 — 保留 layout 子分类**(画风无对应 style 或元素弱):
+
+- **蓝色单色手绘 sketch**(常见宝玉风):无对应 style,且 layout 信号往往很强 → 保留 layout
+- **flat illustration**(扁平人物彩色插画):corporate-memphis 偏向抽象/几何企业风,具象人物归不进去 → 保留 layout
+- **kawaii 元素弱**(几个 emoji + pastel + 圆角):不够强,保留 layout
+- **3D isometric / minimal data viz / 卡通漫画**:infographic 内无对应 style → 保留 layout
+
+#### 例外:布局优先的两种情况
 
 1. 图就是该 layout 的「教科书示范」:纯结构图 / 空白模板 / 无明显画风(如线框黑白冰山图)
 2. 图是 layout 类 baoyu 示例(`-baoyu.webp`),本就是 layout 词典的样板
 
-**踩过的坑(2026-05-25)**:一批 6 张同系列手绘 sketch 信息图,初版按强 layout 信号(9 宫格、冰山)把 2 张拆到 `grid-cards`/`iceberg`,与同组 4 张分离。修订全部归 `craft-handmade`,布局信息留在文件名。
+#### 作者/系列识别(避免拆散同源图)
+
+同一作者/同公众号/同 prompt 模板的图画风往往高度一致,**优先聚拢到同一 substyle**:
+
+- **元数据「来源」字段** 是最强信号:`新智元` / `宝玉` / `GoWalker` / `NotebookLM` / `公众号·黑科技派` 等
+- **图片签名/水印**(图角落公众号名)
+- **标签里的模型/工具**:`gpt-image-2` / `baoyu-skills` 等
+- **视觉一致性**:同样字体 / 同样色调 / 同样装饰元素(咖啡杯/星星/云朵/机器人吉祥物)
+
+#### 「只有 baoyu」的 style 子分类是被忽视的目标
+
+下载 baoyu 全集会预填很多"只有 1 张 baoyu"的 style 子分类(`aged-academia` / `bold-graphic` / `chalkboard` / `origami` / `pixel-art` 等)。归类时**主动检查这些 substyle** — 真实图视觉一旦匹配,激活该子分类比塞进 layout 更对。
+
+#### 重复图检查(新增/迁移前必做)
+
+1. **ls 目标目录**,检查文件名是否已存(基本同名 = 几乎确定重复)
+2. 跨 substyle 时,**留意元数据描述高度相似的图**(同样标题、同样要点列表 = 高度怀疑)
+3. 怀疑时用 Read 视觉对比,确认重复后保留**画风/语义更优**的版本,删除另一份
+
+#### 踩过的坑
+
+- **2026-05-25 早**:6 张 unclassified 投递的同系列手绘 sketch,初版按强 layout 信号(9 宫格 / 冰山)拆 2 张到 `grid-cards`/`iceberg`,与同组分离 → 全部回归 `craft-handmade`。
+- **2026-05-25 晚 — 全量深扫**:扫 84 张非 baoyu infographic 图,发现 12 张拆错 + 1 张重复:
+  - 5 张 cyberpunk-neon 系列(新智元)从 4 个 layout(timeline/journey/comparison/mind-map)收回
+  - 4 张 craft-handmade 系列从 3 个 layout/style(grid-cards/mind-map/technical-schematic)收回
+  - 1 张激活 `aged-academia`(从 technical-schematic 误归)
+  - 1 张激活 `bold-graphic`(从 comparison-table 误归)
+  - 1 张重复图(`craft-handmade/agent-architecture-cli` ≡ `circular-flow/agent-architecture` 视觉完全相同)删除
+- 教训:layout 子分类是「画风不显著的容器」,一旦图自带强画风指纹就该迁出。「只有 baoyu 的 style」 + 「画风明显的 layout 候选图」是配对待激活的信号。
+
+#### 系统化扫描方法(>50 张存量场景适用)
+
+3 步漏斗,零成本筛 → 精准读图:
+
+1. **Step 1 标签筛**:grep 各 layout 子分类元数据,找标签含画风词(`hand-drawn`/`pastel`/`kawaii`/`cyberpunk`/`craft-handmade`/`chalkboard`/`linework`/`cute-creature`/`handnote`/`sketch` 等)的图 — 这些是「自带画风标签却落在 layout」的直球嫌疑
+2. **Step 2 同系列名称筛**:扫所有非 baoyu 图,找文件名共享 ≥4 字符 token(非通用词)且跨 ≥2 substyle 的图组 — 同 prompt/同主题被拆的信号
+3. **Step 3 视觉验证**:对 Step 1+2 命中读图视觉对比;style 子分类的图作画风锚做对照
+
+仅对 Step 1+2 命中读图,避免盲读全部存量。
 
 ### 并行 Read 错位(踩过的坑)
 
