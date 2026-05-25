@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-chalkboard-baoyu](./deck-chalkboard-baoyu.webp)](./deck-chalkboard-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-chalkboard-baoyu.webp" alt="deck-chalkboard-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

@@ -16,16 +16,44 @@ hide:
 
 ## 精选墙
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![贵州水墨地图](./travel/travel-guizhou-ink-map.jpeg)](./travel/travel-guizhou-ink-map.jpeg) | [![春日搭配手册](./ecommerce/ecommerce-spring-fashion-lookbook.webp)](./ecommerce/ecommerce-spring-fashion-lookbook.webp) | [![全球六大咖啡豆](./infographic/grid-cards/info-grid-cards-six-coffee-beans.webp)](./infographic/grid-cards/info-grid-cards-six-coffee-beans.webp) |
-| `travel` | `ecommerce` | `infographic · grid-cards` |
-| [![六位大师工作系统](./infographic/craft-handmade/info-craft-handmade-six-masters-work-system.webp)](./infographic/craft-handmade/info-craft-handmade-six-masters-work-system.webp) | [![Claude Code 11 工作流](./infographic/grid-cards/info-grid-cards-claude-code-11-workflows.jpg)](./infographic/grid-cards/info-grid-cards-claude-code-11-workflows.jpg) | [![推理成本 vs 工程成本](./article-illustrator/watercolor/art-watercolor-reasoning-vs-engineering-cost.jpg)](./article-illustrator/watercolor/art-watercolor-reasoning-vs-engineering-cost.jpg) |
-| `infographic · craft-handmade` | `infographic · grid-cards` | `article-illustrator · watercolor` |
-| [![AI 聚会插画](./article-illustrator/warm/art-warm-ai-meetup-group-illustration.webp)](./article-illustrator/warm/art-warm-ai-meetup-group-illustration.webp) | [![How AI Learns](./slide-deck/sketch-notes/deck-sketch-notes-how-ai-learns.jpg)](./slide-deck/sketch-notes/deck-sketch-notes-how-ai-learns.jpg) | [![OpenClaw × SkillHub](./xhs-images/pop/xhs-pop-openclaw-skillhub-promo.jpg)](./xhs-images/pop/xhs-pop-openclaw-skillhub-promo.jpg) |
-| `article-illustrator · warm` | `slide-deck · sketch-notes` | `xhs-images · pop` |
-| [![ChatGPT Plus 四格漫画](./comic/standard/comic-standard-chatgpt-plus-subscription.webp)](./comic/standard/comic-standard-chatgpt-plus-subscription.webp) | [![Claude Code vs Managed Agents](./infographic/kawaii/info-kawaii-claude-code-vs-managed-agents.webp)](./infographic/kawaii/info-kawaii-claude-code-vs-managed-agents.webp) | [![Agent 系统工程实践](./infographic/layers-stack/info-layers-stack-agent-system-engineering.webp)](./infographic/layers-stack/info-layers-stack-agent-system-engineering.webp) |
-| `comic · standard` | `infographic · kawaii` | `infographic · layers-stack` |
+<div class="gallery featured" markdown="0">
+  <div class="tile">
+    <img src="./travel/travel-guizhou-ink-map.jpeg" alt="travel-guizhou-ink-map" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./ecommerce/ecommerce-spring-fashion-lookbook.webp" alt="ecommerce-spring-fashion-lookbook" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./infographic/grid-cards/info-grid-cards-six-coffee-beans.webp" alt="info-grid-cards-six-coffee-beans" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./infographic/craft-handmade/info-craft-handmade-six-masters-work-system.webp" alt="info-craft-handmade-six-masters-work-system" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./infographic/grid-cards/info-grid-cards-claude-code-11-workflows.jpg" alt="info-grid-cards-claude-code-11-workflows" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./article-illustrator/watercolor/art-watercolor-reasoning-vs-engineering-cost.jpg" alt="art-watercolor-reasoning-vs-engineering-cost" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./article-illustrator/warm/art-warm-ai-meetup-group-illustration.webp" alt="art-warm-ai-meetup-group-illustration" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./slide-deck/sketch-notes/deck-sketch-notes-how-ai-learns.jpg" alt="deck-sketch-notes-how-ai-learns" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-images/pop/xhs-pop-openclaw-skillhub-promo.jpg" alt="xhs-pop-openclaw-skillhub-promo" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comic/standard/comic-standard-chatgpt-plus-subscription.webp" alt="comic-standard-chatgpt-plus-subscription" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./infographic/kawaii/info-kawaii-claude-code-vs-managed-agents.webp" alt="info-kawaii-claude-code-vs-managed-agents" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./infographic/layers-stack/info-layers-stack-agent-system-engineering.webp" alt="info-layers-stack-agent-system-engineering" loading="lazy">
+  </div>
+</div>
 
 ## 场景导航
 

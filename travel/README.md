@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![travel-ganzhou-song-city](./travel-ganzhou-song-city.jpeg)](./travel-ganzhou-song-city.jpeg) | [![travel-guizhou-ink-map](./travel-guizhou-ink-map.jpeg)](./travel-guizhou-ink-map.jpeg) |    |
-| ganzhou-song-city | guizhou-ink-map |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./travel-ganzhou-song-city.jpeg" alt="travel-ganzhou-song-city" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./travel-guizhou-ink-map.jpeg" alt="travel-guizhou-ink-map" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

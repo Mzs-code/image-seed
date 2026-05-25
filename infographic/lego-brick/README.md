@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-lego-brick-baoyu](./info-lego-brick-baoyu.webp)](./info-lego-brick-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-lego-brick-baoyu.webp" alt="info-lego-brick-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

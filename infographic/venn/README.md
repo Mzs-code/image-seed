@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-venn-skills-correct-usage](./info-venn-skills-correct-usage.webp)](./info-venn-skills-correct-usage.webp) | [![info-venn-baoyu](./info-venn-baoyu.webp)](./info-venn-baoyu.webp) |    |
-| skills-correct-usage | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-venn-skills-correct-usage.webp" alt="info-venn-skills-correct-usage" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-venn-baoyu.webp" alt="info-venn-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

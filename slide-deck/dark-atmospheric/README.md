@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-dark-atmospheric-baoyu](./deck-dark-atmospheric-baoyu.webp)](./deck-dark-atmospheric-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-dark-atmospheric-baoyu.webp" alt="deck-dark-atmospheric-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

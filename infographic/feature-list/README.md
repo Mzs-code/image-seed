@@ -8,12 +8,26 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-feature-list-agent-optimization-methods](./info-feature-list-agent-optimization-methods.webp)](./info-feature-list-agent-optimization-methods.webp) | [![info-feature-list-anthropic-enterprise-share](./info-feature-list-anthropic-enterprise-share.webp)](./info-feature-list-anthropic-enterprise-share.webp) | [![info-feature-list-claude-agent-sdk](./info-feature-list-claude-agent-sdk.webp)](./info-feature-list-claude-agent-sdk.webp) |
-| agent-optimization-methods | anthropic-enterprise-share | claude-agent-sdk |
-| [![info-feature-list-claude-code-three-strategies](./info-feature-list-claude-code-three-strategies.webp)](./info-feature-list-claude-code-three-strategies.webp) | [![info-feature-list-golden-retriever](./info-feature-list-golden-retriever.webp)](./info-feature-list-golden-retriever.webp) | [![info-feature-list-baoyu](./info-feature-list-baoyu.webp)](./info-feature-list-baoyu.webp) |
-| claude-code-three-strategies | golden-retriever | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-feature-list-agent-optimization-methods.webp" alt="info-feature-list-agent-optimization-methods" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-feature-list-anthropic-enterprise-share.webp" alt="info-feature-list-anthropic-enterprise-share" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-feature-list-claude-agent-sdk.webp" alt="info-feature-list-claude-agent-sdk" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-feature-list-claude-code-three-strategies.webp" alt="info-feature-list-claude-code-three-strategies" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-feature-list-golden-retriever.webp" alt="info-feature-list-golden-retriever" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-feature-list-baoyu.webp" alt="info-feature-list-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

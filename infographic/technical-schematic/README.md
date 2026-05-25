@@ -8,12 +8,23 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-technical-schematic-ai-video-arena-elo-ranking](./info-technical-schematic-ai-video-arena-elo-ranking.webp)](./info-technical-schematic-ai-video-arena-elo-ranking.webp) | [![info-technical-schematic-happyhorse-arena-three-traits](./info-technical-schematic-happyhorse-arena-three-traits.webp)](./info-technical-schematic-happyhorse-arena-three-traits.webp) | [![info-technical-schematic-happyhorse-cold-water](./info-technical-schematic-happyhorse-cold-water.webp)](./info-technical-schematic-happyhorse-cold-water.webp) |
-| ai-video-arena-elo-ranking | happyhorse-arena-three-traits | happyhorse-cold-water |
-| [![info-technical-schematic-public-ai-data-leak-risk](./info-technical-schematic-public-ai-data-leak-risk.webp)](./info-technical-schematic-public-ai-data-leak-risk.webp) | [![info-technical-schematic-baoyu](./info-technical-schematic-baoyu.webp)](./info-technical-schematic-baoyu.webp) |    |
-| public-ai-data-leak-risk | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-technical-schematic-ai-video-arena-elo-ranking.webp" alt="info-technical-schematic-ai-video-arena-elo-ranking" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-technical-schematic-happyhorse-arena-three-traits.webp" alt="info-technical-schematic-happyhorse-arena-three-traits" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-technical-schematic-happyhorse-cold-water.webp" alt="info-technical-schematic-happyhorse-cold-water" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-technical-schematic-public-ai-data-leak-risk.webp" alt="info-technical-schematic-public-ai-data-leak-risk" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-technical-schematic-baoyu.webp" alt="info-technical-schematic-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

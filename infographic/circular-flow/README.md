@@ -8,10 +8,17 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-circular-flow-agent-architecture](./info-circular-flow-agent-architecture.webp)](./info-circular-flow-agent-architecture.webp) | [![info-circular-flow-agent-loop-diagram](./info-circular-flow-agent-loop-diagram.webp)](./info-circular-flow-agent-loop-diagram.webp) | [![info-circular-flow-baoyu](./info-circular-flow-baoyu.webp)](./info-circular-flow-baoyu.webp) |
-| agent-architecture | agent-loop-diagram | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-circular-flow-agent-architecture.webp" alt="info-circular-flow-agent-architecture" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-circular-flow-agent-loop-diagram.webp" alt="info-circular-flow-agent-loop-diagram" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-circular-flow-baoyu.webp" alt="info-circular-flow-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

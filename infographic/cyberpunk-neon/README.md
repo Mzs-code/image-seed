@@ -8,16 +8,38 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-cyberpunk-neon-ai-everyday-creators](./info-cyberpunk-neon-ai-everyday-creators.webp)](./info-cyberpunk-neon-ai-everyday-creators.webp) | [![info-cyberpunk-neon-apple-mie-vs-mythos](./info-cyberpunk-neon-apple-mie-vs-mythos.webp)](./info-cyberpunk-neon-apple-mie-vs-mythos.webp) | [![info-cyberpunk-neon-asi-finals-openai-vs-anthropic](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg)](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg) |
-| ai-everyday-creators | apple-mie-vs-mythos | asi-finals-openai-vs-anthropic |
-| [![info-cyberpunk-neon-five-day-ai-hacker-blitz](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp)](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp) | [![info-cyberpunk-neon-github-source-leak](./info-cyberpunk-neon-github-source-leak.webp)](./info-cyberpunk-neon-github-source-leak.webp) | [![info-cyberpunk-neon-gpt-image-2-capability-map](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg)](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg) |
-| five-day-ai-hacker-blitz | github-source-leak | gpt-image-2-capability-map |
-| [![info-cyberpunk-neon-microsoft-mdash-ai-security](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp)](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp) | [![info-cyberpunk-neon-nvidia-openai-corewrave-path](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg)](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg) | [![info-cyberpunk-neon-three-super-ipo-preview](./info-cyberpunk-neon-three-super-ipo-preview.webp)](./info-cyberpunk-neon-three-super-ipo-preview.webp) |
-| microsoft-mdash-ai-security | nvidia-openai-corewrave-path | three-super-ipo-preview |
-| [![info-cyberpunk-neon-baoyu](./info-cyberpunk-neon-baoyu.webp)](./info-cyberpunk-neon-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-ai-everyday-creators.webp" alt="info-cyberpunk-neon-ai-everyday-creators" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-apple-mie-vs-mythos.webp" alt="info-cyberpunk-neon-apple-mie-vs-mythos" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg" alt="info-cyberpunk-neon-asi-finals-openai-vs-anthropic" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp" alt="info-cyberpunk-neon-five-day-ai-hacker-blitz" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-github-source-leak.webp" alt="info-cyberpunk-neon-github-source-leak" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg" alt="info-cyberpunk-neon-gpt-image-2-capability-map" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-microsoft-mdash-ai-security.webp" alt="info-cyberpunk-neon-microsoft-mdash-ai-security" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg" alt="info-cyberpunk-neon-nvidia-openai-corewrave-path" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-three-super-ipo-preview.webp" alt="info-cyberpunk-neon-three-super-ipo-preview" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-baoyu.webp" alt="info-cyberpunk-neon-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

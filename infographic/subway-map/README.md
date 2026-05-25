@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-subway-map-baoyu](./info-subway-map-baoyu.webp)](./info-subway-map-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-subway-map-baoyu.webp" alt="info-subway-map-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

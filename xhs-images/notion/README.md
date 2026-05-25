@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-notion-baoyu](./xhs-notion-baoyu.webp)](./xhs-notion-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-notion-baoyu.webp" alt="xhs-notion-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

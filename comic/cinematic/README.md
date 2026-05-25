@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![comic-cinematic-baoyu](./comic-cinematic-baoyu.webp)](./comic-cinematic-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./comic-cinematic-baoyu.webp" alt="comic-cinematic-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

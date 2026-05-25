@@ -8,10 +8,17 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![prod-coastal-heritage-trail-signage](./prod-coastal-heritage-trail-signage.webp)](./prod-coastal-heritage-trail-signage.webp) | [![prod-mountain-trail-signage](./prod-mountain-trail-signage.webp)](./prod-mountain-trail-signage.webp) | [![prod-zen-pavilion-signage](./prod-zen-pavilion-signage.webp)](./prod-zen-pavilion-signage.webp) |
-| coastal-heritage-trail-signage | mountain-trail-signage | zen-pavilion-signage |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./prod-coastal-heritage-trail-signage.webp" alt="prod-coastal-heritage-trail-signage" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./prod-mountain-trail-signage.webp" alt="prod-mountain-trail-signage" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./prod-zen-pavilion-signage.webp" alt="prod-zen-pavilion-signage" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

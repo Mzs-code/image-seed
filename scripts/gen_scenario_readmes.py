@@ -90,9 +90,69 @@ def collect_images(scenario, substyle):
 
 
 _PROMPT_CACHE = {}
+_PROMPT_MAP_CACHE = {}
+_META_CACHE = {}
 META_HEAD_RE = re.compile(r"^## 元数据\s*$", re.MULTILINE)
 META_ROW_RE = re.compile(r"^\| \[([^\]]+)\]")
 PROMPT_LINK_RE = re.compile(r"\[prompt[^\]]*\]\([^)]+\.md\)")
+PROMPT_LINK_PATH_RE = re.compile(r"\[prompt[^\]]*\]\(([^)]+\.md)\)")
+TAG_RE = re.compile(r"`([^`]+)`")
+
+
+def _esc(s):
+    """最小 HTML 转义:画廊嵌入的主体/标签可能含 < > & " 等字符。"""
+    if not s:
+        return ""
+    return (s.replace("&", "&amp;")
+             .replace("<", "&lt;")
+             .replace(">", "&gt;")
+             .replace('"', "&quot;"))
+
+
+def _read_meta_table(scenario, substyle):
+    """读元数据表,返回 {stem: (subject, [tags])}。substyle=None 用于扁平场景。
+
+    元数据表每行格式(管道分隔):
+        | [stem](./stem.ext) | 主体描述 | `tag1` `tag2` ... | 来源 | Prompt |
+    主体缺失时表里写「—」,转成空串。
+    """
+    key = (scenario, substyle)
+    if key in _META_CACHE:
+        return _META_CACHE[key]
+    d = os.path.join(ROOT, scenario, substyle) if substyle else os.path.join(ROOT, scenario)
+    readme = os.path.join(d, "README.md")
+    out = {}
+    if not os.path.isfile(readme):
+        _META_CACHE[key] = out
+        return out
+    with open(readme) as f:
+        text = f.read()
+    head = META_HEAD_RE.search(text)
+    if not head:
+        _META_CACHE[key] = out
+        return out
+    body = text[head.end():]
+    nxt = re.search(r"^## ", body, re.MULTILINE)
+    if nxt:
+        body = body[:nxt.start()]
+    for line in body.splitlines():
+        line = line.strip()
+        if not line.startswith("| ["):
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        # 期望:['', '[stem](./..)', subject, tags, source, prompt, '']
+        if len(parts) < 5:
+            continue
+        m = re.match(r"^\[([^\]]+)\]", parts[1])
+        if not m:
+            continue
+        stem = m.group(1)
+        subject_raw = parts[2]
+        subject = "" if subject_raw in ("—", "-", "") else subject_raw
+        tags = TAG_RE.findall(parts[3])
+        out[stem] = (subject, tags)
+    _META_CACHE[key] = out
+    return out
 
 
 def _get_prompt_set(scenario, substyle):
@@ -132,36 +192,77 @@ def has_sidecar(scenario, substyle, image_filename):
     return stem in _get_prompt_set(scenario, substyle)
 
 
+def _get_prompt_map(scenario, substyle):
+    """{stem: sidecar_md_path},直接从元数据表 Prompt 列的 markdown 链接抓取。"""
+    key = (scenario, substyle)
+    if key in _PROMPT_MAP_CACHE:
+        return _PROMPT_MAP_CACHE[key]
+    d = os.path.join(ROOT, scenario, substyle) if substyle else os.path.join(ROOT, scenario)
+    readme = os.path.join(d, "README.md")
+    out = {}
+    if not os.path.isfile(readme):
+        _PROMPT_MAP_CACHE[key] = out
+        return out
+    with open(readme) as f:
+        text = f.read()
+    head = META_HEAD_RE.search(text)
+    if not head:
+        _PROMPT_MAP_CACHE[key] = out
+        return out
+    body = text[head.end():]
+    nxt = re.search(r"^## ", body, re.MULTILINE)
+    if nxt:
+        body = body[:nxt.start()]
+    for line in body.splitlines():
+        row = META_ROW_RE.match(line)
+        if not row:
+            continue
+        m = PROMPT_LINK_PATH_RE.search(line)
+        if m:
+            out[row.group(1)] = m.group(1)
+    _PROMPT_MAP_CACHE[key] = out
+    return out
+
+
+def get_sidecar_url(scenario, substyle, image_filename):
+    """图对应 sidecar 的 mkdocs 友好 URL(相对画廊所在目录)。无则 None。
+
+    use_directory_urls=True 下 .md 渲染到 dir/index.html,所以去掉 .md 加 trailing /。
+    """
+    stem = image_filename.rsplit(".", 1)[0]
+    md = _get_prompt_map(scenario, substyle).get(stem)
+    if not md:
+        return None
+    md = md.lstrip("./")
+    if md.endswith(".md"):
+        md = md[:-3] + "/"
+    return f"./{md}"
+
+
 def build_grid(scenario, substyles):
-    """平铺 3 列网格:每张图占一格,同子分类连续相邻。带 sidecar 的图 label 加 📝。"""
-    tiles = []  # list of (substyle, filename or None)
+    """场景级 masonry 画廊:点击图开灯箱(glightbox 接管 img)。
+
+    所有 tile 用 <div> 容器,不再跳子分类 README(避免 mkdocs 下 README.md 404)。
+    带 sidecar 的图在右上角加 📝 角标,链接到 prompt 页面。
+    进入子分类走「可用子分类」清单段。空 substyle 跳过。
+    """
+    lines = ['<div class="gallery" markdown="0">']
     for s in substyles:
         imgs = collect_images(scenario, s)
         if not imgs:
-            tiles.append((s, None))
-        else:
-            for f in imgs:
-                tiles.append((s, f))
-
-    lines = ["|   |   |   |", "|:---:|:---:|:---:|"]
-    cols = 3
-    for i in range(0, len(tiles), cols):
-        group = tiles[i:i + cols]
-        img_cells = []
-        label_cells = []
-        for (s, f) in group:
-            if f is None:
-                img_cells.append("*(暂无)*")
-                label_cells.append(f"[{s}](./{s}/README.md)")
-            else:
-                img_cells.append(f"[![{s}](./{s}/{f})](./{s}/README.md)")
-                badge = " 📝" if has_sidecar(scenario, s, f) else ""
-                label_cells.append(f"[{s}](./{s}/README.md){badge}")
-        while len(img_cells) < cols:
-            img_cells.append("  ")
-            label_cells.append("  ")
-        lines.append("| " + " | ".join(img_cells) + " |")
-        lines.append("| " + " | ".join(label_cells) + " |")
+            continue
+        for f in imgs:
+            stem = f.rsplit(".", 1)[0]
+            src = f"./{s}/{f}"
+            sidecar = get_sidecar_url(scenario, s, f)
+            lines.append('  <div class="tile">')
+            lines.append(f'    <img src="{src}" alt="{_esc(stem)}" loading="lazy">')
+            if sidecar:
+                # 场景级 sidecar 路径相对场景目录,需拼上 substyle
+                sidecar_href = f'./{s}/{sidecar.lstrip("./")}'
+                lines.append(f'    <a class="tile-prompt-badge" href="{sidecar_href}" title="查看 prompt">📝</a>')
+            lines.append('  </div>')
+    lines.append('</div>')
     return "\n".join(lines)
 
 
@@ -218,25 +319,23 @@ def build_flat_scenario_gallery(scenario, prefix):
 
 
 def _build_gallery(images, path_prefix, prefix, substyle, scenario=None):
+    """子分类 / 扁平场景画廊:masonry HTML,点击开灯箱(glightbox 接管 img)。
+
+    带 sidecar 的图右上角加 📝 角标,链接到 prompt 页面。
+    """
     if not images:
         return "*(暂无图片)*"
-    lines = ["|   |   |   |", "|:---:|:---:|:---:|"]
-    cols = 3
-    for i in range(0, len(images), cols):
-        group = images[i:i + cols]
-        img_cells = []
-        label_cells = []
-        for f in group:
-            stem = f.rsplit(".", 1)[0]
-            img_cells.append(f"[![{stem}]({path_prefix}{f})]({path_prefix}{f})")
-            label = make_label(f, prefix, substyle)
-            badge = " 📝" if scenario and has_sidecar(scenario, substyle, f) else ""
-            label_cells.append(label + badge)
-        while len(img_cells) < cols:
-            img_cells.append("  ")
-            label_cells.append("  ")
-        lines.append("| " + " | ".join(img_cells) + " |")
-        lines.append("| " + " | ".join(label_cells) + " |")
+    lines = ['<div class="gallery" markdown="0">']
+    for f in images:
+        stem = f.rsplit(".", 1)[0]
+        href = f"{path_prefix}{f}"
+        sidecar = get_sidecar_url(scenario, substyle, f) if scenario else None
+        lines.append('  <div class="tile">')
+        lines.append(f'    <img src="{href}" alt="{_esc(stem)}" loading="lazy">')
+        if sidecar:
+            lines.append(f'    <a class="tile-prompt-badge" href="{sidecar}" title="查看 prompt">📝</a>')
+        lines.append('  </div>')
+    lines.append('</div>')
     return "\n".join(lines)
 
 

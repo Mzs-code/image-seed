@@ -8,16 +8,38 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-comparison-table-1m-context-risk](./info-comparison-table-1m-context-risk.webp)](./info-comparison-table-1m-context-risk.webp) | [![info-comparison-table-ai-coding-era](./info-comparison-table-ai-coding-era.jpg)](./info-comparison-table-ai-coding-era.jpg) | [![info-comparison-table-cache-hit-miss](./info-comparison-table-cache-hit-miss.webp)](./info-comparison-table-cache-hit-miss.webp) |
-| 1m-context-risk | ai-coding-era | cache-hit-miss |
-| [![info-comparison-table-cache-prefix-match](./info-comparison-table-cache-prefix-match.webp)](./info-comparison-table-cache-prefix-match.webp) | [![info-comparison-table-chatbot-copilot-agent](./info-comparison-table-chatbot-copilot-agent.webp)](./info-comparison-table-chatbot-copilot-agent.webp) | [![info-comparison-table-claude-code-access](./info-comparison-table-claude-code-access.webp)](./info-comparison-table-claude-code-access.webp) |
-| cache-prefix-match | chatbot-copilot-agent | claude-code-access |
-| [![info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.webp)](./info-comparison-table-script-vs-agent.webp) | [![info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.webp)](./info-comparison-table-script-vs-skills.webp) | [![info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg)](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) |
-| script-vs-agent | script-vs-skills | us-chip-giants-chinese-ceos |
-| [![info-comparison-table-baoyu](./info-comparison-table-baoyu.webp)](./info-comparison-table-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-comparison-table-1m-context-risk.webp" alt="info-comparison-table-1m-context-risk" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-ai-coding-era.jpg" alt="info-comparison-table-ai-coding-era" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-cache-hit-miss.webp" alt="info-comparison-table-cache-hit-miss" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-cache-prefix-match.webp" alt="info-comparison-table-cache-prefix-match" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-chatbot-copilot-agent.webp" alt="info-comparison-table-chatbot-copilot-agent" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-claude-code-access.webp" alt="info-comparison-table-claude-code-access" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-script-vs-agent.webp" alt="info-comparison-table-script-vs-agent" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-script-vs-skills.webp" alt="info-comparison-table-script-vs-skills" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-us-chip-giants-chinese-ceos.jpeg" alt="info-comparison-table-us-chip-giants-chinese-ceos" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-baoyu.webp" alt="info-comparison-table-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

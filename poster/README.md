@@ -8,16 +8,44 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![poster-ai-evolution-stairs](./poster-ai-evolution-stairs.jpeg)](./poster-ai-evolution-stairs.jpeg) | [![poster-calma-coffee](./poster-calma-coffee.webp)](./poster-calma-coffee.webp) | [![poster-digital-nomad-remote-work](./poster-digital-nomad-remote-work.jpeg)](./poster-digital-nomad-remote-work.jpeg) |
-| ai-evolution-stairs | calma-coffee | digital-nomad-remote-work |
-| [![poster-github-reverse-bite-microsoft](./poster-github-reverse-bite-microsoft.webp)](./poster-github-reverse-bite-microsoft.webp) | [![poster-karpathy-anthropic-transfer](./poster-karpathy-anthropic-transfer.webp)](./poster-karpathy-anthropic-transfer.webp) | [![poster-microsoft-anthropic-token-invoice](./poster-microsoft-anthropic-token-invoice.webp)](./poster-microsoft-anthropic-token-invoice.webp) |
-| github-reverse-bite-microsoft | karpathy-anthropic-transfer | microsoft-anthropic-token-invoice |
-| [![poster-moat-fall-cursor-claude-code](./poster-moat-fall-cursor-claude-code.webp)](./poster-moat-fall-cursor-claude-code.webp) | [![poster-monkey-singularity](./poster-monkey-singularity.jpeg)](./poster-monkey-singularity.jpeg) | [![poster-mortal-cultivation](./poster-mortal-cultivation.webp)](./poster-mortal-cultivation.webp) |
-| moat-fall-cursor-claude-code | monkey-singularity | mortal-cultivation |
-| [![poster-mythos-cyber-attack](./poster-mythos-cyber-attack.jpeg)](./poster-mythos-cyber-attack.jpeg) | [![poster-obsidian-crystal](./poster-obsidian-crystal.webp)](./poster-obsidian-crystal.webp) | [![poster-xiaban-red](./poster-xiaban-red.webp)](./poster-xiaban-red.webp) |
-| mythos-cyber-attack | obsidian-crystal | xiaban-red |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./poster-ai-evolution-stairs.jpeg" alt="poster-ai-evolution-stairs" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-calma-coffee.webp" alt="poster-calma-coffee" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-digital-nomad-remote-work.jpeg" alt="poster-digital-nomad-remote-work" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-github-reverse-bite-microsoft.webp" alt="poster-github-reverse-bite-microsoft" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-karpathy-anthropic-transfer.webp" alt="poster-karpathy-anthropic-transfer" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-microsoft-anthropic-token-invoice.webp" alt="poster-microsoft-anthropic-token-invoice" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-moat-fall-cursor-claude-code.webp" alt="poster-moat-fall-cursor-claude-code" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-monkey-singularity.jpeg" alt="poster-monkey-singularity" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-mortal-cultivation.webp" alt="poster-mortal-cultivation" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-mythos-cyber-attack.jpeg" alt="poster-mythos-cyber-attack" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-obsidian-crystal.webp" alt="poster-obsidian-crystal" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./poster-xiaban-red.webp" alt="poster-xiaban-red" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

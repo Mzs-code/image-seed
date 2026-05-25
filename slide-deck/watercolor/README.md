@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-watercolor-baoyu](./deck-watercolor-baoyu.webp)](./deck-watercolor-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-watercolor-baoyu.webp" alt="deck-watercolor-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

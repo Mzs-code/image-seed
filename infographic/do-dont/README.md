@@ -8,10 +8,17 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-do-dont-claude-code-myths](./info-do-dont-claude-code-myths.webp)](./info-do-dont-claude-code-myths.webp) | [![info-do-dont-single-model-limitation](./info-do-dont-single-model-limitation.webp)](./info-do-dont-single-model-limitation.webp) | [![info-do-dont-baoyu](./info-do-dont-baoyu.webp)](./info-do-dont-baoyu.webp) |
-| claude-code-myths | single-model-limitation | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-do-dont-claude-code-myths.webp" alt="info-do-dont-claude-code-myths" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-do-dont-single-model-limitation.webp" alt="info-do-dont-single-model-limitation" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-do-dont-baoyu.webp" alt="info-do-dont-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

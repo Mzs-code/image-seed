@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-knolling-baoyu](./info-knolling-baoyu.webp)](./info-knolling-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-knolling-baoyu.webp" alt="info-knolling-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

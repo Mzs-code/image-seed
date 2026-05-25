@@ -8,12 +8,20 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![art-warm-agents-md-readme-for-ai](./art-warm-agents-md-readme-for-ai.webp)](./art-warm-agents-md-readme-for-ai.webp) | [![art-warm-ai-meetup-group-illustration](./art-warm-ai-meetup-group-illustration.webp)](./art-warm-ai-meetup-group-illustration.webp) | [![art-warm-claude-code-codex-dream](./art-warm-claude-code-codex-dream.webp)](./art-warm-claude-code-codex-dream.webp) |
-| agents-md-readme-for-ai | ai-meetup-group-illustration | claude-code-codex-dream |
-| [![art-warm-baoyu](./art-warm-baoyu.webp)](./art-warm-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./art-warm-agents-md-readme-for-ai.webp" alt="art-warm-agents-md-readme-for-ai" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./art-warm-ai-meetup-group-illustration.webp" alt="art-warm-ai-meetup-group-illustration" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./art-warm-claude-code-codex-dream.webp" alt="art-warm-claude-code-codex-dream" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./art-warm-baoyu.webp" alt="art-warm-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

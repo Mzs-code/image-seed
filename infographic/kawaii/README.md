@@ -8,10 +8,17 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-kawaii-claude-code-vs-managed-agents](./info-kawaii-claude-code-vs-managed-agents.webp)](./info-kawaii-claude-code-vs-managed-agents.webp) | [![info-kawaii-human-digestion](./info-kawaii-human-digestion.webp)](./info-kawaii-human-digestion.webp) | [![info-kawaii-baoyu](./info-kawaii-baoyu.webp)](./info-kawaii-baoyu.webp) |
-| claude-code-vs-managed-agents | human-digestion | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-kawaii-claude-code-vs-managed-agents.webp" alt="info-kawaii-claude-code-vs-managed-agents" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-kawaii-human-digestion.webp" alt="info-kawaii-human-digestion" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-kawaii-baoyu.webp" alt="info-kawaii-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

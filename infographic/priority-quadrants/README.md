@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-priority-quadrants-baoyu](./info-priority-quadrants-baoyu.webp)](./info-priority-quadrants-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-priority-quadrants-baoyu.webp" alt="info-priority-quadrants-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

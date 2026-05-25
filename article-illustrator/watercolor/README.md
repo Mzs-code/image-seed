@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![art-watercolor-reasoning-vs-engineering-cost](./art-watercolor-reasoning-vs-engineering-cost.jpg)](./art-watercolor-reasoning-vs-engineering-cost.jpg) | [![art-watercolor-baoyu](./art-watercolor-baoyu.webp)](./art-watercolor-baoyu.webp) |    |
-| reasoning-vs-engineering-cost | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./art-watercolor-reasoning-vs-engineering-cost.jpg" alt="art-watercolor-reasoning-vs-engineering-cost" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./art-watercolor-baoyu.webp" alt="art-watercolor-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

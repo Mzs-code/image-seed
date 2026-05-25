@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-mind-map-unified-agent-optimization](./info-mind-map-unified-agent-optimization.webp)](./info-mind-map-unified-agent-optimization.webp) | [![info-mind-map-baoyu](./info-mind-map-baoyu.webp)](./info-mind-map-baoyu.webp) |    |
-| unified-agent-optimization | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-mind-map-unified-agent-optimization.webp" alt="info-mind-map-unified-agent-optimization" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-mind-map-baoyu.webp" alt="info-mind-map-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

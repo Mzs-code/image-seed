@@ -6,18 +6,54 @@
 
 ## Layouts 布局画廊
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![standard](./standard/comic-standard-chatgpt-plus-subscription.webp)](./standard/README.md) | [![standard](./standard/comic-standard-dopamine-loop.webp)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./standard/README.md) |
-| [standard](./standard/README.md) | [standard](./standard/README.md) | [standard](./standard/README.md) 📝 |
-| [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-1.jpg)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-2.jpg)](./standard/README.md) | [![standard](./standard/comic-standard-ultraman-vs-calabash-brothers-3.jpg)](./standard/README.md) |
-| [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 |
-| [![standard](./standard/comic-standard-workplace-colleague-story.webp)](./standard/README.md) | [![standard](./standard/comic-standard-baoyu.webp)](./standard/README.md) | [![cinematic](./cinematic/comic-cinematic-baoyu.webp)](./cinematic/README.md) |
-| [standard](./standard/README.md) | [standard](./standard/README.md) | [cinematic](./cinematic/README.md) |
-| [![dense](./dense/comic-dense-google-decade-story.jpeg)](./dense/README.md) | [![dense](./dense/comic-dense-baoyu.webp)](./dense/README.md) | [![splash](./splash/comic-splash-baoyu.webp)](./splash/README.md) |
-| [dense](./dense/README.md) | [dense](./dense/README.md) | [splash](./splash/README.md) |
-| [![mixed](./mixed/comic-mixed-baoyu.webp)](./mixed/README.md) | [![webtoon](./webtoon/comic-webtoon-baoyu.webp)](./webtoon/README.md) |    |
-| [mixed](./mixed/README.md) | [webtoon](./webtoon/README.md) |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./standard/comic-standard-chatgpt-plus-subscription.webp" alt="comic-standard-chatgpt-plus-subscription" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-dopamine-loop.webp" alt="comic-standard-dopamine-loop" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-0.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-0" loading="lazy">
+    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-1.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-1" loading="lazy">
+    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-2.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-2" loading="lazy">
+    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-3.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-3" loading="lazy">
+    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-workplace-colleague-story.webp" alt="comic-standard-workplace-colleague-story" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./standard/comic-standard-baoyu.webp" alt="comic-standard-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./cinematic/comic-cinematic-baoyu.webp" alt="comic-cinematic-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./dense/comic-dense-google-decade-story.jpeg" alt="comic-dense-google-decade-story" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./dense/comic-dense-baoyu.webp" alt="comic-dense-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./splash/comic-splash-baoyu.webp" alt="comic-splash-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./mixed/comic-mixed-baoyu.webp" alt="comic-mixed-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./webtoon/comic-webtoon-baoyu.webp" alt="comic-webtoon-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 可用子分类
 

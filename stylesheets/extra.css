@@ -162,7 +162,7 @@
   border-bottom: 1.5px solid var(--md-default-fg-color);
 }
 
-/* === 图片网格:无圆角 + hover 微动 === */
+/* === 图片网格:无圆角 + hover 微动(旧 markdown 表格画廊保留兼容) === */
 .md-typeset table:not([class]) td img {
   border-radius: 2px;
   transition: transform 280ms cubic-bezier(.2,.7,.3,1),
@@ -189,6 +189,124 @@
   box-shadow: 0 14px 36px rgba(0,0,0,0.55),
               0 2px 6px rgba(0,0,0,0.3);
   filter: saturate(1.02);
+}
+
+/* === Masonry 画廊(.gallery)+ hover 元信息浮层 === */
+.md-typeset .gallery {
+  column-count: 3;
+  column-gap: 14px;
+  margin: 0.6rem 0 1.4rem;
+}
+@media (max-width: 1400px) {
+  .md-typeset .gallery { column-count: 3; }
+}
+@media (max-width: 1100px) {
+  .md-typeset .gallery { column-count: 2; }
+}
+@media (max-width: 640px) {
+  .md-typeset .gallery { column-count: 1; }
+}
+
+.md-typeset .gallery .tile {
+  display: block;
+  width: 100%;
+  margin: 0 0 14px;
+  break-inside: avoid;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  border-bottom: none !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  background: var(--md-default-bg-color);
+}
+.md-typeset .gallery .tile:hover {
+  border-bottom: none !important;
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+.md-typeset .gallery .tile img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+  transition: transform 380ms cubic-bezier(.2,.7,.3,1),
+              filter 280ms;
+  filter: saturate(0.97);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile img {
+  filter: saturate(0.92);
+}
+.md-typeset .gallery .tile:hover img {
+  transform: scale(1.025);
+  filter: saturate(1.05);
+}
+.md-typeset .gallery .tile:hover {
+  box-shadow: 0 14px 32px rgba(0,0,0,0.18),
+              0 2px 6px rgba(0,0,0,0.08);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile:hover {
+  box-shadow: 0 14px 36px rgba(0,0,0,0.55),
+              0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* glightbox 包的 img anchor 清掉默认 markdown 链接下划线 */
+.md-typeset .gallery .tile a.glightbox,
+.md-typeset .gallery .tile a.glightbox:hover {
+  text-decoration: none;
+  border-bottom: none;
+  display: block;
+}
+
+/* prompt 角标:带 sidecar 的图右上角小圆,点击跳 prompt 页面 */
+.md-typeset .gallery .tile-prompt-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  font-size: 0.86rem;
+  line-height: 1;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.22);
+  z-index: 2;
+  opacity: 0.82;
+  transition: opacity 180ms, transform 180ms, background 180ms;
+  /* 暗色模式默认值,被下面 slate 选择器覆盖 */
+}
+.md-typeset .gallery .tile-prompt-badge:hover {
+  opacity: 1;
+  transform: scale(1.12);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile-prompt-badge {
+  background: rgba(28, 30, 36, 0.86);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile-prompt-badge:hover {
+  background: rgba(28, 30, 36, 1);
+}
+
+/* 「精选墙」专用更大瀑布流:首页用,首屏更显眼 */
+.md-typeset .gallery.featured {
+  column-count: 4;
+  column-gap: 14px;
+}
+@media (max-width: 1400px) {
+  .md-typeset .gallery.featured { column-count: 3; }
+}
+@media (max-width: 1100px) {
+  .md-typeset .gallery.featured { column-count: 2; }
+}
+@media (max-width: 640px) {
+  .md-typeset .gallery.featured { column-count: 1; }
 }
 
 /* === 图片下方标签(td 文本)用等宽 mono + 小号 === */

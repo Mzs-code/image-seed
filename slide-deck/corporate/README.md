@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-corporate-brand-platform-flow](./deck-corporate-brand-platform-flow.webp)](./deck-corporate-brand-platform-flow.webp) | [![deck-corporate-baoyu](./deck-corporate-baoyu.webp)](./deck-corporate-baoyu.webp) |    |
-| brand-platform-flow | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-corporate-brand-platform-flow.webp" alt="deck-corporate-brand-platform-flow" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./deck-corporate-baoyu.webp" alt="deck-corporate-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

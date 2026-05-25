@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-fresh-cycling-diary](./xhs-fresh-cycling-diary.webp)](./xhs-fresh-cycling-diary.webp) | [![xhs-fresh-baoyu](./xhs-fresh-baoyu.webp)](./xhs-fresh-baoyu.webp) |    |
-| cycling-diary | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-fresh-cycling-diary.webp" alt="xhs-fresh-cycling-diary" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-fresh-baoyu.webp" alt="xhs-fresh-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

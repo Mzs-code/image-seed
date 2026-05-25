@@ -8,12 +8,23 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-tree-hierarchy-continual-learning-startup-landscape](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg)](./info-tree-hierarchy-continual-learning-startup-landscape.jpeg) | [![info-tree-hierarchy-prompt-cache-flow](./info-tree-hierarchy-prompt-cache-flow.webp)](./info-tree-hierarchy-prompt-cache-flow.webp) | [![info-tree-hierarchy-session-decision](./info-tree-hierarchy-session-decision.webp)](./info-tree-hierarchy-session-decision.webp) |
-| continual-learning-startup-landscape | prompt-cache-flow | session-decision |
-| [![info-tree-hierarchy-session-log-memory-arch](./info-tree-hierarchy-session-log-memory-arch.webp)](./info-tree-hierarchy-session-log-memory-arch.webp) | [![info-tree-hierarchy-baoyu](./info-tree-hierarchy-baoyu.webp)](./info-tree-hierarchy-baoyu.webp) |    |
-| session-log-memory-arch | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-tree-hierarchy-continual-learning-startup-landscape.jpeg" alt="info-tree-hierarchy-continual-learning-startup-landscape" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-tree-hierarchy-prompt-cache-flow.webp" alt="info-tree-hierarchy-prompt-cache-flow" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-tree-hierarchy-session-decision.webp" alt="info-tree-hierarchy-session-decision" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-tree-hierarchy-session-log-memory-arch.webp" alt="info-tree-hierarchy-session-log-memory-arch" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-tree-hierarchy-baoyu.webp" alt="info-tree-hierarchy-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

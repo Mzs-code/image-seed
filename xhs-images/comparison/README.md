@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-comparison-baoyu](./xhs-comparison-baoyu.webp)](./xhs-comparison-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-comparison-baoyu.webp" alt="xhs-comparison-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

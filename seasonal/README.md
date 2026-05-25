@@ -8,14 +8,33 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![seasonal-guyu-tea-field](./seasonal-guyu-tea-field.webp)](./seasonal-guyu-tea-field.webp) | [![seasonal-jieqi-liqiu](./seasonal-jieqi-liqiu.jpeg)](./seasonal-jieqi-liqiu.jpeg) | [![seasonal-jieqi-qiufen](./seasonal-jieqi-qiufen.jpeg)](./seasonal-jieqi-qiufen.jpeg) |
-| guyu-tea-field | jieqi-liqiu 📝 | jieqi-qiufen 📝 |
-| [![seasonal-jieqi-shuangjiang](./seasonal-jieqi-shuangjiang.jpeg)](./seasonal-jieqi-shuangjiang.jpeg) | [![seasonal-jieqi-xiazhi](./seasonal-jieqi-xiazhi.jpeg)](./seasonal-jieqi-xiazhi.jpeg) | [![seasonal-labor-day-poster](./seasonal-labor-day-poster.webp)](./seasonal-labor-day-poster.webp) |
-| jieqi-shuangjiang 📝 | jieqi-xiazhi 📝 | labor-day-poster |
-| [![seasonal-lixia-handnote](./seasonal-lixia-handnote.webp)](./seasonal-lixia-handnote.webp) |    |    |
-| lixia-handnote |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./seasonal-guyu-tea-field.webp" alt="seasonal-guyu-tea-field" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-liqiu.jpeg" alt="seasonal-jieqi-liqiu" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-qiufen.jpeg" alt="seasonal-jieqi-qiufen" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-shuangjiang.jpeg" alt="seasonal-jieqi-shuangjiang" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-xiazhi.jpeg" alt="seasonal-jieqi-xiazhi" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-labor-day-poster.webp" alt="seasonal-labor-day-poster" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./seasonal-lixia-handnote.webp" alt="seasonal-lixia-handnote" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

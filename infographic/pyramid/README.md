@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-pyramid-baoyu](./info-pyramid-baoyu.webp)](./info-pyramid-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-pyramid-baoyu.webp" alt="info-pyramid-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

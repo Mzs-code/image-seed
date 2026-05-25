@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-nested-circles-baoyu](./info-nested-circles-baoyu.webp)](./info-nested-circles-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-nested-circles-baoyu.webp" alt="info-nested-circles-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

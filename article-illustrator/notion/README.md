@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![art-notion-claude-code-token-guide-cover](./art-notion-claude-code-token-guide-cover.webp)](./art-notion-claude-code-token-guide-cover.webp) | [![art-notion-baoyu](./art-notion-baoyu.webp)](./art-notion-baoyu.webp) |    |
-| claude-code-token-guide-cover | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./art-notion-claude-code-token-guide-cover.webp" alt="art-notion-claude-code-token-guide-cover" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./art-notion-baoyu.webp" alt="art-notion-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

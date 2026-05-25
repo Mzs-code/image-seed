@@ -8,16 +8,54 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-minimal-spring-layering-guide](./xhs-minimal-spring-layering-guide.webp)](./xhs-minimal-spring-layering-guide.webp) | [![xhs-minimal-tea-oil-guide-0](./xhs-minimal-tea-oil-guide-0.jpeg)](./xhs-minimal-tea-oil-guide-0.jpeg) | [![xhs-minimal-tea-oil-guide-1](./xhs-minimal-tea-oil-guide-1.jpeg)](./xhs-minimal-tea-oil-guide-1.jpeg) |
-| spring-layering-guide | tea-oil-guide-0 📝 | tea-oil-guide-1 📝 |
-| [![xhs-minimal-tea-oil-guide-2](./xhs-minimal-tea-oil-guide-2.jpeg)](./xhs-minimal-tea-oil-guide-2.jpeg) | [![xhs-minimal-tea-oil-guide-3](./xhs-minimal-tea-oil-guide-3.jpeg)](./xhs-minimal-tea-oil-guide-3.jpeg) | [![xhs-minimal-tea-oil-guide-4](./xhs-minimal-tea-oil-guide-4.jpeg)](./xhs-minimal-tea-oil-guide-4.jpeg) |
-| tea-oil-guide-2 📝 | tea-oil-guide-3 📝 | tea-oil-guide-4 📝 |
-| [![xhs-minimal-tea-oil-guide-5](./xhs-minimal-tea-oil-guide-5.jpeg)](./xhs-minimal-tea-oil-guide-5.jpeg) | [![xhs-minimal-tea-oil-guide-6](./xhs-minimal-tea-oil-guide-6.jpeg)](./xhs-minimal-tea-oil-guide-6.jpeg) | [![xhs-minimal-tea-oil-guide-7](./xhs-minimal-tea-oil-guide-7.jpeg)](./xhs-minimal-tea-oil-guide-7.jpeg) |
-| tea-oil-guide-5 📝 | tea-oil-guide-6 📝 | tea-oil-guide-7 📝 |
-| [![xhs-minimal-tea-oil-guide-8](./xhs-minimal-tea-oil-guide-8.jpeg)](./xhs-minimal-tea-oil-guide-8.jpeg) | [![xhs-minimal-tea-oil-guide-9](./xhs-minimal-tea-oil-guide-9.jpeg)](./xhs-minimal-tea-oil-guide-9.jpeg) | [![xhs-minimal-baoyu](./xhs-minimal-baoyu.webp)](./xhs-minimal-baoyu.webp) |
-| tea-oil-guide-8 📝 | tea-oil-guide-9 📝 | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-minimal-spring-layering-guide.webp" alt="xhs-minimal-spring-layering-guide" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-0.jpeg" alt="xhs-minimal-tea-oil-guide-0" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-1.jpeg" alt="xhs-minimal-tea-oil-guide-1" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-2.jpeg" alt="xhs-minimal-tea-oil-guide-2" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-3.jpeg" alt="xhs-minimal-tea-oil-guide-3" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-4.jpeg" alt="xhs-minimal-tea-oil-guide-4" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-5.jpeg" alt="xhs-minimal-tea-oil-guide-5" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-6.jpeg" alt="xhs-minimal-tea-oil-guide-6" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-7.jpeg" alt="xhs-minimal-tea-oil-guide-7" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-8.jpeg" alt="xhs-minimal-tea-oil-guide-8" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-tea-oil-guide-9.jpeg" alt="xhs-minimal-tea-oil-guide-9" loading="lazy">
+    <a class="tile-prompt-badge" href="./xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./xhs-minimal-baoyu.webp" alt="xhs-minimal-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

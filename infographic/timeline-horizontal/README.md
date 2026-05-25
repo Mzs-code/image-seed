@@ -8,12 +8,20 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-timeline-horizontal-amazon-anthropic-investment](./info-timeline-horizontal-amazon-anthropic-investment.jpg)](./info-timeline-horizontal-amazon-anthropic-investment.jpg) | [![info-timeline-horizontal-anthropic-revenue-growth](./info-timeline-horizontal-anthropic-revenue-growth.jpg)](./info-timeline-horizontal-anthropic-revenue-growth.jpg) | [![info-timeline-horizontal-google-ai-code-share](./info-timeline-horizontal-google-ai-code-share.webp)](./info-timeline-horizontal-google-ai-code-share.webp) |
-| amazon-anthropic-investment | anthropic-revenue-growth | google-ai-code-share |
-| [![info-timeline-horizontal-baoyu](./info-timeline-horizontal-baoyu.webp)](./info-timeline-horizontal-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-timeline-horizontal-amazon-anthropic-investment.jpg" alt="info-timeline-horizontal-amazon-anthropic-investment" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-timeline-horizontal-anthropic-revenue-growth.jpg" alt="info-timeline-horizontal-anthropic-revenue-growth" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-timeline-horizontal-google-ai-code-share.webp" alt="info-timeline-horizontal-google-ai-code-share" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-timeline-horizontal-baoyu.webp" alt="info-timeline-horizontal-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-notion-baoyu](./deck-notion-baoyu.webp)](./deck-notion-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-notion-baoyu.webp" alt="deck-notion-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

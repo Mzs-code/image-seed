@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![comic-dense-google-decade-story](./comic-dense-google-decade-story.jpeg)](./comic-dense-google-decade-story.jpeg) | [![comic-dense-baoyu](./comic-dense-baoyu.webp)](./comic-dense-baoyu.webp) |    |
-| google-decade-story | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./comic-dense-google-decade-story.jpeg" alt="comic-dense-google-decade-story" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comic-dense-baoyu.webp" alt="comic-dense-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

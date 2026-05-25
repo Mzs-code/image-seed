@@ -8,12 +8,26 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![appui-ai-interview-chat](./appui-ai-interview-chat.webp)](./appui-ai-interview-chat.webp) | [![appui-ai-interview-graphic](./appui-ai-interview-graphic.webp)](./appui-ai-interview-graphic.webp) | [![appui-ai-interview-home](./appui-ai-interview-home.webp)](./appui-ai-interview-home.webp) |
-| ai-interview-chat | ai-interview-graphic | ai-interview-home |
-| [![appui-ai-interview-listen](./appui-ai-interview-listen.webp)](./appui-ai-interview-listen.webp) | [![appui-face-similarity-report](./appui-face-similarity-report.webp)](./appui-face-similarity-report.webp) | [![appui-molecular-pathology-rag](./appui-molecular-pathology-rag.webp)](./appui-molecular-pathology-rag.webp) |
-| ai-interview-listen | face-similarity-report | molecular-pathology-rag |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./appui-ai-interview-chat.webp" alt="appui-ai-interview-chat" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./appui-ai-interview-graphic.webp" alt="appui-ai-interview-graphic" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./appui-ai-interview-home.webp" alt="appui-ai-interview-home" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./appui-ai-interview-listen.webp" alt="appui-ai-interview-listen" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./appui-face-similarity-report.webp" alt="appui-face-similarity-report" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./appui-molecular-pathology-rag.webp" alt="appui-molecular-pathology-rag" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

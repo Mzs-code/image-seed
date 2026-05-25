@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-funnel-baoyu](./info-funnel-baoyu.webp)](./info-funnel-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-funnel-baoyu.webp" alt="info-funnel-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

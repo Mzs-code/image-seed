@@ -8,12 +8,20 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-journey-path-claude-feishu-5-agent-flows](./info-journey-path-claude-feishu-5-agent-flows.jpg)](./info-journey-path-claude-feishu-5-agent-flows.jpg) | [![info-journey-path-orchestration-evolution](./info-journey-path-orchestration-evolution.webp)](./info-journey-path-orchestration-evolution.webp) | [![info-journey-path-script-to-skills-evolution](./info-journey-path-script-to-skills-evolution.webp)](./info-journey-path-script-to-skills-evolution.webp) |
-| claude-feishu-5-agent-flows | orchestration-evolution | script-to-skills-evolution |
-| [![info-journey-path-baoyu](./info-journey-path-baoyu.webp)](./info-journey-path-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-journey-path-claude-feishu-5-agent-flows.jpg" alt="info-journey-path-claude-feishu-5-agent-flows" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-journey-path-orchestration-evolution.webp" alt="info-journey-path-orchestration-evolution" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-journey-path-script-to-skills-evolution.webp" alt="info-journey-path-script-to-skills-evolution" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-journey-path-baoyu.webp" alt="info-journey-path-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

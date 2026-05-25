@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-bridge-agent-delegation](./info-bridge-agent-delegation.webp)](./info-bridge-agent-delegation.webp) | [![info-bridge-baoyu](./info-bridge-baoyu.webp)](./info-bridge-baoyu.webp) |    |
-| agent-delegation | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-bridge-agent-delegation.webp" alt="info-bridge-agent-delegation" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-bridge-baoyu.webp" alt="info-bridge-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

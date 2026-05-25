@@ -8,10 +8,17 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-layers-stack-agent-system-engineering](./info-layers-stack-agent-system-engineering.webp)](./info-layers-stack-agent-system-engineering.webp) | [![info-layers-stack-llm-input-structure](./info-layers-stack-llm-input-structure.webp)](./info-layers-stack-llm-input-structure.webp) | [![info-layers-stack-baoyu](./info-layers-stack-baoyu.webp)](./info-layers-stack-baoyu.webp) |
-| agent-system-engineering | llm-input-structure | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-layers-stack-agent-system-engineering.webp" alt="info-layers-stack-agent-system-engineering" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-layers-stack-llm-input-structure.webp" alt="info-layers-stack-llm-input-structure" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-layers-stack-baoyu.webp" alt="info-layers-stack-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

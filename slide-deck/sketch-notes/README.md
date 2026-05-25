@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-sketch-notes-how-ai-learns](./deck-sketch-notes-how-ai-learns.jpg)](./deck-sketch-notes-how-ai-learns.jpg) |    |    |
-| how-ai-learns |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-sketch-notes-how-ai-learns.jpg" alt="deck-sketch-notes-how-ai-learns" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

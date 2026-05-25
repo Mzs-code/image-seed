@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-retro-baoyu](./xhs-retro-baoyu.webp)](./xhs-retro-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-retro-baoyu.webp" alt="xhs-retro-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

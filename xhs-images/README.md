@@ -6,35 +6,113 @@
 
 ## Styles 风格画廊
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![cute](./cute/xhs-cute-generation-kids.webp)](./cute/README.md) | [![cute](./cute/xhs-cute-baoyu.webp)](./cute/README.md) | [![fresh](./fresh/xhs-fresh-cycling-diary.webp)](./fresh/README.md) |
-| [cute](./cute/README.md) | [cute](./cute/README.md) | [fresh](./fresh/README.md) |
-| [![fresh](./fresh/xhs-fresh-baoyu.webp)](./fresh/README.md) | [![warm](./warm/xhs-warm-baoyu.webp)](./warm/README.md) | [![bold](./bold/xhs-bold-baoyu.webp)](./bold/README.md) |
-| [fresh](./fresh/README.md) | [warm](./warm/README.md) | [bold](./bold/README.md) |
-| [![minimal](./minimal/xhs-minimal-spring-layering-guide.webp)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-0.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-1.jpeg)](./minimal/README.md) |
-| [minimal](./minimal/README.md) | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 |
-| [![minimal](./minimal/xhs-minimal-tea-oil-guide-2.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-3.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-4.jpeg)](./minimal/README.md) |
-| [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 |
-| [![minimal](./minimal/xhs-minimal-tea-oil-guide-5.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-6.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-7.jpeg)](./minimal/README.md) |
-| [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 |
-| [![minimal](./minimal/xhs-minimal-tea-oil-guide-8.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-tea-oil-guide-9.jpeg)](./minimal/README.md) | [![minimal](./minimal/xhs-minimal-baoyu.webp)](./minimal/README.md) |
-| [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) 📝 | [minimal](./minimal/README.md) |
-| [![retro](./retro/xhs-retro-baoyu.webp)](./retro/README.md) | [![pop](./pop/xhs-pop-openclaw-skillhub-promo.jpg)](./pop/README.md) | [![pop](./pop/xhs-pop-baoyu.webp)](./pop/README.md) |
-| [retro](./retro/README.md) | [pop](./pop/README.md) | [pop](./pop/README.md) |
-| [![notion](./notion/xhs-notion-baoyu.webp)](./notion/README.md) | [![chalkboard](./chalkboard/xhs-chalkboard-baoyu.webp)](./chalkboard/README.md) |    |
-| [notion](./notion/README.md) | [chalkboard](./chalkboard/README.md) |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./cute/xhs-cute-generation-kids.webp" alt="xhs-cute-generation-kids" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./cute/xhs-cute-baoyu.webp" alt="xhs-cute-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./fresh/xhs-fresh-cycling-diary.webp" alt="xhs-fresh-cycling-diary" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./fresh/xhs-fresh-baoyu.webp" alt="xhs-fresh-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./warm/xhs-warm-baoyu.webp" alt="xhs-warm-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./bold/xhs-bold-baoyu.webp" alt="xhs-bold-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-spring-layering-guide.webp" alt="xhs-minimal-spring-layering-guide" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-0.jpeg" alt="xhs-minimal-tea-oil-guide-0" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-1.jpeg" alt="xhs-minimal-tea-oil-guide-1" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-2.jpeg" alt="xhs-minimal-tea-oil-guide-2" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-3.jpeg" alt="xhs-minimal-tea-oil-guide-3" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-4.jpeg" alt="xhs-minimal-tea-oil-guide-4" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-5.jpeg" alt="xhs-minimal-tea-oil-guide-5" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-6.jpeg" alt="xhs-minimal-tea-oil-guide-6" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-7.jpeg" alt="xhs-minimal-tea-oil-guide-7" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-8.jpeg" alt="xhs-minimal-tea-oil-guide-8" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-9.jpeg" alt="xhs-minimal-tea-oil-guide-9" loading="lazy">
+    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./minimal/xhs-minimal-baoyu.webp" alt="xhs-minimal-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./retro/xhs-retro-baoyu.webp" alt="xhs-retro-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./pop/xhs-pop-openclaw-skillhub-promo.jpg" alt="xhs-pop-openclaw-skillhub-promo" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./pop/xhs-pop-baoyu.webp" alt="xhs-pop-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./notion/xhs-notion-baoyu.webp" alt="xhs-notion-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./chalkboard/xhs-chalkboard-baoyu.webp" alt="xhs-chalkboard-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## Layouts 布局画廊
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![sparse](./sparse/xhs-sparse-baoyu.webp)](./sparse/README.md) | [![balanced](./balanced/xhs-balanced-baoyu.webp)](./balanced/README.md) | [![dense](./dense/xhs-dense-korean-bbq-platter.jpg)](./dense/README.md) |
-| [sparse](./sparse/README.md) | [balanced](./balanced/README.md) | [dense](./dense/README.md) |
-| [![dense](./dense/xhs-dense-baoyu.webp)](./dense/README.md) | [![list](./list/xhs-list-baoyu.webp)](./list/README.md) | [![comparison](./comparison/xhs-comparison-baoyu.webp)](./comparison/README.md) |
-| [dense](./dense/README.md) | [list](./list/README.md) | [comparison](./comparison/README.md) |
-| [![flow](./flow/xhs-flow-baoyu.webp)](./flow/README.md) |    |    |
-| [flow](./flow/README.md) |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./sparse/xhs-sparse-baoyu.webp" alt="xhs-sparse-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./balanced/xhs-balanced-baoyu.webp" alt="xhs-balanced-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./dense/xhs-dense-korean-bbq-platter.jpg" alt="xhs-dense-korean-bbq-platter" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./dense/xhs-dense-baoyu.webp" alt="xhs-dense-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./list/xhs-list-baoyu.webp" alt="xhs-list-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comparison/xhs-comparison-baoyu.webp" alt="xhs-comparison-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./flow/xhs-flow-baoyu.webp" alt="xhs-flow-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 可用子分类
 

@@ -8,16 +8,38 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-grid-cards-claude-code-11-workflows](./info-grid-cards-claude-code-11-workflows.jpg)](./info-grid-cards-claude-code-11-workflows.jpg) | [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.webp)](./info-grid-cards-claude-code-six-rules.webp) | [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) |
-| claude-code-11-workflows | claude-code-six-rules | claude-feishu-5-agent-overview |
-| [![info-grid-cards-mobile-llm-refusal-dilemma](./info-grid-cards-mobile-llm-refusal-dilemma.webp)](./info-grid-cards-mobile-llm-refusal-dilemma.webp) | [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.webp)](./info-grid-cards-no-agents-md-pain.webp) | [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.webp)](./info-grid-cards-notebooklm-deep-reading-prompts.webp) |
-| mobile-llm-refusal-dilemma | no-agents-md-pain | notebooklm-deep-reading-prompts |
-| [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) | [![info-grid-cards-popmart-2025-annual-report](./info-grid-cards-popmart-2025-annual-report.jpg)](./info-grid-cards-popmart-2025-annual-report.jpg) | [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.webp)](./info-grid-cards-six-coffee-beans.webp) |
-| notion-3 | popmart-2025-annual-report | six-coffee-beans |
-| [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-grid-cards-claude-code-11-workflows.jpg" alt="info-grid-cards-claude-code-11-workflows" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-claude-code-six-rules.webp" alt="info-grid-cards-claude-code-six-rules" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-claude-feishu-5-agent-overview.jpg" alt="info-grid-cards-claude-feishu-5-agent-overview" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-mobile-llm-refusal-dilemma.webp" alt="info-grid-cards-mobile-llm-refusal-dilemma" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-no-agents-md-pain.webp" alt="info-grid-cards-no-agents-md-pain" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-notebooklm-deep-reading-prompts.webp" alt="info-grid-cards-notebooklm-deep-reading-prompts" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-notion-3.webp" alt="info-grid-cards-notion-3" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-popmart-2025-annual-report.jpg" alt="info-grid-cards-popmart-2025-annual-report" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-six-coffee-beans.webp" alt="info-grid-cards-six-coffee-beans" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-grid-cards-baoyu.webp" alt="info-grid-cards-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-bold-graphic-anthropic-profit-vs-openai-loss](./info-bold-graphic-anthropic-profit-vs-openai-loss.webp)](./info-bold-graphic-anthropic-profit-vs-openai-loss.webp) | [![info-bold-graphic-baoyu](./info-bold-graphic-baoyu.webp)](./info-bold-graphic-baoyu.webp) |    |
-| anthropic-profit-vs-openai-loss | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-bold-graphic-anthropic-profit-vs-openai-loss.webp" alt="info-bold-graphic-anthropic-profit-vs-openai-loss" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-bold-graphic-baoyu.webp" alt="info-bold-graphic-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

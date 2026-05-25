@@ -8,14 +8,36 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![comic-standard-chatgpt-plus-subscription](./comic-standard-chatgpt-plus-subscription.webp)](./comic-standard-chatgpt-plus-subscription.webp) | [![comic-standard-dopamine-loop](./comic-standard-dopamine-loop.webp)](./comic-standard-dopamine-loop.webp) | [![comic-standard-ultraman-vs-calabash-brothers-0](./comic-standard-ultraman-vs-calabash-brothers-0.jpg)](./comic-standard-ultraman-vs-calabash-brothers-0.jpg) |
-| chatgpt-plus-subscription | dopamine-loop | ultraman-vs-calabash-brothers-0 📝 |
-| [![comic-standard-ultraman-vs-calabash-brothers-1](./comic-standard-ultraman-vs-calabash-brothers-1.jpg)](./comic-standard-ultraman-vs-calabash-brothers-1.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-2](./comic-standard-ultraman-vs-calabash-brothers-2.jpg)](./comic-standard-ultraman-vs-calabash-brothers-2.jpg) | [![comic-standard-ultraman-vs-calabash-brothers-3](./comic-standard-ultraman-vs-calabash-brothers-3.jpg)](./comic-standard-ultraman-vs-calabash-brothers-3.jpg) |
-| ultraman-vs-calabash-brothers-1 📝 | ultraman-vs-calabash-brothers-2 📝 | ultraman-vs-calabash-brothers-3 📝 |
-| [![comic-standard-workplace-colleague-story](./comic-standard-workplace-colleague-story.webp)](./comic-standard-workplace-colleague-story.webp) | [![comic-standard-baoyu](./comic-standard-baoyu.webp)](./comic-standard-baoyu.webp) |    |
-| workplace-colleague-story | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./comic-standard-chatgpt-plus-subscription.webp" alt="comic-standard-chatgpt-plus-subscription" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-dopamine-loop.webp" alt="comic-standard-dopamine-loop" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-ultraman-vs-calabash-brothers-0.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-0" loading="lazy">
+    <a class="tile-prompt-badge" href="./comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-ultraman-vs-calabash-brothers-1.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-1" loading="lazy">
+    <a class="tile-prompt-badge" href="./comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-ultraman-vs-calabash-brothers-2.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-2" loading="lazy">
+    <a class="tile-prompt-badge" href="./comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-ultraman-vs-calabash-brothers-3.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-3" loading="lazy">
+    <a class="tile-prompt-badge" href="./comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-workplace-colleague-story.webp" alt="comic-standard-workplace-colleague-story" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comic-standard-baoyu.webp" alt="comic-standard-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

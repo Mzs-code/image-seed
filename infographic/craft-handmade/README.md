@@ -8,24 +8,87 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-craft-handmade-agent-dev-pipeline](./info-craft-handmade-agent-dev-pipeline.jpeg)](./info-craft-handmade-agent-dev-pipeline.jpeg) | [![info-craft-handmade-agent-dual-impl](./info-craft-handmade-agent-dual-impl.webp)](./info-craft-handmade-agent-dual-impl.webp) | [![info-craft-handmade-agent-runtime-orchestration](./info-craft-handmade-agent-runtime-orchestration.jpeg)](./info-craft-handmade-agent-runtime-orchestration.jpeg) |
-| agent-dev-pipeline 📝 | agent-dual-impl | agent-runtime-orchestration 📝 |
-| [![info-craft-handmade-ai-memory-bottleneck](./info-craft-handmade-ai-memory-bottleneck.jpg)](./info-craft-handmade-ai-memory-bottleneck.jpg) | [![info-craft-handmade-anthropic-harness-design](./info-craft-handmade-anthropic-harness-design.webp)](./info-craft-handmade-anthropic-harness-design.webp) | [![info-craft-handmade-autowired-iceberg](./info-craft-handmade-autowired-iceberg.webp)](./info-craft-handmade-autowired-iceberg.webp) |
-| ai-memory-bottleneck | anthropic-harness-design | autowired-iceberg |
-| [![info-craft-handmade-c4-banking-system](./info-craft-handmade-c4-banking-system.jpeg)](./info-craft-handmade-c4-banking-system.jpeg) | [![info-craft-handmade-claude-code-three-frameworks](./info-craft-handmade-claude-code-three-frameworks.jpeg)](./info-craft-handmade-claude-code-three-frameworks.jpeg) | [![info-craft-handmade-claude-managed-agents](./info-craft-handmade-claude-managed-agents.jpeg)](./info-craft-handmade-claude-managed-agents.jpeg) |
-| c4-banking-system 📝 | claude-code-three-frameworks | claude-managed-agents 📝 |
-| [![info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.webp)](./info-craft-handmade-core-ability-to-skill.webp) | [![info-craft-handmade-deepseek-reasonix](./info-craft-handmade-deepseek-reasonix.jpg)](./info-craft-handmade-deepseek-reasonix.jpg) | [![info-craft-handmade-english-learning-guide](./info-craft-handmade-english-learning-guide.jpeg)](./info-craft-handmade-english-learning-guide.jpeg) |
-| core-ability-to-skill | deepseek-reasonix | english-learning-guide |
-| [![info-craft-handmade-features-overview](./info-craft-handmade-features-overview.jpg)](./info-craft-handmade-features-overview.jpg) | [![info-craft-handmade-fourier-transform](./info-craft-handmade-fourier-transform.jpg)](./info-craft-handmade-fourier-transform.jpg) | [![info-craft-handmade-fullstack-bug-avoidance](./info-craft-handmade-fullstack-bug-avoidance.webp)](./info-craft-handmade-fullstack-bug-avoidance.webp) |
-| features-overview | fourier-transform 📝 | fullstack-bug-avoidance |
-| [![info-craft-handmade-harness-checklist](./info-craft-handmade-harness-checklist.webp)](./info-craft-handmade-harness-checklist.webp) | [![info-craft-handmade-hermes-agent](./info-craft-handmade-hermes-agent.jpeg)](./info-craft-handmade-hermes-agent.jpeg) | [![info-craft-handmade-java-ai-harness](./info-craft-handmade-java-ai-harness.webp)](./info-craft-handmade-java-ai-harness.webp) |
-| harness-checklist | hermes-agent 📝 | java-ai-harness |
-| [![info-craft-handmade-jetbrains-git-client](./info-craft-handmade-jetbrains-git-client.webp)](./info-craft-handmade-jetbrains-git-client.webp) | [![info-craft-handmade-opentelemetry-architecture](./info-craft-handmade-opentelemetry-architecture.jpeg)](./info-craft-handmade-opentelemetry-architecture.jpeg) | [![info-craft-handmade-sincerity-detector](./info-craft-handmade-sincerity-detector.jpg)](./info-craft-handmade-sincerity-detector.jpg) |
-| jetbrains-git-client | opentelemetry-architecture 📝 | sincerity-detector |
-| [![info-craft-handmade-six-masters-work-system](./info-craft-handmade-six-masters-work-system.webp)](./info-craft-handmade-six-masters-work-system.webp) | [![info-craft-handmade-skill-agent-mcp-plugin](./info-craft-handmade-skill-agent-mcp-plugin.jpeg)](./info-craft-handmade-skill-agent-mcp-plugin.jpeg) | [![info-craft-handmade-baoyu](./info-craft-handmade-baoyu.webp)](./info-craft-handmade-baoyu.webp) |
-| six-masters-work-system | skill-agent-mcp-plugin | baoyu |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-craft-handmade-agent-dev-pipeline.jpeg" alt="info-craft-handmade-agent-dev-pipeline" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-agent-dual-impl.webp" alt="info-craft-handmade-agent-dual-impl" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-agent-runtime-orchestration.jpeg" alt="info-craft-handmade-agent-runtime-orchestration" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-ai-memory-bottleneck.jpg" alt="info-craft-handmade-ai-memory-bottleneck" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-anthropic-harness-design.webp" alt="info-craft-handmade-anthropic-harness-design" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-autowired-iceberg.webp" alt="info-craft-handmade-autowired-iceberg" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-c4-banking-system.jpeg" alt="info-craft-handmade-c4-banking-system" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-claude-code-three-frameworks.jpeg" alt="info-craft-handmade-claude-code-three-frameworks" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-claude-managed-agents.jpeg" alt="info-craft-handmade-claude-managed-agents" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-core-ability-to-skill.webp" alt="info-craft-handmade-core-ability-to-skill" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-deepseek-reasonix.jpg" alt="info-craft-handmade-deepseek-reasonix" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-english-learning-guide.jpeg" alt="info-craft-handmade-english-learning-guide" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-features-overview.jpg" alt="info-craft-handmade-features-overview" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-fourier-transform.jpg" alt="info-craft-handmade-fourier-transform" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-fourier-transform/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-fullstack-bug-avoidance.webp" alt="info-craft-handmade-fullstack-bug-avoidance" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-harness-checklist.webp" alt="info-craft-handmade-harness-checklist" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-hermes-agent.jpeg" alt="info-craft-handmade-hermes-agent" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-java-ai-harness.webp" alt="info-craft-handmade-java-ai-harness" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-jetbrains-git-client.webp" alt="info-craft-handmade-jetbrains-git-client" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-opentelemetry-architecture.jpeg" alt="info-craft-handmade-opentelemetry-architecture" loading="lazy">
+    <a class="tile-prompt-badge" href="./info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-sincerity-detector.jpg" alt="info-craft-handmade-sincerity-detector" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-six-masters-work-system.webp" alt="info-craft-handmade-six-masters-work-system" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-skill-agent-mcp-plugin.jpeg" alt="info-craft-handmade-skill-agent-mcp-plugin" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-baoyu.webp" alt="info-craft-handmade-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

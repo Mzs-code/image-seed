@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-pop-openclaw-skillhub-promo](./xhs-pop-openclaw-skillhub-promo.jpg)](./xhs-pop-openclaw-skillhub-promo.jpg) | [![xhs-pop-baoyu](./xhs-pop-baoyu.webp)](./xhs-pop-baoyu.webp) |    |
-| openclaw-skillhub-promo | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-pop-openclaw-skillhub-promo.jpg" alt="xhs-pop-openclaw-skillhub-promo" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-pop-baoyu.webp" alt="xhs-pop-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

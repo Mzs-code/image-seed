@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-cute-generation-kids](./xhs-cute-generation-kids.webp)](./xhs-cute-generation-kids.webp) | [![xhs-cute-baoyu](./xhs-cute-baoyu.webp)](./xhs-cute-baoyu.webp) |    |
-| generation-kids | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-cute-generation-kids.webp" alt="xhs-cute-generation-kids" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-cute-baoyu.webp" alt="xhs-cute-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-aged-academia-mojin-xiaowei](./info-aged-academia-mojin-xiaowei.jpeg)](./info-aged-academia-mojin-xiaowei.jpeg) | [![info-aged-academia-baoyu](./info-aged-academia-baoyu.webp)](./info-aged-academia-baoyu.webp) |    |
-| mojin-xiaowei | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-aged-academia-mojin-xiaowei.jpeg" alt="info-aged-academia-mojin-xiaowei" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-aged-academia-baoyu.webp" alt="info-aged-academia-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

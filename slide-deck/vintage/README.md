@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![deck-vintage-baoyu](./deck-vintage-baoyu.webp)](./deck-vintage-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./deck-vintage-baoyu.webp" alt="deck-vintage-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

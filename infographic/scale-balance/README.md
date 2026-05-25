@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![info-scale-balance-baoyu](./info-scale-balance-baoyu.webp)](./info-scale-balance-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./info-scale-balance-baoyu.webp" alt="info-scale-balance-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

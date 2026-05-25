@@ -8,10 +8,11 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![art-editorial-baoyu](./art-editorial-baoyu.webp)](./art-editorial-baoyu.webp) |    |    |
-| baoyu |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./art-editorial-baoyu.webp" alt="art-editorial-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

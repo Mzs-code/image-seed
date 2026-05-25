@@ -8,12 +8,20 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![ecommerce-ai-glasses-detail](./ecommerce-ai-glasses-detail.webp)](./ecommerce-ai-glasses-detail.webp) | [![ecommerce-livestream-claude-opus](./ecommerce-livestream-claude-opus.jpg)](./ecommerce-livestream-claude-opus.jpg) | [![ecommerce-spring-fashion-lookbook](./ecommerce-spring-fashion-lookbook.webp)](./ecommerce-spring-fashion-lookbook.webp) |
-| ai-glasses-detail | livestream-claude-opus | spring-fashion-lookbook |
-| [![ecommerce-unity2-subscription-plans](./ecommerce-unity2-subscription-plans.webp)](./ecommerce-unity2-subscription-plans.webp) |    |    |
-| unity2-subscription-plans |    |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./ecommerce-ai-glasses-detail.webp" alt="ecommerce-ai-glasses-detail" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./ecommerce-livestream-claude-opus.jpg" alt="ecommerce-livestream-claude-opus" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./ecommerce-spring-fashion-lookbook.webp" alt="ecommerce-spring-fashion-lookbook" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./ecommerce-unity2-subscription-plans.webp" alt="ecommerce-unity2-subscription-plans" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 

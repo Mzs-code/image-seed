@@ -8,10 +8,14 @@
 
 <!-- 由 scripts/gen_scenario_readmes.py 自动生成,勿手编 -->
 
-|   |   |   |
-|:---:|:---:|:---:|
-| [![xhs-dense-korean-bbq-platter](./xhs-dense-korean-bbq-platter.jpg)](./xhs-dense-korean-bbq-platter.jpg) | [![xhs-dense-baoyu](./xhs-dense-baoyu.webp)](./xhs-dense-baoyu.webp) |    |
-| korean-bbq-platter | baoyu |    |
+<div class="gallery" markdown="0">
+  <div class="tile">
+    <img src="./xhs-dense-korean-bbq-platter.jpg" alt="xhs-dense-korean-bbq-platter" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./xhs-dense-baoyu.webp" alt="xhs-dense-baoyu" loading="lazy">
+  </div>
+</div>
 
 ## 元数据
 
