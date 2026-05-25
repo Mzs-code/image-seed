@@ -228,6 +228,8 @@ image-seed/
 - 归类暂存图 → CONTRIBUTING.md「从 unclassified 归类」
 - 已直接分类 → CONTRIBUTING.md「新增一张图」
 
+**⚠️ 迁移精选墙图特别注意**:`gen_scenario_readmes.py` 只回填根 README 的「场景导航现有图片数字」,**不会改根 README「精选墙」段的图路径**。若迁移/重命名/删除的图被根 README 精选墙引用,必须**手动改根 README 对应行**(图片路径 + 标签文字),否则 GitHub Pages 的 `mkdocs build --strict` 会因失效引用 abort。本地复现:`mkdocs build --strict`(exit 0 才安全 push)。
+
 ## 常用脚本
 
 ### `scripts/gen_scenario_readmes.py`
