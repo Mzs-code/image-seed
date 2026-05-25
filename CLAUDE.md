@@ -130,11 +130,25 @@ image-seed/
 4. 跑 `scripts/gen_scenario_readmes.py` 更新场景网格
 5. 更新根 README 场景导航表的「现有图片」数字
 
-## 图片归类(踩过的坑)
+## 图片归类
 
-**并行 Read 多张图时,输出和调用顺序不一定 1:1 对应**,会导致内容与文件名对应错位、mv 后归类错乱。
+### Substyle 选择(infographic / xhs-images:styles vs layouts 冲突时)
 
-处理待归类图片时:
+`infographic`(17 styles + 20 layouts)和 `xhs-images`(9 styles + 6 layouts)的 substyle 分**画风(style)**和**布局(layout)**两类。一张图常同时匹配一个 style 和一个 layout(手绘讲义 + 9 宫格、sketch + 冰山等),但只能放一个目录。
+
+**默认:画风优先,布局次之。** 同一作者/同 prompt 模板的一组图常画风一致但布局各异 — 按画风归类画廊里一眼识别成组,按布局归类会把同组拆散到 3–5 个 layout 目录,浏览价值低。布局信息保留在文件名 `<subject>-<modifier>` 段便于检索,如 `info-craft-handmade-autowired-iceberg.webp` 是 craft-handmade 画风的冰山图。
+
+**例外:布局优先的两种情况**
+
+1. 图就是该 layout 的「教科书示范」:纯结构图 / 空白模板 / 无明显画风(如线框黑白冰山图)
+2. 图是 layout 类 baoyu 示例(`-baoyu.webp`),本就是 layout 词典的样板
+
+**踩过的坑(2026-05-25)**:一批 6 张同系列手绘 sketch 信息图,初版按强 layout 信号(9 宫格、冰山)把 2 张拆到 `grid-cards`/`iceberg`,与同组 4 张分离。修订全部归 `craft-handmade`,布局信息留在文件名。
+
+### 并行 Read 错位(踩过的坑)
+
+**并行 Read 多张图时,输出与调用顺序不一定 1:1 对应**,会导致内容与文件名错位、mv 后归类错乱。
+
 - 优先**单图独读**判断内容,确认后再 mv
 - 若并行读取,必须用文件大小/格式做交叉验证(如 jpeg 通常远小于 png),不能仅凭视觉印象按调用顺序对应
 - mv 完成后,**至少抽读关键文件单独验证一次**(尤其新建子分类、文件名含强语义信息时)

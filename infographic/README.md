@@ -8,12 +8,16 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.webp)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-dev-pipeline.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-runtime-orchestration.jpeg)](./craft-handmade/README.md) |
-| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-architecture-cli.webp)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-dev-pipeline.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-agent-dual-impl.webp)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-agent-runtime-orchestration.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-ai-memory-bottleneck.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-autowired-iceberg.webp)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) |
 | [![craft-handmade](./craft-handmade/info-craft-handmade-c4-banking-system.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-claude-managed-agents.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-core-ability-to-skill.webp)](./craft-handmade/README.md) |
 | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) |
-| [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-fourier-transform.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-hermes-agent.jpeg)](./craft-handmade/README.md) |
-| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) 📝 |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-deepseek-reasonix.jpg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-english-learning-guide.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-fourier-transform.jpg)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 |
+| [![craft-handmade](./craft-handmade/info-craft-handmade-harness-checklist.webp)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-hermes-agent.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-java-ai-harness.webp)](./craft-handmade/README.md) |
+| [craft-handmade](./craft-handmade/README.md) | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) |
 | [![craft-handmade](./craft-handmade/info-craft-handmade-opentelemetry-architecture.jpeg)](./craft-handmade/README.md) | [![craft-handmade](./craft-handmade/info-craft-handmade-baoyu.webp)](./craft-handmade/README.md) | [![claymation](./claymation/info-claymation-baoyu.webp)](./claymation/README.md) |
 | [craft-handmade](./craft-handmade/README.md) 📝 | [craft-handmade](./craft-handmade/README.md) | [claymation](./claymation/README.md) |
 | [![kawaii](./kawaii/info-kawaii-human-digestion.webp)](./kawaii/README.md) | [![kawaii](./kawaii/info-kawaii-baoyu.webp)](./kawaii/README.md) | [![storybook-watercolor](./storybook-watercolor/info-storybook-watercolor-baoyu.webp)](./storybook-watercolor/README.md) |
