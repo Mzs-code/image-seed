@@ -18,7 +18,6 @@ FLAT_PREFIXES = {
     "seasonal": "seasonal",
     "travel": "travel",
     "app-ui": "appui",
-    "anime": "anime",
     "product-design": "prod",
 }
 FLAT_SCENARIOS = list(FLAT_PREFIXES.keys())

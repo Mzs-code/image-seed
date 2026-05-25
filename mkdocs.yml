@@ -22,9 +22,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.top
-    - navigation.indexes
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -80,6 +78,7 @@ markdown_extensions:
 nav:
   - 首页: README.md
   - 场景:
+    - scenarios.md
     - 小红书图片: xhs-images/README.md
     - 信息图: infographic/README.md
     - 漫画: comic/README.md
@@ -90,7 +89,6 @@ nav:
     - 节气节日: seasonal/README.md
     - 旅游: travel/README.md
     - 应用界面: app-ui/README.md
-    - 动漫: anime/README.md
     - 产品设计: product-design/README.md
   - 贡献指南: CONTRIBUTING.md
 

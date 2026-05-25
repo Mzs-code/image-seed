@@ -6,7 +6,7 @@
 
 ## 术语速查
 
-- **scenario(场景)**:顶层目录(`xhs-images/`、`infographic/` 等 12 个 + `unclassified/`)
+- **scenario(场景)**:顶层目录(`xhs-images/`、`infographic/` 等 11 个 + `unclassified/`)
 - **substyle(子分类)**:场景下的二级分类(如 `infographic/grid-cards/`);扁平场景无 substyle
 - **trunk**:图片 basename 去掉 `-NN` 重名后缀(`foo-01.jpg` → trunk `foo`),用于 sidecar 匹配
 - **sidecar**:与图片成对的 `.md` 文件,存 prompt 内容(同 trunk 默认 / 跨 trunk `-template.md` 共享)
@@ -46,11 +46,10 @@ image-seed/
 | `seasonal/` | `seasonal` | 扁平 |
 | `travel/` | `travel` | 扁平 |
 | `app-ui/` | `appui` | 扁平 |
-| `anime/` | `anime` | 扁平 |
 | `product-design/` | `prod` | 扁平 |
 | `unclassified/` | `misc` | 暂存区,处理完清空 |
 
-带 styles/layouts 的 5 个场景由 `scripts/gen_scenario_readmes.py` 自动生成 README;7 个扁平场景的 README 手动维护(画廊 + 元数据表合一)。
+带 styles/layouts 的 5 个场景由 `scripts/gen_scenario_readmes.py` 自动生成 README;6 个扁平场景的 README 手动维护(画廊 + 元数据表合一)。
 
 ## 文件命名规则
 
@@ -240,7 +239,7 @@ image-seed/
 - 本地图排前、baoyu 排后
 - 输出 3 列 Markdown 表格,相邻同子分类标签=同组
 
-7 个扁平场景的 README **不由脚本生成**,手动维护。
+6 个扁平场景的 README **不由脚本生成**,手动维护。
 
 ### `scripts/pull_baoyu.sh`
 

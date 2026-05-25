@@ -14,10 +14,10 @@
 | [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 | [standard](./standard/README.md) 📝 |
 | [![standard](./standard/comic-standard-workplace-colleague-story.webp)](./standard/README.md) | [![standard](./standard/comic-standard-baoyu.webp)](./standard/README.md) | [![cinematic](./cinematic/comic-cinematic-baoyu.webp)](./cinematic/README.md) |
 | [standard](./standard/README.md) | [standard](./standard/README.md) | [cinematic](./cinematic/README.md) |
-| [![dense](./dense/comic-dense-baoyu.webp)](./dense/README.md) | [![splash](./splash/comic-splash-baoyu.webp)](./splash/README.md) | [![mixed](./mixed/comic-mixed-baoyu.webp)](./mixed/README.md) |
-| [dense](./dense/README.md) | [splash](./splash/README.md) | [mixed](./mixed/README.md) |
-| [![webtoon](./webtoon/comic-webtoon-baoyu.webp)](./webtoon/README.md) |    |    |
-| [webtoon](./webtoon/README.md) |    |    |
+| [![dense](./dense/comic-dense-google-decade-story.jpeg)](./dense/README.md) | [![dense](./dense/comic-dense-baoyu.webp)](./dense/README.md) | [![splash](./splash/comic-splash-baoyu.webp)](./splash/README.md) |
+| [dense](./dense/README.md) | [dense](./dense/README.md) | [splash](./splash/README.md) |
+| [![mixed](./mixed/comic-mixed-baoyu.webp)](./mixed/README.md) | [![webtoon](./webtoon/comic-webtoon-baoyu.webp)](./webtoon/README.md) |    |
+| [mixed](./mixed/README.md) | [webtoon](./webtoon/README.md) |    |
 
 ## 可用子分类
 
