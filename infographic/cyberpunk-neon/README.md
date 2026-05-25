@@ -10,12 +10,14 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-cyberpunk-neon-apple-mie-vs-mythos](./info-cyberpunk-neon-apple-mie-vs-mythos.webp)](./info-cyberpunk-neon-apple-mie-vs-mythos.webp) | [![info-cyberpunk-neon-asi-finals-openai-vs-anthropic](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg)](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg) | [![info-cyberpunk-neon-five-day-ai-hacker-blitz](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp)](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp) |
-| apple-mie-vs-mythos | asi-finals-openai-vs-anthropic | five-day-ai-hacker-blitz |
-| [![info-cyberpunk-neon-github-source-leak](./info-cyberpunk-neon-github-source-leak.webp)](./info-cyberpunk-neon-github-source-leak.webp) | [![info-cyberpunk-neon-gpt-image-2-capability-map](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg)](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg) | [![info-cyberpunk-neon-microsoft-mdash-ai-security](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp)](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp) |
-| github-source-leak | gpt-image-2-capability-map | microsoft-mdash-ai-security |
-| [![info-cyberpunk-neon-nvidia-openai-corewrave-path](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg)](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg) | [![info-cyberpunk-neon-three-super-ipo-preview](./info-cyberpunk-neon-three-super-ipo-preview.webp)](./info-cyberpunk-neon-three-super-ipo-preview.webp) | [![info-cyberpunk-neon-baoyu](./info-cyberpunk-neon-baoyu.webp)](./info-cyberpunk-neon-baoyu.webp) |
-| nvidia-openai-corewrave-path | three-super-ipo-preview | baoyu |
+| [![info-cyberpunk-neon-ai-everyday-creators](./info-cyberpunk-neon-ai-everyday-creators.webp)](./info-cyberpunk-neon-ai-everyday-creators.webp) | [![info-cyberpunk-neon-apple-mie-vs-mythos](./info-cyberpunk-neon-apple-mie-vs-mythos.webp)](./info-cyberpunk-neon-apple-mie-vs-mythos.webp) | [![info-cyberpunk-neon-asi-finals-openai-vs-anthropic](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg)](./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg) |
+| ai-everyday-creators | apple-mie-vs-mythos | asi-finals-openai-vs-anthropic |
+| [![info-cyberpunk-neon-five-day-ai-hacker-blitz](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp)](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp) | [![info-cyberpunk-neon-github-source-leak](./info-cyberpunk-neon-github-source-leak.webp)](./info-cyberpunk-neon-github-source-leak.webp) | [![info-cyberpunk-neon-gpt-image-2-capability-map](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg)](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg) |
+| five-day-ai-hacker-blitz | github-source-leak | gpt-image-2-capability-map |
+| [![info-cyberpunk-neon-microsoft-mdash-ai-security](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp)](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp) | [![info-cyberpunk-neon-nvidia-openai-corewrave-path](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg)](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg) | [![info-cyberpunk-neon-three-super-ipo-preview](./info-cyberpunk-neon-three-super-ipo-preview.webp)](./info-cyberpunk-neon-three-super-ipo-preview.webp) |
+| microsoft-mdash-ai-security | nvidia-openai-corewrave-path | three-super-ipo-preview |
+| [![info-cyberpunk-neon-baoyu](./info-cyberpunk-neon-baoyu.webp)](./info-cyberpunk-neon-baoyu.webp) |    |    |
+| baoyu |    |    |
 
 ## 元数据
 
@@ -30,5 +32,6 @@
 | [info-cyberpunk-neon-three-super-ipo-preview](./info-cyberpunk-neon-three-super-ipo-preview.webp) | 3 大超级 IPO 前瞻:SpaceX (含 xAI) / OpenAI / Anthropic 估值目标 3 万亿美元,蓝色星空数据卡片 | `ipo` `spacex` `openai` `anthropic` `valuation` `dark-blue` `cosmic` `chinese` `gpt-image-2` | 新智元·桃子 | — |
 | [info-cyberpunk-neon-nvidia-openai-corewrave-path](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg) | NVIDIA→OpenAI→CoreWeave→Anthropic 算力资本路径,METR 趋势线推向 AGI 门槛,3D 赛博机库背景 | `nvidia` `openai` `agi` `path-layout` `3d-render` `cyber-warehouse` `chinese` `gpt-image-2` | 新智元 | — |
 | [info-cyberpunk-neon-gpt-image-2-capability-map](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg) | GPT-image-2 能力地图:文字理解/版式控制/中文渲染/风格迁移/产品摄影/商业海报六大模块,深色 sci-fi UI + 中心六边形辐射 | `gpt-image-2-features` `capability-map` `dark-ui` `sci-fi` `hexagon` `mind-map-layout` `chinese` `gpt-image-2` | — | — |
+| [info-cyberpunk-neon-ai-everyday-creators](./info-cyberpunk-neon-ai-everyday-creators.webp) | AI 时代众生相:中央 AI 球体光晕,周围多角色用各类终端创作(编程/音乐/游戏/学习/办公),紫粉霓虹赛博群像 | `ai-everyday-life` `creators` `group-portrait` `purple-neon` `chinese` `gpt-image-2` | 公众号·量子位 | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。
