@@ -43,7 +43,7 @@ hide:
 | [App UI · 应用界面](./app-ui/README.md) | 应用界面营销截图 | 扁平 | 6 |
 | [Anime · 动漫](./anime/README.md) | 动漫/漫画风格、生活感故事图 | 扁平 | 1 |
 | [Product Design · 产品设计](./product-design/README.md) | 实物产品/工业设计/空间装置/创意概念 | 扁平 | 3 |
-| [Unclassified · 未分类](./unclassified/README.md) | 待归档图片(场景类) | — | 0 |
+| [Unclassified · 未分类](./unclassified/README.md) | 待归档图片(场景类) | — | 1 |
 
 > **模型来源**通过元数据标签记录(如 `` `gpt-image-2` ``),不再单设顶层目录。跨场景搜索某模型生成的图,GitHub 仓库搜该标签即可。
 

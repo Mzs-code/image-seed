@@ -10,14 +10,14 @@
 
 |   |   |   |
 |:---:|:---:|:---:|
-| [![info-grid-cards-anthropic-harness-design](./info-grid-cards-anthropic-harness-design.webp)](./info-grid-cards-anthropic-harness-design.webp) | [![info-grid-cards-claude-code-11-workflows](./info-grid-cards-claude-code-11-workflows.jpg)](./info-grid-cards-claude-code-11-workflows.jpg) | [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.webp)](./info-grid-cards-claude-code-six-rules.webp) |
-| anthropic-harness-design | claude-code-11-workflows | claude-code-six-rules |
-| [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | [![info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg)](./info-grid-cards-features-overview.jpg) | [![info-grid-cards-mobile-llm-refusal-dilemma](./info-grid-cards-mobile-llm-refusal-dilemma.webp)](./info-grid-cards-mobile-llm-refusal-dilemma.webp) |
-| claude-feishu-5-agent-overview | features-overview | mobile-llm-refusal-dilemma |
-| [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.webp)](./info-grid-cards-no-agents-md-pain.webp) | [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.webp)](./info-grid-cards-notebooklm-deep-reading-prompts.webp) | [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) |
-| no-agents-md-pain | notebooklm-deep-reading-prompts | notion-3 |
-| [![info-grid-cards-popmart-2025-annual-report](./info-grid-cards-popmart-2025-annual-report.jpg)](./info-grid-cards-popmart-2025-annual-report.jpg) | [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.webp)](./info-grid-cards-six-coffee-beans.webp) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |
-| popmart-2025-annual-report | six-coffee-beans | baoyu |
+| [![info-grid-cards-claude-code-11-workflows](./info-grid-cards-claude-code-11-workflows.jpg)](./info-grid-cards-claude-code-11-workflows.jpg) | [![info-grid-cards-claude-code-six-rules](./info-grid-cards-claude-code-six-rules.webp)](./info-grid-cards-claude-code-six-rules.webp) | [![info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg)](./info-grid-cards-claude-feishu-5-agent-overview.jpg) |
+| claude-code-11-workflows | claude-code-six-rules | claude-feishu-5-agent-overview |
+| [![info-grid-cards-features-overview](./info-grid-cards-features-overview.jpg)](./info-grid-cards-features-overview.jpg) | [![info-grid-cards-mobile-llm-refusal-dilemma](./info-grid-cards-mobile-llm-refusal-dilemma.webp)](./info-grid-cards-mobile-llm-refusal-dilemma.webp) | [![info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.webp)](./info-grid-cards-no-agents-md-pain.webp) |
+| features-overview | mobile-llm-refusal-dilemma | no-agents-md-pain |
+| [![info-grid-cards-notebooklm-deep-reading-prompts](./info-grid-cards-notebooklm-deep-reading-prompts.webp)](./info-grid-cards-notebooklm-deep-reading-prompts.webp) | [![info-grid-cards-notion-3](./info-grid-cards-notion-3.webp)](./info-grid-cards-notion-3.webp) | [![info-grid-cards-popmart-2025-annual-report](./info-grid-cards-popmart-2025-annual-report.jpg)](./info-grid-cards-popmart-2025-annual-report.jpg) |
+| notebooklm-deep-reading-prompts | notion-3 | popmart-2025-annual-report |
+| [![info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.webp)](./info-grid-cards-six-coffee-beans.webp) | [![info-grid-cards-baoyu](./info-grid-cards-baoyu.webp)](./info-grid-cards-baoyu.webp) |    |
+| six-coffee-beans | baoyu |    |
 
 ## 元数据
 

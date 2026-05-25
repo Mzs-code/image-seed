@@ -12,10 +12,8 @@
 |:---:|:---:|:---:|
 | [![info-feature-list-agent-optimization-methods](./info-feature-list-agent-optimization-methods.webp)](./info-feature-list-agent-optimization-methods.webp) | [![info-feature-list-anthropic-enterprise-share](./info-feature-list-anthropic-enterprise-share.webp)](./info-feature-list-anthropic-enterprise-share.webp) | [![info-feature-list-claude-agent-sdk](./info-feature-list-claude-agent-sdk.webp)](./info-feature-list-claude-agent-sdk.webp) |
 | agent-optimization-methods | anthropic-enterprise-share | claude-agent-sdk |
-| [![info-feature-list-claude-code-three-strategies](./info-feature-list-claude-code-three-strategies.webp)](./info-feature-list-claude-code-three-strategies.webp) | [![info-feature-list-golden-retriever](./info-feature-list-golden-retriever.webp)](./info-feature-list-golden-retriever.webp) | [![info-feature-list-happyhorse-cold-water](./info-feature-list-happyhorse-cold-water.webp)](./info-feature-list-happyhorse-cold-water.webp) |
-| claude-code-three-strategies | golden-retriever | happyhorse-cold-water |
-| [![info-feature-list-baoyu](./info-feature-list-baoyu.webp)](./info-feature-list-baoyu.webp) |    |    |
-| baoyu |    |    |
+| [![info-feature-list-claude-code-three-strategies](./info-feature-list-claude-code-three-strategies.webp)](./info-feature-list-claude-code-three-strategies.webp) | [![info-feature-list-golden-retriever](./info-feature-list-golden-retriever.webp)](./info-feature-list-golden-retriever.webp) | [![info-feature-list-baoyu](./info-feature-list-baoyu.webp)](./info-feature-list-baoyu.webp) |
+| claude-code-three-strategies | golden-retriever | baoyu |
 
 ## 元数据
 
