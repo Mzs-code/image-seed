@@ -44,6 +44,13 @@
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-deepseek-reasonix.jpg" alt="info-craft-handmade-deepseek-reasonix" loading="lazy">
   </div>
+  <div class="tile tile-series" data-count="2">
+    <img src="./craft-handmade/info-craft-handmade-dividend-insurance-cut-01.jpg" alt="info-craft-handmade-dividend-insurance-cut-01" loading="lazy" data-gallery="info-craft-handmade-dividend-insurance-cut" data-title="1 / 2" data-description="分红险双降·一句话看懂核心变化:6/30 前老款高收益(保底 1.75%)vs 7/1 后新规合规品(保底降至 1.25%~1.5%),手绘蜡笔左右对比">
+    <span class="series-count" aria-label="2 张组图">2</span>
+    <span class="series-frames">
+      <img src="./craft-handmade/info-craft-handmade-dividend-insurance-cut-02.jpg" alt="info-craft-handmade-dividend-insurance-cut-02" loading="lazy" data-gallery="info-craft-handmade-dividend-insurance-cut" data-title="2 / 2" data-description="下调原因·分红险双降背后三大因素:市场利率下行 / 长寿风险 / 资金涌入压力,手绘蜡笔">
+    </span>
+  </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-english-learning-guide.jpeg" alt="info-craft-handmade-english-learning-guide" loading="lazy">
   </div>
@@ -169,6 +176,18 @@
   </div>
   <div class="tile">
     <img src="./origami/info-origami-baoyu.webp" alt="info-origami-baoyu" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./pixel-art/info-pixel-art-geo-poisoning-cover.webp" alt="info-pixel-art-geo-poisoning-cover" loading="lazy">
+  </div>
+  <div class="tile tile-series" data-count="4">
+    <img src="./pixel-art/info-pixel-art-geo-poisoning-guide-01.webp" alt="info-pixel-art-geo-poisoning-guide-01" loading="lazy" data-gallery="info-pixel-art-geo-poisoning-guide" data-title="1 / 4" data-description="什么是 GEO?GEO 投毒如何产生 + AI 公关舆情案例,彩色卡通分区科普">
+    <span class="series-count" aria-label="4 张组图">4</span>
+    <span class="series-frames">
+      <img src="./pixel-art/info-pixel-art-geo-poisoning-guide-02.webp" alt="info-pixel-art-geo-poisoning-guide-02" loading="lazy" data-gallery="info-pixel-art-geo-poisoning-guide" data-title="2 / 4" data-description="GEO 投毒有哪些法律风险:商业诋毁 / 虚假宣传 / 平台与服务责任 / 刑事风险等 5 类">
+      <img src="./pixel-art/info-pixel-art-geo-poisoning-guide-03.webp" alt="info-pixel-art-geo-poisoning-guide-03" loading="lazy" data-gallery="info-pixel-art-geo-poisoning-guide" data-title="3 / 4" data-description="企业应该如何应对:固定证据 / 溯源分析 / 投诉处理 / 起诉维权 / 补充内容 5 步">
+      <img src="./pixel-art/info-pixel-art-geo-poisoning-guide-04.webp" alt="info-pixel-art-geo-poisoning-guide-04" loading="lazy" data-gallery="info-pixel-art-geo-poisoning-guide" data-title="4 / 4" data-description="正常的 GEO 还能做吗:合规做法 vs 恶意误导帖(do / don't)">
+    </span>
   </div>
   <div class="tile">
     <img src="./pixel-art/info-pixel-art-baoyu.webp" alt="info-pixel-art-baoyu" loading="lazy">

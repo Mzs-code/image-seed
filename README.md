@@ -60,7 +60,7 @@ hide:
 | 场景 | 说明 | 子分类数 | 现有图片 |
 |---|---|---|---|
 | [XHS Images · 小红书图片](./xhs-images/README.md) | 社交平台配图,封面/笔记头图 | 9 styles + 6 layouts | 30 |
-| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 120 |
+| [Infographic · 信息图](./infographic/README.md) | 信息可视化,概念图解 | 17 styles + 20 layouts | 127 |
 | [Comic · 漫画](./comic/README.md) | 分镜、连环画、长条漫 | 6 layouts | 14 |
 | [Slide Deck · 演示文稿](./slide-deck/README.md) | 幻灯片、Keynote 风格 | 16 styles | 17 |
 | [Article Illustrator · 文章插图](./article-illustrator/README.md) | 博客/文章插图 | 8 styles | 13 |
@@ -71,7 +71,7 @@ hide:
 | [App UI · 应用界面](./app-ui/README.md) | 应用界面营销截图 | 扁平 | 6 |
 | [Product Design · 产品设计](./product-design/README.md) | 实物产品/工业设计/空间装置/创意概念 | 扁平 | 3 |
 | [Meme · 梗图](./meme/README.md) | 网络梗图、对比/吐槽 meme、二次创作图 | 扁平 | 1 |
-| [Unclassified · 未分类](./unclassified/README.md) | 待归档图片(场景类) | — | 2 |
+| [Unclassified · 未分类](./unclassified/README.md) | 待归档图片(场景类) | — | 0 |
 
 > **模型来源**通过元数据标签记录(如 `` `gpt-image-2` ``),不再单设顶层目录。跨场景搜索某模型生成的图,GitHub 仓库搜该标签即可。
 

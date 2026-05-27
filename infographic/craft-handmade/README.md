@@ -46,6 +46,13 @@
   <div class="tile">
     <img src="./info-craft-handmade-deepseek-reasonix.jpg" alt="info-craft-handmade-deepseek-reasonix" loading="lazy">
   </div>
+  <div class="tile tile-series" data-count="2">
+    <img src="./info-craft-handmade-dividend-insurance-cut-01.jpg" alt="info-craft-handmade-dividend-insurance-cut-01" loading="lazy" data-gallery="info-craft-handmade-dividend-insurance-cut" data-title="1 / 2" data-description="分红险双降·一句话看懂核心变化:6/30 前老款高收益(保底 1.75%)vs 7/1 后新规合规品(保底降至 1.25%~1.5%),手绘蜡笔左右对比">
+    <span class="series-count" aria-label="2 张组图">2</span>
+    <span class="series-frames">
+      <img src="./info-craft-handmade-dividend-insurance-cut-02.jpg" alt="info-craft-handmade-dividend-insurance-cut-02" loading="lazy" data-gallery="info-craft-handmade-dividend-insurance-cut" data-title="2 / 2" data-description="下调原因·分红险双降背后三大因素:市场利率下行 / 长寿风险 / 资金涌入压力,手绘蜡笔">
+    </span>
+  </div>
   <div class="tile">
     <img src="./info-craft-handmade-english-learning-guide.jpeg" alt="info-craft-handmade-english-learning-guide" loading="lazy">
   </div>
@@ -117,6 +124,8 @@
 | [info-craft-handmade-sincerity-detector](./info-craft-handmade-sincerity-detector.jpg) | 人性的真诚检测器:真诚的人(回报/开放/信任) vs 不真诚的人(变贪心/得寸进尺/把你当软弱可拿捏),浅色手绘讲义 + 卡通人物 + 中心辐射 | `psychology` `mind-map-layout` `hand-drawn` `chinese` `gpt-image-2` | — | — |
 | [info-craft-handmade-six-masters-work-system](./info-craft-handmade-six-masters-work-system.webp) | 六位大师工作系统:德鲁克(业务)/ 乔布斯+原研哉(战略)/ 芒格(决策)/ 巴菲特(战略)/ 马斯克(执行)+ 我的工作系统(Claude Code Agent Team + 定制化 Skill),手绘讲义 + 真人头像卡 | `productivity` `framework` `mind-map-layout` `hand-drawn` `chinese` `gpt-image-2` | — | — |
 | [info-craft-handmade-jetbrains-git-client](./info-craft-handmade-jetbrains-git-client.webp) | JetBrains 独立 Git 客户端 — 官方"弃坑",社区"接棒":十年长跑 + rebased 项目本质 + 主流 Git GUI 竞争力对比,浅色手绘讲义 | `git` `jetbrains` `developer-tools` `hand-drawn` `chinese` | — | — |
+| [info-craft-handmade-dividend-insurance-cut-01](./info-craft-handmade-dividend-insurance-cut-01.jpg) | 分红险双降·一句话看懂核心变化:6/30 前老款高收益(保底 1.75%)vs 7/1 后新规合规品(保底降至 1.25%~1.5%),手绘蜡笔左右对比 | `craft-handmade` `hand-drawn` `pastel` `insurance` `finance` `comparison` `chinese` `series` | — | — |
+| [info-craft-handmade-dividend-insurance-cut-02](./info-craft-handmade-dividend-insurance-cut-02.jpg) | 下调原因·分红险双降背后三大因素:市场利率下行 / 长寿风险 / 资金涌入压力,手绘蜡笔 | `craft-handmade` `hand-drawn` `pastel` `insurance` `finance` `chinese` `series` | — | — |
 | [info-craft-handmade-baoyu](./info-craft-handmade-baoyu.webp) | `craft-handmade` 参考示例 | `baoyu-skills` `craft-handmade` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;Prompt 有 sidecar 写带 20 字摘要的链接,跨 trunk 共享时多行指向同一模板 sidecar(打 `` `template-shared` `` 标签便于识别);标签用反引号包裹。
