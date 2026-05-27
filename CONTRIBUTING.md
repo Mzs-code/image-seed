@@ -69,7 +69,7 @@
 
 | 部分 | 规则 | 示例 |
 |---|---|---|
-| scenario-prefix | 场景缩写,全小写 | `xhs` `info` `comic` `deck` `art` `poster` `appui` `prod` `misc` |
+| scenario-prefix | 场景缩写,全小写 | `xhs` `info` `comic` `deck` `art` `poster` `appui` `prod` `meme` `misc` |
 | substyle | 子分类名,全小写(同目录名)。扁平场景无此段 | `cute` `cyberpunk-neon` `pixel-art` `mind-map` |
 | subject | 主体,1–2 词 | `girl` `city` `process` |
 | modifier | 场景/修饰,1–3 词 | `cafe` `night-neon` `cover` |
@@ -103,6 +103,7 @@
 | `travel/` | `travel` | 扁平 |
 | `app-ui/` | `appui` | 扁平 |
 | `product-design/` | `prod` | 扁平 |
+| `meme/` | `meme` | 扁平 |
 | `unclassified/` | `misc` | 暂存 |
 
 ## 标签约定
@@ -208,7 +209,7 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
 脚本(自动)做四件事,你不用手动维护:
 
 1. 重生成 5 个非扁平场景的平铺网格 README
-2. **重写所有子分类 + 6 个扁平场景 README 的「画廊」段**(以 `## 画廊` 为锚,到下一个 `## ` 标题之前的内容会被完全替换;只动画廊,元数据段不动)
+2. **重写所有子分类 + 7 个扁平场景 README 的「画廊」段**(以 `## 画廊` 为锚,到下一个 `## ` 标题之前的内容会被完全替换;只动画廊,元数据段不动)
 3. **扫子分类元数据表 Prompt 列,在场景网格的 label 行加 📝 角标**(元数据驱动 — 只要 Prompt 列有 `[prompt: …](./….md)` 链接,该图就会被识别;同 trunk / 同 basename / 跨 trunk 模板共享三种情形统一处理)
 4. **回填根 README 场景导航表的「现有图片」数字**(扫各场景图片数,不数 sidecar)
 

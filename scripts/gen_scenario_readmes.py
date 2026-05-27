@@ -19,6 +19,7 @@ FLAT_PREFIXES = {
     "travel": "travel",
     "app-ui": "appui",
     "product-design": "prod",
+    "meme": "meme",
 }
 FLAT_SCENARIOS = list(FLAT_PREFIXES.keys())
 UNCLASSIFIED = "unclassified"

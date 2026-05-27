@@ -90,6 +90,7 @@ nav:
     - 旅游: travel/README.md
     - 应用界面: app-ui/README.md
     - 产品设计: product-design/README.md
+    - 梗图: meme/README.md
   - 贡献指南: CONTRIBUTING.md
 
 exclude_docs: |
