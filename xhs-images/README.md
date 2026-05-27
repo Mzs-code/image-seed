@@ -28,44 +28,20 @@
   <div class="tile">
     <img src="./minimal/xhs-minimal-spring-layering-guide.webp" alt="xhs-minimal-spring-layering-guide" loading="lazy">
   </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-0.jpeg" alt="xhs-minimal-tea-oil-guide-0" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-1.jpeg" alt="xhs-minimal-tea-oil-guide-1" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-2.jpeg" alt="xhs-minimal-tea-oil-guide-2" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-3.jpeg" alt="xhs-minimal-tea-oil-guide-3" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-4.jpeg" alt="xhs-minimal-tea-oil-guide-4" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-5.jpeg" alt="xhs-minimal-tea-oil-guide-5" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-6.jpeg" alt="xhs-minimal-tea-oil-guide-6" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-7.jpeg" alt="xhs-minimal-tea-oil-guide-7" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-8.jpeg" alt="xhs-minimal-tea-oil-guide-8" loading="lazy">
-    <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./minimal/xhs-minimal-tea-oil-guide-9.jpeg" alt="xhs-minimal-tea-oil-guide-9" loading="lazy">
+  <div class="tile tile-series" data-count="10">
+    <img src="./minimal/xhs-minimal-tea-oil-guide-0.jpeg" alt="xhs-minimal-tea-oil-guide-0" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="1 / 10" data-description="茶油选购指南 NO.01 封面:大字「茶」裁切 + 茶油瓶水墨主图">
+    <span class="series-count" aria-label="10 张组图">10</span>
+    <span class="series-frames">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-1.jpeg" alt="xhs-minimal-tea-oil-guide-1" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="2 / 10" data-description="NO.02:看原料(茶籽来源 / 品种 / 产地)">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-2.jpeg" alt="xhs-minimal-tea-oil-guide-2" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="3 / 10" data-description="NO.03:看工艺(冷榨 vs 热榨)">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-3.jpeg" alt="xhs-minimal-tea-oil-guide-3" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="4 / 10" data-description="NO.04:看色泽">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-4.jpeg" alt="xhs-minimal-tea-oil-guide-4" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="5 / 10" data-description="NO.05:闻香气">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-5.jpeg" alt="xhs-minimal-tea-oil-guide-5" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="6 / 10" data-description="NO.06:尝口感(入口顺滑 / 后味清爽 / 4 条要点)">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-6.jpeg" alt="xhs-minimal-tea-oil-guide-6" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="7 / 10" data-description="NO.07:看包装/标签">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-7.jpeg" alt="xhs-minimal-tea-oil-guide-7" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="8 / 10" data-description="NO.08:踩坑提示">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-8.jpeg" alt="xhs-minimal-tea-oil-guide-8" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="9 / 10" data-description="NO.09:推荐场景">
+      <img src="./minimal/xhs-minimal-tea-oil-guide-9.jpeg" alt="xhs-minimal-tea-oil-guide-9" loading="lazy" data-gallery="xhs-minimal-tea-oil-guide" data-title="10 / 10" data-description="NO.10:总结/收束页">
+    </span>
     <a class="tile-prompt-badge" href="./minimal/xhs-minimal-tea-oil-guide/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">

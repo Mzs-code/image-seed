@@ -13,20 +13,14 @@
   <div class="tile">
     <img src="./standard/comic-standard-dopamine-loop.webp" alt="comic-standard-dopamine-loop" loading="lazy">
   </div>
-  <div class="tile">
-    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-0.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-0" loading="lazy">
-    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-1.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-1" loading="lazy">
-    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-2.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-2" loading="lazy">
-    <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
-    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-3.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-3" loading="lazy">
+  <div class="tile tile-series" data-count="4">
+    <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-0.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-0" loading="lazy" data-gallery="comic-standard-ultraman-vs-calabash-brothers" data-title="1 / 4" data-description="奥特曼大战葫芦娃绘本 Page 1:奥特曼来到葫芦山,七个葫芦娃惊呆,「你是谁?」">
+    <span class="series-count" aria-label="4 张组图">4</span>
+    <span class="series-frames">
+      <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-1.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-1" loading="lazy" data-gallery="comic-standard-ultraman-vs-calabash-brothers" data-title="2 / 4" data-description="Page 2:大娃举石头 / 二娃凝视,奥特曼摆姿势光光闪过,池边比试热闹">
+      <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-2.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-2" loading="lazy" data-gallery="comic-standard-ultraman-vs-calabash-brothers" data-title="3 / 4" data-description="Page 3:三娃铁头功 / 四娃火焰 / 五娃水浪攻击,奥特曼光盾挡下,原来山谷里是大怪兽">
+      <img src="./standard/comic-standard-ultraman-vs-calabash-brothers-3.jpg" alt="comic-standard-ultraman-vs-calabash-brothers-3" loading="lazy" data-gallery="comic-standard-ultraman-vs-calabash-brothers" data-title="4 / 4" data-description="Page 4:奥特曼与葫芦娃肩并肩打败怪兽,夕阳下大家开心笑,从那天起成了最勇敢的朋友">
+    </span>
     <a class="tile-prompt-badge" href="./standard/comic-standard-ultraman-vs-calabash-brothers/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">

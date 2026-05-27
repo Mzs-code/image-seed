@@ -16,6 +16,7 @@
    - 在场景 README 的对应画廊里追加该子分类的卡片(解除该行的空单元格占位)
 7. [ ] **画廊段不手编**:跳过(由脚本自动生成,见步骤 10)
 8. [ ] 若有 prompt → 同时新建 [sidecar 文件](#prompt-sidecar-文件)`<trunk>.md`,与图片同目录(trunk = basename 去掉 `-NN` 重名后缀;多图共享 prompt 时 N 张图指向同一个 sidecar,详见 [多图共享 prompt](#多图共享-prompt))
+   - **把 sidecar 登记进 `mkdocs.yml` 的 `nav`**:挂在所属场景 section 下(场景从叶子链接改成列表,README 作首项 index、prompt 页作子项,标题用主题名即可,形如 `<主题>: <场景>/<substyle>/<trunk>.md`)。漏登记 → 页面打开后左侧无导航 / 无目录(`navigation.tabs` 下场景不在 nav = 无 active section)。`gen_scenario_readmes.py` **不管 nav**,必须手动加
 9. [ ] 在子分类 README(或扁平场景 README)的「元数据」表追加一行,来源缺失填 `—`;Prompt 列:有 sidecar 写 `[prompt: <20 字内摘要>…](./<trunk>.md)`(摘要让链接在表格里也能识别),无则填 `—`。若由 GPT Image 2 生成,标签加 `` `gpt-image-2` ``
 10. [ ] 跑 `python3 scripts/gen_scenario_readmes.py` —— 该脚本一站式完成:重生成 5 个非扁平场景 README + 重写所有子分类 / 扁平场景 README 的画廊段(`## 画廊` 到下一个 `## ` 之间)+ 给带 sidecar 的图加 📝 角标 + 回填根 README 场景导航图片数
 11. [ ] (可选)若代表性极强,替换根 README「精选墙」里该场景的旧图
@@ -133,14 +134,21 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
 
 可选增强:
 
-- **顶部加图片预览**(强烈推荐,让 sidecar 自包含):
-  ```markdown
+- **预览图 + `# 标题` + Prompt 正文标签 + 代码块围栏**(强烈推荐,自包含且能拿到复制按钮):
+  ````markdown
   ![preview](./info-craft-handmade-fourier-transform.jpg)
 
-  ## 傅里叶变换数学可视化
+  # 傅里叶变换数学可视化
 
-  <prompt 正文>
+  > 一句话说明:这是什么 / 用途 / 比例(选填)
+
+  <div class="prompt-head" id="prompt">Prompt 正文</div>
+
+  ```text
+  <prompt 正文,原样粘贴>
   ```
+  ````
+  > 「Prompt 正文」刻意用 `<div class="prompt-head" id="prompt">` 而非 `## 标题`:这样它**不会进左栏目录(TOC)**,但仍有同款 § 标签外观;紧随其后的代码块会自动获得复制按钮 + 自动换行(样式见 `stylesheets/extra.css`,按钮注入见 `javascripts/prompt-copy.js`)。
 - **frontmatter 全选填**,有就写、没有就省。常见字段:
   ```yaml
   ---
@@ -154,7 +162,7 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
     - { file: foo-02.png, seed: 67890, note: 颜色更暖 }
   ---
   ```
-- **prompt 正文随意 markdown**:可用段落、blockquote、加粗、列表自由组织。**不强制 `​```text` 围栏** —— 只在 prompt 含大量特殊字符(`{}<>` 等)需原样保留时再用
+- **prompt 正文用代码块围栏包起来**(现行标准,放在 `<div class="prompt-head" id="prompt">Prompt 正文</div>` 标签之下):用三反引号 + `text` 起一段 fenced code block 包住整段 prompt。好处:① 渲染站点会自动给代码块加「复制」按钮,一键拷走整段 prompt;② 占位符 `{}` / `【】` / `<>` 等原样保留,不被 markdown 吃掉
 - **结尾可选 `## Notes`** 写迭代笔记、负面 prompt 等
 
 ### 多图共享 prompt
@@ -206,12 +214,13 @@ sidecar **不强制任何结构**,目标是「以人为本、易写易读」。�
 
 ### 与 `gen_scenario_readmes.py` 的关系
 
-脚本(自动)做四件事,你不用手动维护:
+脚本(自动)做五件事,你不用手动维护:
 
 1. 重生成 5 个非扁平场景的平铺网格 README
 2. **重写所有子分类 + 7 个扁平场景 README 的「画廊」段**(以 `## 画廊` 为锚,到下一个 `## ` 标题之前的内容会被完全替换;只动画廊,元数据段不动)
 3. **扫子分类元数据表 Prompt 列,在场景网格的 label 行加 📝 角标**(元数据驱动 — 只要 Prompt 列有 `[prompt: …](./….md)` 链接,该图就会被识别;同 trunk / 同 basename / 跨 trunk 模板共享三种情形统一处理)
 4. **回填根 README 场景导航表的「现有图片」数字**(扫各场景图片数,不数 sidecar)
+5. **同 trunk 系列折叠**:同一 trunk(去 `-NN`)且 ≥2 张的连续图(同 prompt/同故事的多帧,见 [多图共享 prompt](#多图共享-prompt)),在画廊里折叠成**单个 tile** —— 封面=首帧 + 左上「⧉ N」张数角标 + 堆叠投影;其余帧隐藏但共享 `data-gallery=<trunk>`,点封面开灯箱顺序翻看全组,每帧灯箱说明取该帧元数据主体(`data-title` 为「i / N」)。所以变体组/系列组**只占 1 格**,你正常按帧命名 `-01/-02…` 即可,无需为展示做任何特殊处理
 
 跑法不变:`python3 scripts/gen_scenario_readmes.py`。
 

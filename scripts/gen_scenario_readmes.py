@@ -240,29 +240,124 @@ def get_sidecar_url(scenario, substyle, image_filename):
     return f"./{md}"
 
 
-def build_grid(scenario, substyles):
-    """场景级 masonry 画廊:点击图开灯箱(glightbox 接管 img)。
+# === 系列组图折叠 ===
+# 同 trunk(basename 去 -N 后缀)且 ≥2 张的连续图视为一个系列(同 prompt/同故事的
+# 多帧),在画廊里折叠成单个 tile:封面=首帧 + 「⧉ N」张数角标 + 堆叠投影(CSS)。
+# 其余帧用隐藏 <img> 保留,与封面共享 data-gallery=<trunk>,点封面开 glightbox 顺序
+# 翻看全部 N 帧,每帧带说明(data-title=「i / N」+ data-description=该帧元数据主体)。
 
-    所有 tile 用 <div> 容器,不再跳子分类 README(避免 mkdocs 下 README.md 404)。
-    带 sidecar 的图在右上角加 📝 角标,链接到 prompt 页面。
-    进入子分类走「可用子分类」清单段。空 substyle 跳过。
+def _series_index(filename):
+    """系列图数字后缀(`-3.jpg` → 3),用于组内数字排序。无后缀返回 -1。"""
+    m = NN_SUFFIX_RE.search(filename.rsplit(".", 1)[0])
+    return int(m.group(0)[1:]) if m else -1
+
+
+def group_images(images):
+    """把有序图片列表按 trunk 折叠:连续同 trunk(≥2 张)合为一个系列组。
+
+    返回有序 [(kind, [files...])],kind ∈ {"single","series"}。
+    baoyu 图与无 -N 后缀的图各自成 single,不进系列。
     """
+    result = []
+    i, n = 0, len(images)
+    while i < n:
+        f = images[i]
+        stem = f.rsplit(".", 1)[0]
+        trunk = None
+        if not f.endswith("-baoyu.webp") and NN_SUFFIX_RE.search(stem):
+            trunk = NN_SUFFIX_RE.sub("", stem)
+        if trunk is not None:
+            grp, j = [], i
+            while j < n:
+                sj = images[j].rsplit(".", 1)[0]
+                if (images[j].endswith("-baoyu.webp")
+                        or not NN_SUFFIX_RE.search(sj)
+                        or NN_SUFFIX_RE.sub("", sj) != trunk):
+                    break
+                grp.append(images[j])
+                j += 1
+            if len(grp) >= 2:
+                grp.sort(key=_series_index)
+                result.append(("series", grp))
+                i = j
+                continue
+        result.append(("single", [f]))
+        i += 1
+    return result
+
+
+def _series_img(src, stem, gallery, title, desc):
+    """系列内单帧 <img>:带 data-gallery 分组 + data-title/description 灯箱说明。"""
+    attrs = [f'src="{src}"', f'alt="{_esc(stem)}"', 'loading="lazy"',
+             f'data-gallery="{_esc(gallery)}"']
+    if title:
+        attrs.append(f'data-title="{_esc(title)}"')
+    if desc:
+        attrs.append(f'data-description="{_esc(desc)}"')
+    return f'<img {" ".join(attrs)}>'
+
+
+def _frame_caption(scenario, substyle, stem, idx, total):
+    """灯箱单帧说明:title=「i / N」,description=该帧元数据主体(缺失则空)。"""
+    subject = ""
+    if scenario:
+        subject = _read_meta_table(scenario, substyle).get(stem, ("", []))[0]
+    return f"{idx} / {total}", subject
+
+
+def _render_tiles(images, src_of, sidecar_of, scenario, substyle):
+    """把图片列表渲成 tile 行:单图普通 tile;系列折叠成 1 个 tile-series。
+
+    src_of(filename) → 图片 URL;sidecar_of(filename) → prompt 页 URL 或 None。
+    """
+    lines = []
+    for kind, files in group_images(images):
+        if kind == "single":
+            f = files[0]
+            stem = f.rsplit(".", 1)[0]
+            lines.append('  <div class="tile">')
+            lines.append(f'    <img src="{src_of(f)}" alt="{_esc(stem)}" loading="lazy">')
+            sc = sidecar_of(f)
+            if sc:
+                lines.append(f'    <a class="tile-prompt-badge" href="{sc}" title="查看 prompt">📝</a>')
+            lines.append('  </div>')
+            continue
+        # 系列折叠成单 tile
+        total = len(files)
+        cover = files[0]
+        cover_stem = cover.rsplit(".", 1)[0]
+        trunk = NN_SUFFIX_RE.sub("", cover_stem)
+        lines.append(f'  <div class="tile tile-series" data-count="{total}">')
+        t, d = _frame_caption(scenario, substyle, cover_stem, 1, total)
+        lines.append(f'    {_series_img(src_of(cover), cover_stem, trunk, t, d)}')
+        lines.append(f'    <span class="series-count" aria-label="{total} 张组图">{total}</span>')
+        lines.append('    <span class="series-frames">')
+        for idx, f in enumerate(files[1:], start=2):
+            stem = f.rsplit(".", 1)[0]
+            t, d = _frame_caption(scenario, substyle, stem, idx, total)
+            lines.append(f'      {_series_img(src_of(f), stem, trunk, t, d)}')
+        lines.append('    </span>')
+        sc = sidecar_of(cover)
+        if sc:
+            lines.append(f'    <a class="tile-prompt-badge" href="{sc}" title="查看 prompt">📝</a>')
+        lines.append('  </div>')
+    return lines
+
+
+def build_grid(scenario, substyles):
+    """场景级 masonry 画廊:点击图开灯箱;同 trunk 系列折叠成单 tile。空 substyle 跳过。"""
     lines = ['<div class="gallery" markdown="0">']
     for s in substyles:
         imgs = collect_images(scenario, s)
         if not imgs:
             continue
-        for f in imgs:
-            stem = f.rsplit(".", 1)[0]
-            src = f"./{s}/{f}"
-            sidecar = get_sidecar_url(scenario, s, f)
-            lines.append('  <div class="tile">')
-            lines.append(f'    <img src="{src}" alt="{_esc(stem)}" loading="lazy">')
-            if sidecar:
-                # 场景级 sidecar 路径相对场景目录,需拼上 substyle
-                sidecar_href = f'./{s}/{sidecar.lstrip("./")}'
-                lines.append(f'    <a class="tile-prompt-badge" href="{sidecar_href}" title="查看 prompt">📝</a>')
-            lines.append('  </div>')
+
+        def sidecar_of(f, s=s):
+            # 场景级 sidecar 路径相对场景目录,需拼上 substyle
+            u = get_sidecar_url(scenario, s, f)
+            return f'./{s}/{u.lstrip("./")}' if u else None
+
+        lines += _render_tiles(imgs, lambda f, s=s: f"./{s}/{f}", sidecar_of, scenario, s)
     lines.append('</div>')
     return "\n".join(lines)
 
@@ -320,22 +415,19 @@ def build_flat_scenario_gallery(scenario, prefix):
 
 
 def _build_gallery(images, path_prefix, prefix, substyle, scenario=None):
-    """子分类 / 扁平场景画廊:masonry HTML,点击开灯箱(glightbox 接管 img)。
+    """子分类 / 扁平场景画廊:masonry HTML,点击开灯箱;同 trunk 系列折叠成单 tile。
 
     带 sidecar 的图右上角加 📝 角标,链接到 prompt 页面。
     """
     if not images:
         return "*(暂无图片)*"
     lines = ['<div class="gallery" markdown="0">']
-    for f in images:
-        stem = f.rsplit(".", 1)[0]
-        href = f"{path_prefix}{f}"
-        sidecar = get_sidecar_url(scenario, substyle, f) if scenario else None
-        lines.append('  <div class="tile">')
-        lines.append(f'    <img src="{href}" alt="{_esc(stem)}" loading="lazy">')
-        if sidecar:
-            lines.append(f'    <a class="tile-prompt-badge" href="{sidecar}" title="查看 prompt">📝</a>')
-        lines.append('  </div>')
+    lines += _render_tiles(
+        images,
+        lambda f: f"{path_prefix}{f}",
+        (lambda f: get_sidecar_url(scenario, substyle, f)) if scenario else (lambda f: None),
+        scenario, substyle,
+    )
     lines.append('</div>')
     return "\n".join(lines)
 

@@ -294,6 +294,67 @@
   background: rgba(28, 30, 36, 1);
 }
 
+/* === 系列组图:同 trunk 多帧折叠成单个 tile === */
+/* 封面=首帧,其余帧隐藏(仍被 glightbox 收录,点封面顺序翻看全组) */
+.md-typeset .gallery .tile-series .series-frames { display: none; }
+
+/* 堆叠纸张投影:暗示这是「一摞多张」,box-shadow 不受 overflow:hidden 裁剪 */
+.md-typeset .gallery .tile-series {
+  box-shadow:
+    0 1px 2px rgba(0,0,0,0.05),
+    4px 4px 0 -1px var(--md-default-bg-color), 4px 4px 0 0 var(--ed-rule),
+    8px 8px 0 -1px var(--md-default-bg-color), 8px 8px 0 0 var(--ed-rule);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile-series {
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.4),
+    4px 4px 0 -1px var(--md-default-bg-color), 4px 4px 0 0 var(--ed-rule),
+    8px 8px 0 -1px var(--md-default-bg-color), 8px 8px 0 0 var(--ed-rule);
+}
+.md-typeset .gallery .tile-series:hover {
+  box-shadow:
+    0 14px 32px rgba(0,0,0,0.18), 0 2px 6px rgba(0,0,0,0.08),
+    4px 4px 0 -1px var(--md-default-bg-color), 4px 4px 0 0 var(--ed-rule),
+    8px 8px 0 -1px var(--md-default-bg-color), 8px 8px 0 0 var(--ed-rule);
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile-series:hover {
+  box-shadow:
+    0 14px 36px rgba(0,0,0,0.55), 0 2px 6px rgba(0,0,0,0.3),
+    4px 4px 0 -1px var(--md-default-bg-color), 4px 4px 0 0 var(--ed-rule),
+    8px 8px 0 -1px var(--md-default-bg-color), 8px 8px 0 0 var(--ed-rule);
+}
+
+/* 张数角标(左上;prompt 角标在右上,两者并存)。纯指示,不拦截点击 */
+.md-typeset .gallery .tile-series .series-count {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.28em;
+  height: 24px;
+  padding: 0 9px;
+  background: rgba(255,255,255,0.92);
+  border-radius: 999px;
+  font-family: var(--ed-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  color: rgba(0,0,0,0.82);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.22);
+  z-index: 3;
+  pointer-events: none;
+}
+.md-typeset .gallery .tile-series .series-count::before {
+  content: "⧉";
+  font-size: 0.95em;
+  opacity: 0.9;
+}
+[data-md-color-scheme="slate"] .md-typeset .gallery .tile-series .series-count {
+  background: rgba(28,30,36,0.88);
+  color: rgba(255,255,255,0.9);
+}
+
 /* 「精选墙」专用更大瀑布流:首页用,首屏更显眼 */
 .md-typeset .gallery.featured {
   column-count: 4;
@@ -417,3 +478,147 @@
   padding-top: 0.5rem;
   border-top: none;
 }
+
+/* === 「Prompt 正文」标签 + 复制按钮(prompt-head 是 div 不是标题,故不进左栏 TOC) === */
+/* 让标签复刻 h2 的 § 编辑风外观 */
+.md-typeset .prompt-head {
+  font-family: var(--ed-serif);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+  padding-top: 0.7em;
+  border-top: 1px solid var(--ed-rule);
+}
+.md-typeset .prompt-head::before {
+  content: "§";
+  font-family: var(--ed-serif);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--ed-muted);
+  margin-right: 0.35em;
+  font-size: 0.85em;
+}
+/* 隐藏紧跟标签的代码块默认右上角按钮(用自定义按钮替代) */
+.md-typeset .prompt-head + .highlight .md-clipboard {
+  display: none;
+}
+/* prompt 代码块自动换行,不横向滚动 */
+.md-typeset .prompt-head + .highlight pre,
+.md-typeset .prompt-head + .highlight pre > code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.md-typeset .prompt-copy {
+  vertical-align: middle;
+  margin-left: 0.6em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32em;
+  padding: 0.28em 0.7em;
+  font-family: var(--ed-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ed-muted);
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--ed-rule);
+  border-radius: 999px;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 160ms, border-color 160ms, background 160ms;
+}
+.md-typeset .prompt-copy:hover {
+  color: var(--md-default-fg-color);
+  border-color: var(--md-default-fg-color);
+}
+.md-typeset .prompt-copy:active {
+  transform: translateY(1px);
+}
+.md-typeset .prompt-copy--done {
+  color: #2e7d32;
+  border-color: #2e7d32;
+}
+[data-md-color-scheme="slate"] .md-typeset .prompt-copy--done {
+  color: #7bc67e;
+  border-color: #7bc67e;
+}
+.md-typeset .prompt-copy svg {
+  display: block;
+}
+
+/* === 灯箱(glightbox)多页导航:左右边缘箭头 → 底部居中醒目按钮 === */
+
+/* 上一张 / 下一张:从竖直中线的左右边缘,移到底部居中成对横排 */
+.glightbox-clean .gprev,
+.glightbox-clean .gnext {
+  top: auto !important;
+  bottom: 20px !important;
+  width: auto !important;
+  height: 44px !important;
+  padding: 0 18px !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 6px;
+  border-radius: 999px !important;
+  background-color: rgba(20, 20, 22, 0.72) !important;
+  border: 1px solid rgba(255, 255, 255, 0.34) !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+  transition: background-color 160ms, border-color 160ms, transform 160ms;
+}
+/* 围绕视口中线对称排布,中间留 ~24px 间隙 */
+.glightbox-clean .gprev {
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(calc(-100% - 12px));
+}
+.glightbox-clean .gnext {
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(12px);
+}
+.glightbox-clean .gprev:hover,
+.glightbox-clean .gnext:hover {
+  background-color: rgba(44, 44, 48, 0.95) !important;
+  border-color: rgba(255, 255, 255, 0.6) !important;
+}
+.glightbox-clean .gprev:hover { transform: translateX(calc(-100% - 12px)) scale(1.05); }
+.glightbox-clean .gnext:hover { transform: translateX(12px) scale(1.05); }
+
+/* 文字标签:比裸箭头更直观、更显眼 */
+.glightbox-clean .gprev::after,
+.glightbox-clean .gnext::before {
+  color: #fff;
+  font-family: var(--ed-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.glightbox-clean .gprev::after { content: "上一张"; }
+.glightbox-clean .gnext::before { content: "下一张"; }
+.glightbox-clean .gprev svg,
+.glightbox-clean .gnext svg { width: 18px !important; height: auto !important; }
+
+/* 到首 / 末张时 glightbox 给按钮加 .disabled(loop:false),淡出表示到头 */
+.glightbox-clean .gprev.disabled,
+.glightbox-clean .gnext.disabled { opacity: 0.3 !important; }
+
+/* 说明条:改成紧凑的底部深色渐变浮层(不再是占大块空间的白底),文字居中,
+   底部留空给导航按钮。不再改图片/容器尺寸,避免布局变形。 */
+.glightbox-clean .gslide-description {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0) 100%) !important;
+  padding: 14px 16px 72px !important;
+  max-height: none !important;
+  text-align: center;
+}
+.glightbox-clean .gslide-title {
+  color: #fff !important;
+  font-weight: 600 !important;
+  margin-bottom: 5px !important;
+}
+.glightbox-clean .gslide-desc { color: rgba(255, 255, 255, 0.88) !important; }

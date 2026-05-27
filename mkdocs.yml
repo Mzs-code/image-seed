@@ -22,6 +22,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.top
     - toc.integrate
     - search.suggest
@@ -45,6 +46,9 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/prompt-copy.js
 
 plugins:
   - same-dir
@@ -71,6 +75,7 @@ markdown_extensions:
   - toc:
       permalink: false
   - pymdownx.details
+  - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -79,14 +84,23 @@ nav:
   - 首页: README.md
   - 场景:
     - scenarios.md
-    - 小红书图片: xhs-images/README.md
-    - 信息图: infographic/README.md
-    - 漫画: comic/README.md
+    - 小红书图片:
+      - xhs-images/README.md
+      - 茶油选购指南: xhs-images/minimal/xhs-minimal-tea-oil-guide.md
+    - 信息图:
+      - infographic/README.md
+      - 手绘知识图解模板: infographic/craft-handmade/info-craft-handmade-knowledge-diagram-template.md
+      - 数学可视化讲义: infographic/craft-handmade/info-craft-handmade-fourier-transform.md
+    - 漫画:
+      - comic/README.md
+      - 儿童绘本内页: comic/standard/comic-standard-ultraman-vs-calabash-brothers.md
     - 演示文稿: slide-deck/README.md
     - 文章插图: article-illustrator/README.md
     - 海报: poster/README.md
     - 电商: ecommerce/README.md
-    - 节气节日: seasonal/README.md
+    - 节气节日:
+      - seasonal/README.md
+      - 二十四节气海报模板: seasonal/seasonal-jieqi-monument-valley-template.md
     - 旅游: travel/README.md
     - 应用界面: app-ui/README.md
     - 产品设计: product-design/README.md

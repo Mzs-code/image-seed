@@ -237,10 +237,21 @@ image-seed/
 扫描各子分类目录下的实际图片文件,重新生成 5 个非扁平场景 README(`xhs-images`、`infographic`、`comic`、`slide-deck`、`article-illustrator`)。**图片任何增删后都要跑**。核心逻辑:
 
 - 按子分类顺序遍历,每张图一个 tile
+- **同 trunk(去 `-NN`)且 ≥2 张的连续图折叠成单个「系列」tile**:封面=首帧 + 左上「⧉ N」张数角标 + 堆叠投影;其余帧隐藏但共享 `data-gallery`,点封面开 glightbox 顺序翻看全组,每帧灯箱说明取该帧元数据主体。系列组**只占 1 格**,无需手动处理
 - 本地图排前、baoyu 排后
-- 输出 3 列 Markdown 表格,相邻同子分类标签=同组
+- 输出 masonry 画廊(`.gallery` div),带 sidecar 的图加 📝 角标
 
-6 个扁平场景的 README **不由脚本生成**,手动维护。
+7 个扁平场景的 README **不由脚本生成**,手动维护。
+
+### 本地预览(`mkdocs serve`)
+
+```bash
+.venv-mkdocs/bin/mkdocs serve -a 127.0.0.1:8000   # 端口被占就换 8001/8002…(8000 可能被别的会话占用)
+```
+
+- **⚠️ 坑:`mkdocs serve` 对 CSS(`stylesheets/extra.css`)等静态文件的改动有时不自动重建** —— 浏览器(即便无痕模式)会一直看到旧样式,误判「改了没生效」。**改完 CSS 务必重启 serve**,并 `curl -s http://127.0.0.1:<port>/image-seed/stylesheets/extra.css | grep <新规则标记>` 确认供给的确实是新版,再让用户刷新,别让人白刷。
+- `.md` 内容、图片增删通常能被监听到自动重建;**CSS / `mkdocs.yml` / 主题相关**改动则重启最稳妥。
+- push 前最终校验仍用 `mkdocs build --strict`(exit 0 才安全)。
 
 ### `scripts/pull_baoyu.sh`
 

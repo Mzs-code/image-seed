@@ -11,8 +11,9 @@
 >
 > 跨 trunk 共享形式:6 张图各有独立 trunk(`info-craft-handmade-<subject>`),都在 README 元数据 Prompt 列指向本模板文件。
 
-## Prompt 正文
+<div class="prompt-head" id="prompt">Prompt 正文</div>
 
+```text
 请把我提供的内容转化成一张高可读性的手绘知识图解。风格像认真整理过的创意手帐 + 白板推演 + 咨询报告信息图,而不是冰冷模板。
 
 【输出目标】
@@ -66,3 +67,4 @@
 
 【内容】
 {请输入你的内容或者参考图片}
+```

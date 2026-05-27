@@ -1,18 +1,19 @@
 |   |   |
 |:---:|:---:|
-| ![preview](./seasonal-jieqi-xiazhi.jpeg) | ![preview](./seasonal-jieqi-liqiu.jpeg) |
+| ![preview](./seasonal-jieqi-monument-valley-01.jpeg) | ![preview](./seasonal-jieqi-monument-valley-02.jpeg) |
 | 夏至 · 横州茉莉 | 立秋 · 百色芒果 |
-| ![preview](./seasonal-jieqi-qiufen.jpeg) | ![preview](./seasonal-jieqi-shuangjiang.jpeg) |
+| ![preview](./seasonal-jieqi-monument-valley-03.jpeg) | ![preview](./seasonal-jieqi-monument-valley-04.jpeg) |
 | 秋分 · 壮锦丰收 | 霜降 · 荔浦芋头 |
 
 # 二十四节气海报模板(纪念碑谷气质 · 广西特产)
 
-> **prompt 模板**(用户最后一行替换主题即可),用同一份生成 10 张广西特产 × 24 节气海报,本批已落地 4 张(夏至 / 立秋 / 秋分 / 霜降),trunk 各自独立、Prompt 列都指向本 sidecar。
+> **prompt 模板**(用户最后一行替换主题即可),用同一份生成 10 张广西特产 × 24 节气海报,本批已落地 4 张(夏至 / 立秋 / 秋分 / 霜降),同 trunk `seasonal-jieqi-monument-valley`(画廊里折叠成 1 格),Prompt 列都指向本 sidecar。
 >
 > 模板核心:纪念碑谷式等距空间几何 + 中文主标题平面化处理 + 柔和低饱和配色 + 极小人物锚点 + 二级哲理金句 + 节气养生信息层级。
 
-## Prompt 正文
+<div class="prompt-head" id="prompt">Prompt 正文</div>
 
+```text
 请根据用户最后输入的【主题 / 单词 / 短句】,生成一张「纪念碑谷气质」的极简超现实主义 3D 艺术海报。
 
 核心逻辑(关键):
@@ -68,3 +69,4 @@
 
 特别强调:一共 10 个图片,每个图片都是 16:9 尺寸
 美学价值:收藏级别
+```
