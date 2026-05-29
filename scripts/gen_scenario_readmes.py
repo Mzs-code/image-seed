@@ -82,12 +82,16 @@ def list_images_in(d):
 
 
 def collect_images(scenario, substyle):
-    """该子分类下所有图,本地图优先,baoyu 排最后。"""
+    """该子分类下所有图,本地图优先,baoyu 排最后。
+
+    本地图按字母序;共享同一 prompt 模板(sidecar 被 ≥2 张图引用)的图额外
+    聚成连续一簇(见 _cluster_by_template),便于在画廊里一眼识别同模板批次。
+    """
     d = os.path.join(ROOT, scenario, substyle)
     files = list_images_in(d)
     non_baoyu = sorted(f for f in files if not f.endswith("-baoyu.webp"))
     baoyu = sorted(f for f in files if f.endswith("-baoyu.webp"))
-    return non_baoyu + baoyu
+    return _cluster_by_template(non_baoyu, scenario, substyle) + baoyu
 
 
 _PROMPT_CACHE = {}
@@ -240,11 +244,54 @@ def get_sidecar_url(scenario, substyle, image_filename):
     return f"./{md}"
 
 
+def _cluster_by_template(images, scenario, substyle):
+    """把共享同一 prompt 模板(同一 sidecar 被 ≥2 张图引用)的图聚成连续一簇。
+
+    template-shared(跨 trunk 共用 `-template.md` 的多张「不同主题」图)不被
+    group_images 折叠(它们 trunk 各异、无 -NN),否则会在画廊里按字母序散开。
+    这里按元数据 Prompt 列指向的 sidecar 路径聚类:每簇出现在其字母序首位成员
+    的位置,簇内仍按字母序;单图/无 sidecar 的图保持原序。同 trunk 变体(共用
+    一份 sidecar)本就相邻,聚类对其无副作用,也不影响后续 group_images 折叠。
+
+    入参 images 须已字母序;scenario=None(无元数据)时原样返回。
+    """
+    if scenario is None or len(images) < 2:
+        return images
+    pmap = _get_prompt_map(scenario, substyle)
+    if not pmap:
+        return images
+
+    def key_of(f):
+        return pmap.get(f.rsplit(".", 1)[0])
+
+    counts = {}
+    for f in images:
+        md = key_of(f)
+        if md:
+            counts[md] = counts.get(md, 0) + 1
+
+    result, emitted = [], set()
+    for f in images:
+        md = key_of(f)
+        if not md or counts[md] < 2:   # 单图 sidecar / 无 sidecar:保持原位
+            result.append(f)
+            continue
+        if md in emitted:              # 该簇已在首位成员处整体放入
+            continue
+        emitted.add(md)
+        result.extend(g for g in images if key_of(g) == md)
+    return result
+
+
 # === 系列组图折叠 ===
 # 同 trunk(basename 去 -N 后缀)且 ≥2 张的连续图视为一个系列(同 prompt/同故事的
 # 多帧),在画廊里折叠成单个 tile:封面=首帧 + 「⧉ N」张数角标 + 堆叠投影(CSS)。
 # 其余帧用隐藏 <img> 保留,与封面共享 data-gallery=<trunk>,点封面开 glightbox 顺序
 # 翻看全部 N 帧,每帧带说明(data-title=「i / N」+ data-description=该帧元数据主体)。
+#
+# 例外:共享 `-template.md` 的图(模板共享 = 主题各异、只是套同一 prompt 模板)
+# **不折叠** —— 即使凑巧命名成 -NN。它们是独立类别,各占一格、各带 📝,改由
+# _cluster_by_template 聚成连续一簇(no_fold 集合由 _render_tiles 传入)。
 
 def _series_index(filename):
     """系列图数字后缀(`-3.jpg` → 3),用于组内数字排序。无后缀返回 -1。"""
@@ -252,11 +299,13 @@ def _series_index(filename):
     return int(m.group(0)[1:]) if m else -1
 
 
-def group_images(images):
+def group_images(images, no_fold=frozenset()):
     """把有序图片列表按 trunk 折叠:连续同 trunk(≥2 张)合为一个系列组。
 
     返回有序 [(kind, [files...])],kind ∈ {"single","series"}。
     baoyu 图与无 -N 后缀的图各自成 single,不进系列。
+    no_fold:文件名集合,其中的图永不折叠(各自成 single)—— 用于「模板共享」
+    组(主题各异),即便命名成 -NN 也保持独立 tile,由聚簇负责相邻排列。
     """
     result = []
     i, n = 0, len(images)
@@ -264,13 +313,15 @@ def group_images(images):
         f = images[i]
         stem = f.rsplit(".", 1)[0]
         trunk = None
-        if not f.endswith("-baoyu.webp") and NN_SUFFIX_RE.search(stem):
+        if (f not in no_fold and not f.endswith("-baoyu.webp")
+                and NN_SUFFIX_RE.search(stem)):
             trunk = NN_SUFFIX_RE.sub("", stem)
         if trunk is not None:
             grp, j = [], i
             while j < n:
                 sj = images[j].rsplit(".", 1)[0]
-                if (images[j].endswith("-baoyu.webp")
+                if (images[j] in no_fold
+                        or images[j].endswith("-baoyu.webp")
                         or not NN_SUFFIX_RE.search(sj)
                         or NN_SUFFIX_RE.sub("", sj) != trunk):
                     break
@@ -310,8 +361,16 @@ def _render_tiles(images, src_of, sidecar_of, scenario, substyle):
 
     src_of(filename) → 图片 URL;sidecar_of(filename) → prompt 页 URL 或 None。
     """
+    # 模板共享(sidecar 以 -template.md 结尾)的图主题各异 —— 不折叠,只聚簇
+    no_fold = set()
+    if scenario is not None:
+        pmap = _get_prompt_map(scenario, substyle)
+        for f in images:
+            md = pmap.get(f.rsplit(".", 1)[0])
+            if md and md.endswith("-template.md"):
+                no_fold.add(f)
     lines = []
-    for kind, files in group_images(images):
+    for kind, files in group_images(images, no_fold):
         if kind == "single":
             f = files[0]
             stem = f.rsplit(".", 1)[0]
@@ -406,7 +465,7 @@ def build_flat_scenario_gallery(scenario, prefix):
     non_baoyu = sorted(f for f in files if not f.endswith("-baoyu.webp"))
     baoyu = sorted(f for f in files if f.endswith("-baoyu.webp"))
     return _build_gallery(
-        images=non_baoyu + baoyu,
+        images=_cluster_by_template(non_baoyu, scenario, None) + baoyu,
         path_prefix="./",
         prefix=prefix,
         substyle=None,

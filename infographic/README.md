@@ -12,11 +12,27 @@
     <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">
-    <img src="./craft-handmade/info-craft-handmade-agent-dual-impl.webp" alt="info-craft-handmade-agent-dual-impl" loading="lazy">
-  </div>
-  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-agent-runtime-orchestration.jpeg" alt="info-craft-handmade-agent-runtime-orchestration" loading="lazy">
     <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-c4-banking-system.jpeg" alt="info-craft-handmade-c4-banking-system" loading="lazy">
+    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-claude-managed-agents.jpeg" alt="info-craft-handmade-claude-managed-agents" loading="lazy">
+    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-hermes-agent.jpeg" alt="info-craft-handmade-hermes-agent" loading="lazy">
+    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-opentelemetry-architecture.jpeg" alt="info-craft-handmade-opentelemetry-architecture" loading="lazy">
+    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-agent-dual-impl.webp" alt="info-craft-handmade-agent-dual-impl" loading="lazy">
   </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-ai-memory-bottleneck.jpg" alt="info-craft-handmade-ai-memory-bottleneck" loading="lazy">
@@ -28,15 +44,7 @@
     <img src="./craft-handmade/info-craft-handmade-autowired-iceberg.webp" alt="info-craft-handmade-autowired-iceberg" loading="lazy">
   </div>
   <div class="tile">
-    <img src="./craft-handmade/info-craft-handmade-c4-banking-system.jpeg" alt="info-craft-handmade-c4-banking-system" loading="lazy">
-    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-claude-code-three-frameworks.jpeg" alt="info-craft-handmade-claude-code-three-frameworks" loading="lazy">
-  </div>
-  <div class="tile">
-    <img src="./craft-handmade/info-craft-handmade-claude-managed-agents.jpeg" alt="info-craft-handmade-claude-managed-agents" loading="lazy">
-    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-core-ability-to-skill.webp" alt="info-craft-handmade-core-ability-to-skill" loading="lazy">
@@ -68,18 +76,10 @@
     <img src="./craft-handmade/info-craft-handmade-harness-checklist.webp" alt="info-craft-handmade-harness-checklist" loading="lazy">
   </div>
   <div class="tile">
-    <img src="./craft-handmade/info-craft-handmade-hermes-agent.jpeg" alt="info-craft-handmade-hermes-agent" loading="lazy">
-    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
-  </div>
-  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-java-ai-harness.webp" alt="info-craft-handmade-java-ai-harness" loading="lazy">
   </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-jetbrains-git-client.webp" alt="info-craft-handmade-jetbrains-git-client" loading="lazy">
-  </div>
-  <div class="tile">
-    <img src="./craft-handmade/info-craft-handmade-opentelemetry-architecture.jpeg" alt="info-craft-handmade-opentelemetry-architecture" loading="lazy">
-    <a class="tile-prompt-badge" href="./craft-handmade/info-craft-handmade-knowledge-diagram-template/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-sincerity-detector.jpg" alt="info-craft-handmade-sincerity-detector" loading="lazy">

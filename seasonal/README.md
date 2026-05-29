@@ -12,14 +12,20 @@
   <div class="tile">
     <img src="./seasonal-guyu-tea-field.webp" alt="seasonal-guyu-tea-field" loading="lazy">
   </div>
-  <div class="tile tile-series" data-count="4">
-    <img src="./seasonal-jieqi-monument-valley-01.jpeg" alt="seasonal-jieqi-monument-valley-01" loading="lazy" data-gallery="seasonal-jieqi-monument-valley" data-title="1 / 4" data-description="夏至(XIAZHI · Summer Solstice)海报:横州茉莉 + 金色拱门 + 白衣女子 + 6 项时序/气机/天气/习俗/广西/养生信息">
-    <span class="series-count" aria-label="4 张组图">4</span>
-    <span class="series-frames">
-      <img src="./seasonal-jieqi-monument-valley-02.jpeg" alt="seasonal-jieqi-monument-valley-02" loading="lazy" data-gallery="seasonal-jieqi-monument-valley" data-title="2 / 4" data-description="立秋(LIQIU · Beginning of Autumn)海报:百色芒果 + 暖橘冷青对比的「夏未尽 / 秋已来」双境空间">
-      <img src="./seasonal-jieqi-monument-valley-03.jpeg" alt="seasonal-jieqi-monument-valley-03" loading="lazy" data-gallery="seasonal-jieqi-monument-valley" data-title="3 / 4" data-description="秋分(QIUFEN · Autumn Equinox)海报:壮锦图案 + 对称双拱门 + 红日 + 谷物丰收,中国传统二十四节气">
-      <img src="./seasonal-jieqi-monument-valley-04.jpeg" alt="seasonal-jieqi-monument-valley-04" loading="lazy" data-gallery="seasonal-jieqi-monument-valley" data-title="4 / 4" data-description="霜降(SHUANGJIANG · Frost's Descent)海报:荔浦芋头 + 霜白雾色立体几何 + 红枫点缀">
-    </span>
+  <div class="tile">
+    <img src="./seasonal-jieqi-monument-valley-01.jpeg" alt="seasonal-jieqi-monument-valley-01" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-monument-valley-02.jpeg" alt="seasonal-jieqi-monument-valley-02" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-monument-valley-03.jpeg" alt="seasonal-jieqi-monument-valley-03" loading="lazy">
+    <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
+  </div>
+  <div class="tile">
+    <img src="./seasonal-jieqi-monument-valley-04.jpeg" alt="seasonal-jieqi-monument-valley-04" loading="lazy">
     <a class="tile-prompt-badge" href="./seasonal-jieqi-monument-valley-template/" title="查看 prompt">📝</a>
   </div>
   <div class="tile">

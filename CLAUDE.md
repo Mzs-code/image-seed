@@ -237,7 +237,8 @@ image-seed/
 扫描各子分类目录下的实际图片文件,重新生成 5 个非扁平场景 README(`xhs-images`、`infographic`、`comic`、`slide-deck`、`article-illustrator`)。**图片任何增删后都要跑**。核心逻辑:
 
 - 按子分类顺序遍历,每张图一个 tile
-- **同 trunk(去 `-NN`)且 ≥2 张的连续图折叠成单个「系列」tile**:封面=首帧 + 左上「⧉ N」张数角标 + 堆叠投影;其余帧隐藏但共享 `data-gallery`,点封面开 glightbox 顺序翻看全组,每帧灯箱说明取该帧元数据主体。系列组**只占 1 格**,无需手动处理
+- **同 trunk(去 `-NN`)且 ≥2 张的连续图折叠成单个「系列」tile**:封面=首帧 + 左上「⧉ N」张数角标 + 堆叠投影;其余帧隐藏但共享 `data-gallery`,点封面开 glightbox 顺序翻看全组,每帧灯箱说明取该帧元数据主体。系列组**只占 1 格**,无需手动处理。**例外:共享 `-template.md` 的组不折叠**(见下条)—— 即便凑巧命名成 `-NN`(如节气海报 `-01..-04`),因为它们主题各异
+- **模板共享聚簇(`_cluster_by_template`)**:元数据 Prompt 列指向**同一份 sidecar 且被 ≥2 张图引用**(跨 trunk 语义名 `info-craft-…` 那批,或同 trunk 命名但 sidecar 是 `-template.md` 的节气海报那批)的图,**不折叠**(主题各异、是独立类别,每张各占一格、各带 📝),但会从字母序里**拉到一起连续相邻**,在簇首位成员的位置成块排列。判定锚点:sidecar 文件名以 `-template.md` 结尾 ⇒ 模板共享 ⇒ 聚簇不折叠。真·系列(同一作品多帧/多页,sidecar 非 `-template`,如奥特曼漫画 `-0..-3`、茶油指南 `-0..-9`)仍正常折叠
 - 本地图排前、baoyu 排后
 - 输出 masonry 画廊(`.gallery` div),带 sidecar 的图加 📝 角标
 
