@@ -93,6 +93,9 @@
     <img src="./info-craft-handmade-skill-agent-mcp-plugin.jpeg" alt="info-craft-handmade-skill-agent-mcp-plugin" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-craft-handmade-token-compression.jpeg" alt="info-craft-handmade-token-compression" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-craft-handmade-baoyu.webp" alt="info-craft-handmade-baoyu" loading="lazy">
   </div>
 </div>
@@ -101,6 +104,7 @@
 
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
+| [info-craft-handmade-token-compression](./info-craft-handmade-token-compression.jpeg) | 同一份知识不同表示方式压缩比差 10~100 倍:原始信息(≈80 token)→ 提炼(≈35)→ 结构化(≈20)→ 符号化(≈8),卡通小孩 + 兔老师 + 动物压缩比标尺,pastel 手绘讲义 | `token` `compression` `agent` `hand-drawn` `pastel` `cute-creature` `chinese` | — | — |
 | [info-craft-handmade-core-ability-to-skill](./info-craft-handmade-core-ability-to-skill.webp) | 企业核心能力封装成 Skill:内部流程 / 操作经验 / 方法论 | `skill` `enterprise` `linework` `chinese` | — | — |
 | [info-craft-handmade-english-learning-guide](./info-craft-handmade-english-learning-guide.jpeg) | 英语学习进阶指南(从入门到流利):5 个阶段 + 学习工具 + 实践方式 | `learning-path` `english` `pastel` `chinese` | — | — |
 | [info-craft-handmade-fourier-transform](./info-craft-handmade-fourier-transform.jpg) | 傅里叶变换数学可视化:把信号从时间/空间看见频率的世界,7 大模块(定义/正交性/几何直觉/常见信号/重要性质/本质总结/应用场景),浅色纸张 + 学术手账风 | `math-vis` `fourier` `handnote` `pastel` `chinese` | — | [prompt: 数学可视化讲义风模板…](./info-craft-handmade-fourier-transform.md) |

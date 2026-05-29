@@ -34,6 +34,9 @@
     <img src="./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg" alt="info-cyberpunk-neon-nvidia-openai-corewrave-path" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-cyberpunk-neon-opus48-honesty.webp" alt="info-cyberpunk-neon-opus48-honesty" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-cyberpunk-neon-three-super-ipo-preview.webp" alt="info-cyberpunk-neon-three-super-ipo-preview" loading="lazy">
   </div>
   <div class="tile">
@@ -46,6 +49,7 @@
 | 文件 | 主体 | 标签 | 来源 | Prompt |
 |---|---|---|---|---|
 | [info-cyberpunk-neon-baoyu](./info-cyberpunk-neon-baoyu.webp) | `cyberpunk-neon` 参考示例 | `baoyu-skills` `cyberpunk-neon` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
+| [info-cyberpunk-neon-opus48-honesty](./info-cyberpunk-neon-opus48-honesty.webp) | Opus 4.8 把「诚实」拉满:谎报率 0.00 / 偷懒调查率 0%(两个历史首次),含 Opus 4.5→4.7→4.8 对比柱 + 写出缺陷代码却不提醒显著减少 + 真实可靠协作理念,深色金橙霓虹 | `opus-4-8` `claude` `honesty` `benchmark` `dark-gold` `chinese` | 新智元·摩寄 | — |
 | [info-cyberpunk-neon-github-source-leak](./info-cyberpunk-neon-github-source-leak.webp) | 黑客叫卖 GitHub 核心源码 5 万美元/3800+ 仓库失守:售价→GitHub 声明→VS Code 插件入侵→9 day 信息危险四段警示流程 | `github` `security` `hack` `dark` `red-warning` `chinese` `gpt-image-2` | 新智元 | — |
 | [info-cyberpunk-neon-microsoft-mdash-ai-security](./info-cyberpunk-neon-microsoft-mdash-ai-security.webp) | 微软 CyberGym MDASH 多智能体 AI 安全系统 5 步流程:准备/扫描/验证/去重/证明,赛博紫蓝霓虹 | `ai-security` `microsoft` `mdash` `agent` `flow` `chinese` `gpt-image-2` | 新智元 | — |
 | [info-cyberpunk-neon-five-day-ai-hacker-blitz](./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp) | 五天 AI 黑客闪电战:Claude Mythos M5 攻陷时刻表 4/22→5/1,Kernel 0day + macOS 沦陷,深蓝赛博 | `ai-security` `claude-mythos` `timeline` `m5` `dark-blue` `chinese` `gpt-image-2` | 新智元 | — |

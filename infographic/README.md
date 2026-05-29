@@ -91,6 +91,9 @@
     <img src="./craft-handmade/info-craft-handmade-skill-agent-mcp-plugin.jpeg" alt="info-craft-handmade-skill-agent-mcp-plugin" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-token-compression.jpeg" alt="info-craft-handmade-token-compression" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-baoyu.webp" alt="info-craft-handmade-baoyu" loading="lazy">
   </div>
   <div class="tile">
@@ -136,6 +139,9 @@
     <img src="./cyberpunk-neon/info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg" alt="info-cyberpunk-neon-nvidia-openai-corewrave-path" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./cyberpunk-neon/info-cyberpunk-neon-opus48-honesty.webp" alt="info-cyberpunk-neon-opus48-honesty" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-three-super-ipo-preview.webp" alt="info-cyberpunk-neon-three-super-ipo-preview" loading="lazy">
   </div>
   <div class="tile">
@@ -155,6 +161,9 @@
   </div>
   <div class="tile">
     <img src="./corporate-memphis/info-corporate-memphis-enterprise-invisible-assets.jpg" alt="info-corporate-memphis-enterprise-invisible-assets" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./corporate-memphis/info-corporate-memphis-superstar-economics.webp" alt="info-corporate-memphis-superstar-economics" loading="lazy">
   </div>
   <div class="tile">
     <img src="./corporate-memphis/info-corporate-memphis-baoyu.webp" alt="info-corporate-memphis-baoyu" loading="lazy">
@@ -370,6 +379,9 @@
   </div>
   <div class="tile">
     <img src="./timeline-horizontal/info-timeline-horizontal-anthropic-revenue-growth.jpg" alt="info-timeline-horizontal-anthropic-revenue-growth" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./timeline-horizontal/info-timeline-horizontal-arr-flywheel-growth.webp" alt="info-timeline-horizontal-arr-flywheel-growth" loading="lazy">
   </div>
   <div class="tile">
     <img src="./timeline-horizontal/info-timeline-horizontal-google-ai-code-share.webp" alt="info-timeline-horizontal-google-ai-code-share" loading="lazy">
