@@ -35,6 +35,9 @@
     <img src="./craft-handmade/info-craft-handmade-agent-dual-impl.webp" alt="info-craft-handmade-agent-dual-impl" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-agent-os-future.jpg" alt="info-craft-handmade-agent-os-future" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-ai-memory-bottleneck.jpg" alt="info-craft-handmade-ai-memory-bottleneck" loading="lazy">
   </div>
   <div class="tile">
@@ -82,6 +85,12 @@
     <img src="./craft-handmade/info-craft-handmade-jetbrains-git-client.webp" alt="info-craft-handmade-jetbrains-git-client" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-meta-skill-workflow.webp" alt="info-craft-handmade-meta-skill-workflow" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-opensource-digital-human.jpeg" alt="info-craft-handmade-opensource-digital-human" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-sincerity-detector.jpg" alt="info-craft-handmade-sincerity-detector" loading="lazy">
   </div>
   <div class="tile">
@@ -115,7 +124,13 @@
     <img src="./chalkboard/info-chalkboard-baoyu.webp" alt="info-chalkboard-baoyu" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./cyberpunk-neon/info-cyberpunk-neon-a-share-sector-rotation.webp" alt="info-cyberpunk-neon-a-share-sector-rotation" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-ai-everyday-creators.webp" alt="info-cyberpunk-neon-ai-everyday-creators" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./cyberpunk-neon/info-cyberpunk-neon-anthropic-founders-rich-list.webp" alt="info-cyberpunk-neon-anthropic-founders-rich-list" loading="lazy">
   </div>
   <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-apple-mie-vs-mythos.webp" alt="info-cyberpunk-neon-apple-mie-vs-mythos" loading="lazy">
@@ -170,6 +185,9 @@
   </div>
   <div class="tile">
     <img src="./technical-schematic/info-technical-schematic-ai-video-arena-elo-ranking.webp" alt="info-technical-schematic-ai-video-arena-elo-ranking" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./technical-schematic/info-technical-schematic-digital-human-decision-engine.jpeg" alt="info-technical-schematic-digital-human-decision-engine" loading="lazy">
   </div>
   <div class="tile">
     <img src="./technical-schematic/info-technical-schematic-happyhorse-arena-three-traits.webp" alt="info-technical-schematic-happyhorse-arena-three-traits" loading="lazy">
@@ -262,6 +280,9 @@
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-us-chip-giants-chinese-ceos.jpeg" alt="info-comparison-table-us-chip-giants-chinese-ceos" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comparison-table/info-comparison-table-worldcup-audience-segments.jpg" alt="info-comparison-table-worldcup-audience-segments" loading="lazy">
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-baoyu.webp" alt="info-comparison-table-baoyu" loading="lazy">

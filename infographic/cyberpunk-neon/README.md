@@ -10,7 +10,13 @@
 
 <div class="gallery" markdown="0">
   <div class="tile">
+    <img src="./info-cyberpunk-neon-a-share-sector-rotation.webp" alt="info-cyberpunk-neon-a-share-sector-rotation" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-cyberpunk-neon-ai-everyday-creators.webp" alt="info-cyberpunk-neon-ai-everyday-creators" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-anthropic-founders-rich-list.webp" alt="info-cyberpunk-neon-anthropic-founders-rich-list" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-cyberpunk-neon-apple-mie-vs-mythos.webp" alt="info-cyberpunk-neon-apple-mie-vs-mythos" loading="lazy">
@@ -59,5 +65,7 @@
 | [info-cyberpunk-neon-nvidia-openai-corewrave-path](./info-cyberpunk-neon-nvidia-openai-corewrave-path.jpeg) | NVIDIA→OpenAI→CoreWeave→Anthropic 算力资本路径,METR 趋势线推向 AGI 门槛,3D 赛博机库背景 | `nvidia` `openai` `agi` `path-layout` `3d-render` `cyber-warehouse` `chinese` `gpt-image-2` | 新智元 | — |
 | [info-cyberpunk-neon-gpt-image-2-capability-map](./info-cyberpunk-neon-gpt-image-2-capability-map.jpeg) | GPT-image-2 能力地图:文字理解/版式控制/中文渲染/风格迁移/产品摄影/商业海报六大模块,深色 sci-fi UI + 中心六边形辐射 | `gpt-image-2-features` `capability-map` `dark-ui` `sci-fi` `hexagon` `mind-map-layout` `chinese` `gpt-image-2` | — | — |
 | [info-cyberpunk-neon-ai-everyday-creators](./info-cyberpunk-neon-ai-everyday-creators.webp) | AI 时代众生相:中央 AI 球体光晕,周围多角色用各类终端创作(编程/音乐/游戏/学习/办公),紫粉霓虹赛博群像 | `ai-everyday-life` `creators` `group-portrait` `purple-neon` `chinese` `gpt-image-2` | 公众号·量子位 | — |
+| [info-cyberpunk-neon-anthropic-founders-rich-list](./info-cyberpunk-neon-anthropic-founders-rich-list.webp) | 全球富豪榜史无前例的空降:Anthropic 7 位联合创始人同日闯进彭博全球 500 大富豪榜,每人持股不到 1%、身家约 80 亿美元;H 轮 650 亿美元融资 → 投后估值 9650 亿美元,完成对 OpenAI(8520 亿)的反超,深色金橙霓虹 + 创始人头像卡 + 估值对比 | `anthropic` `founders` `rich-list` `valuation` `vs` `dark-gold` `chinese` `gpt-image-2` | 新智元 | — |
+| [info-cyberpunk-neon-a-share-sector-rotation](./info-cyberpunk-neon-a-share-sector-rotation.webp) | A 股市场情绪轮动监测「主线不变·节奏轮动」:科技/半导体/原油等投资赛道,卡通操盘手角色对暴跌的反应(「风险大大,但 I will be back」),赛博霓虹城市 + 中央发光芯片 + 底部发光赛道路线图 | `a-share` `stock-market` `sector-rotation` `finance` `cyberpunk` `neon` `comic-scene` `chinese` | — | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

@@ -16,6 +16,12 @@
     <img src="./ecommerce-livestream-claude-opus.jpg" alt="ecommerce-livestream-claude-opus" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./ecommerce-radar-speed-sign-road.jpg" alt="ecommerce-radar-speed-sign-road" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./ecommerce-radar-speed-sign-tech.jpg" alt="ecommerce-radar-speed-sign-tech" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./ecommerce-spring-fashion-lookbook.webp" alt="ecommerce-spring-fashion-lookbook" loading="lazy">
   </div>
   <div class="tile">
@@ -31,5 +37,7 @@
 | [ecommerce-ai-glasses-detail](./ecommerce-ai-glasses-detail.webp) | AI 智能眼镜产品详情页：功能介绍 + 场景图 + 参数表 | `ecommerce` `tech` `product-detail` `dark` `gpt-image-2` | — | — |
 | [ecommerce-livestream-claude-opus](./ecommerce-livestream-claude-opus.jpg) | Claude Opus 4.7 AI 带货直播间 UI（仿淘宝/小红书直播间） | `ecommerce` `livestream` `ui-mockup` `dark` `meme` `gpt-image-2` | — | — |
 | [ecommerce-unity2-subscription-plans](./ecommerce-unity2-subscription-plans.webp) | Unity2.ai 组合订阅全档位营销页:ultra/max 月卡 + pro/plus 周卡 + go 日卡 共 5 张套餐卡 + 卡通猫吉祥物,清爽蓝色 SaaS 风 | `ecommerce` `saas` `pricing` `subscription` `mascot` `blue` `chinese` `gpt-image-2` | Unity2.ai | — |
+| [ecommerce-radar-speed-sign-road](./ecommerce-radar-speed-sign-road.jpg) | 太阳能雷达测速仪产品宣传图(实拍道路黄昏背景):抓拍测速·实时警示·安全管理一步到位,24GHz 毫米波精准测速 + 高清抓拍取证 + 实时 LED 警示,右侧 4 个功能勾选点 | `ecommerce` `product-promo` `hardware` `radar` `photo-composite` `chinese` | — | — |
+| [ecommerce-radar-speed-sign-tech](./ecommerce-radar-speed-sign-tech.jpg) | 雷达测速仪深色科技风商品详情页:快速响应/稳定识别/实时反馈 + 测速性能参数表(1~250km/h、±1km/h、≤100ms)+ 雷达波可视化 + 4 张应用场景卡 + 底部 6 大特性图标 | `ecommerce` `product-detail` `hardware` `radar` `dark` `tech-blue` `chinese` | — | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

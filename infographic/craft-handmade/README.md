@@ -37,6 +37,9 @@
     <img src="./info-craft-handmade-agent-dual-impl.webp" alt="info-craft-handmade-agent-dual-impl" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-craft-handmade-agent-os-future.jpg" alt="info-craft-handmade-agent-os-future" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-craft-handmade-ai-memory-bottleneck.jpg" alt="info-craft-handmade-ai-memory-bottleneck" loading="lazy">
   </div>
   <div class="tile">
@@ -82,6 +85,12 @@
   </div>
   <div class="tile">
     <img src="./info-craft-handmade-jetbrains-git-client.webp" alt="info-craft-handmade-jetbrains-git-client" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-meta-skill-workflow.webp" alt="info-craft-handmade-meta-skill-workflow" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-opensource-digital-human.jpeg" alt="info-craft-handmade-opensource-digital-human" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-craft-handmade-sincerity-detector.jpg" alt="info-craft-handmade-sincerity-detector" loading="lazy">
@@ -130,6 +139,9 @@
 | [info-craft-handmade-jetbrains-git-client](./info-craft-handmade-jetbrains-git-client.webp) | JetBrains 独立 Git 客户端 — 官方"弃坑",社区"接棒":十年长跑 + rebased 项目本质 + 主流 Git GUI 竞争力对比,浅色手绘讲义 | `git` `jetbrains` `developer-tools` `hand-drawn` `chinese` | — | — |
 | [info-craft-handmade-dividend-insurance-cut-01](./info-craft-handmade-dividend-insurance-cut-01.jpg) | 分红险双降·一句话看懂核心变化:6/30 前老款高收益(保底 1.75%)vs 7/1 后新规合规品(保底降至 1.25%~1.5%),手绘蜡笔左右对比 | `craft-handmade` `hand-drawn` `pastel` `insurance` `finance` `comparison` `chinese` `series` | — | — |
 | [info-craft-handmade-dividend-insurance-cut-02](./info-craft-handmade-dividend-insurance-cut-02.jpg) | 下调原因·分红险双降背后三大因素:市场利率下行 / 长寿风险 / 资金涌入压力,手绘蜡笔 | `craft-handmade` `hand-drawn` `pastel` `insurance` `finance` `chinese` `series` | — | — |
+| [info-craft-handmade-agent-os-future](./info-craft-handmade-agent-os-future.jpg) | 通用 Agent 就是未来的操作系统(Agent OS):以后人跟 AI 通信都经 Agent OS;App 的几种结局(消亡 / 变成 CLI 或 MCP / Agent GUI 插件)+ SaaS 趋势(推出 CLI+Skill 才不被淘汰),浅色手绘讲义 + 绿色 Agent OS 卡通吉祥物 | `agent` `agent-os` `operating-system` `hand-drawn` `cute-creature` `chinese` | 宝玉 | — |
+| [info-craft-handmade-meta-skill-workflow](./info-craft-handmade-meta-skill-workflow.webp) | Meta Skill 与端到端长程 Workflow:把零散技能拼装成一本「技能书」+ 从提问到火箭交付的长程工作流,卡通机器人吉祥物 + pastel 手绘卡通 | `meta-skill` `workflow` `agent` `hand-drawn` `cute-creature` `pastel` `chinese` | — | — |
+| [info-craft-handmade-opensource-digital-human](./info-craft-handmade-opensource-digital-human.jpeg) | 开源数字人 5 步搭建流程:一张照片 → 语音优先 → WebRTC → 记忆/RAG/工具 → 实时通话,GitHub 开源仓库 + 蓝发萌系动漫女孩实时通话演示,浅色手绘蜡笔讲义 | `digital-human` `open-source` `webrtc` `rag` `flow` `hand-drawn` `pastel` `kawaii` `chinese` | — | — |
 | [info-craft-handmade-baoyu](./info-craft-handmade-baoyu.webp) | `craft-handmade` 参考示例 | `baoyu-skills` `craft-handmade` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;Prompt 有 sidecar 写带 20 字摘要的链接,跨 trunk 共享时多行指向同一模板 sidecar(打 `` `template-shared` `` 标签便于识别);标签用反引号包裹。

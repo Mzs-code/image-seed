@@ -37,6 +37,9 @@
     <img src="./info-comparison-table-us-chip-giants-chinese-ceos.jpeg" alt="info-comparison-table-us-chip-giants-chinese-ceos" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-comparison-table-worldcup-audience-segments.jpg" alt="info-comparison-table-worldcup-audience-segments" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-comparison-table-baoyu.webp" alt="info-comparison-table-baoyu" loading="lazy">
   </div>
 </div>
@@ -54,6 +57,7 @@
 | [info-comparison-table-script-vs-skills](./info-comparison-table-script-vs-skills.webp) | 脚本 vs Skills：固定代码 vs 自然语言目标特性对比 | `skills` `script` `agent` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.webp) | 什么时候用脚本 vs Agent：银行柜台 vs 项目经理比喻 | `script` `agent` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | 美国四大芯片巨头(NVIDIA/Broadcom/AMD/Intel)CEO 全是华人:黄仁勋/陈福阳/苏姿丰/陈立武 4 列卡片对比(出生年/出生地/祖籍/市值),深蓝电路板背景 | `chip-giants` `ceo` `chinese-american` `nvidia` `amd` `intel` `broadcom` `tech-blue` `card-comparison` `chinese` `gpt-image-2` | 公众号·黑科技派 | — |
+| [info-comparison-table-worldcup-audience-segments](./info-comparison-table-worldcup-audience-segments.jpg) | 灵犀 × 世界杯主题人群营销人群方案(超长数据报表):全三期上线·行业×球队×时效×策略全维覆盖;3 档基础人群 DI 生产 + 行业人群共 57 个分类(各带核心/泛兴趣人群规模数字)+ 产品 UI 截图,浅色绿头企业数据报告风 | `audience-segmentation` `marketing` `data-report` `worldcup` `long-form` `table` `chinese` | 灵犀 | — |
 | [info-comparison-table-baoyu](./info-comparison-table-baoyu.webp) | `comparison-table` 参考示例 | `baoyu-skills` `comparison-table` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。
