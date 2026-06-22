@@ -43,6 +43,9 @@
     <img src="./poster-obsidian-crystal.webp" alt="poster-obsidian-crystal" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./poster-white-tea-candle.jpeg" alt="poster-white-tea-candle" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./poster-xiaban-red.webp" alt="poster-xiaban-red" loading="lazy">
   </div>
 </div>
@@ -63,5 +66,6 @@
 | [poster-microsoft-anthropic-token-invoice](./poster-microsoft-anthropic-token-invoice.webp) | 微软投了 OpenAI 但开发者都用 Claude Code:Satya 持 Anthropic Token Invoice 头疼、Azure 管道把 token 输向 Anthropic 的写实讽刺场景 | `poster` `meme` `satire` `microsoft` `anthropic` `claude-code` `photorealistic` `chinese-meme` `gpt-image-2` | 新智元 | — |
 | [poster-moat-fall-cursor-claude-code](./poster-moat-fall-cursor-claude-code.webp) | 护城河失守:Cursor 与 Claude Code 降维打击,2024→2025 时间线 + 战场史诗背景 + 巨头 logo 倒塌 | `poster` `tech-news` `moat-fall` `cursor` `claude-code` `cinematic` `epic` `chinese` `gpt-image-2` | 新智元 | — |
 | [poster-github-reverse-bite-microsoft](./poster-github-reverse-bite-microsoft.webp) | GitHub 商业化反噬微软:章鱼巨兽吞噬 GitHub 大楼 + 470 万 Copilot 付费用户 / 30 亿美元营收数据,戏剧化反派场景 | `poster` `tech-news` `github` `microsoft` `monster` `dramatic` `dark` `chinese` `gpt-image-2` | 新智元 | — |
+| [poster-white-tea-candle](./poster-white-tea-candle.jpeg) | 「雨后白茶」香薰蜡烛产品海报:点燃 10 分钟房间像刚开窗,清新木质 / 植物蜡 / 睡前可用,180g,绿色水彩淡雅 + 茶叶水珠竖版文艺海报 | `poster` `product` `candle` `home-fragrance` `watercolor` `serene` `green` `chinese` | — | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

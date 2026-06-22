@@ -16,6 +16,9 @@
     <img src="./info-comparison-table-ai-coding-era.jpg" alt="info-comparison-table-ai-coding-era" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-comparison-table-blockade-vs-open.jpg" alt="info-comparison-table-blockade-vs-open" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-comparison-table-cache-hit-miss.webp" alt="info-comparison-table-cache-hit-miss" loading="lazy">
   </div>
   <div class="tile">
@@ -28,10 +31,16 @@
     <img src="./info-comparison-table-claude-code-access.webp" alt="info-comparison-table-claude-code-access" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-comparison-table-cost-openai-vs-deepseek.jpg" alt="info-comparison-table-cost-openai-vs-deepseek" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-comparison-table-script-vs-agent.webp" alt="info-comparison-table-script-vs-agent" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-comparison-table-script-vs-skills.webp" alt="info-comparison-table-script-vs-skills" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-comparison-table-slow-is-hardcore.jpg" alt="info-comparison-table-slow-is-hardcore" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-comparison-table-us-chip-giants-chinese-ceos.jpeg" alt="info-comparison-table-us-chip-giants-chinese-ceos" loading="lazy">
@@ -58,6 +67,9 @@
 | [info-comparison-table-script-vs-agent](./info-comparison-table-script-vs-agent.webp) | 什么时候用脚本 vs Agent：银行柜台 vs 项目经理比喻 | `script` `agent` `kawaii` `baoyu-skills` | [宝玉](https://weibo.com/1727858283) | — |
 | [info-comparison-table-us-chip-giants-chinese-ceos](./info-comparison-table-us-chip-giants-chinese-ceos.jpeg) | 美国四大芯片巨头(NVIDIA/Broadcom/AMD/Intel)CEO 全是华人:黄仁勋/陈福阳/苏姿丰/陈立武 4 列卡片对比(出生年/出生地/祖籍/市值),深蓝电路板背景 | `chip-giants` `ceo` `chinese-american` `nvidia` `amd` `intel` `broadcom` `tech-blue` `card-comparison` `chinese` `gpt-image-2` | 公众号·黑科技派 | — |
 | [info-comparison-table-worldcup-audience-segments](./info-comparison-table-worldcup-audience-segments.jpg) | 灵犀 × 世界杯主题人群营销人群方案(超长数据报表):全三期上线·行业×球队×时效×策略全维覆盖;3 档基础人群 DI 生产 + 行业人群共 57 个分类(各带核心/泛兴趣人群规模数字)+ 产品 UI 截图,浅色绿头企业数据报告风 | `audience-segmentation` `marketing` `data-report` `worldcup` `long-form` `table` `chinese` | 灵犀 | — |
+| [info-comparison-table-slow-is-hardcore](./info-comparison-table-slow-is-hardcore.jpg) | 「慢,才是硬核自救」:当需求即代码成为现实,生产瓶颈从「机器写多快」变成「人审多快」;AI 能模拟一切却无法替你体验和定义价值,无法被 Token 量化的三种核心能力(判断力/审美/亲手推导的逻辑),左赛博机械臂霓虹 + 右真人窗边沉思写实场景 | `ai-coding` `opinion` `taste` `judgment` `cyberpunk` `photorealistic` `split-scene` `chinese` | 微博·爱可可-爱生活 | — |
+| [info-comparison-table-blockade-vs-open](./info-comparison-table-blockade-vs-open.jpg) | 「封锁挡不住未来」:技术终局是开放与普惠;Mistral AI 本土力量崛起、去美化生态加速成熟,Fable 5 限区争议 vs 开源生态全球协作,左暗「限区」高墙 vs 右明开放协作写实电影场景(埃菲尔铁塔/彩虹) | `open-source` `mistral` `opinion` `blockade-vs-open` `cinematic` `split-scene` `chinese` | 微博·爱可可-爱生活 | — |
+| [info-comparison-table-cost-openai-vs-deepseek](./info-comparison-table-cost-openai-vs-deepseek.jpg) | 「算账,才是 AI 走向工业化的第一课」:微软考虑在 Copilot 引入 DeepSeek 替代 OpenAI 的商业逻辑;高昂推理成本(OpenAI)vs 极致性价比(DeepSeek)天平对比,未来 AI 架构 Model Routing,蓝橙 3D 天平渲染 | `ai-cost` `openai` `deepseek` `microsoft` `model-routing` `scale-balance` `cinematic` `chinese` | 微博·爱可可-爱生活 | — |
 | [info-comparison-table-baoyu](./info-comparison-table-baoyu.webp) | `comparison-table` 参考示例 | `baoyu-skills` `comparison-table` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

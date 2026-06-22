@@ -16,6 +16,9 @@
     <img src="./info-cyberpunk-neon-ai-everyday-creators.webp" alt="info-cyberpunk-neon-ai-everyday-creators" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-cyberpunk-neon-ai-therapeutic-binders.webp" alt="info-cyberpunk-neon-ai-therapeutic-binders" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-cyberpunk-neon-anthropic-founders-rich-list.webp" alt="info-cyberpunk-neon-anthropic-founders-rich-list" loading="lazy">
   </div>
   <div class="tile">
@@ -23,6 +26,9 @@
   </div>
   <div class="tile">
     <img src="./info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg" alt="info-cyberpunk-neon-asi-finals-openai-vs-anthropic" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-cyberpunk-neon-data-to-trainingset.webp" alt="info-cyberpunk-neon-data-to-trainingset" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-cyberpunk-neon-five-day-ai-hacker-blitz.webp" alt="info-cyberpunk-neon-five-day-ai-hacker-blitz" loading="lazy">
@@ -67,5 +73,7 @@
 | [info-cyberpunk-neon-ai-everyday-creators](./info-cyberpunk-neon-ai-everyday-creators.webp) | AI 时代众生相:中央 AI 球体光晕,周围多角色用各类终端创作(编程/音乐/游戏/学习/办公),紫粉霓虹赛博群像 | `ai-everyday-life` `creators` `group-portrait` `purple-neon` `chinese` `gpt-image-2` | 公众号·量子位 | — |
 | [info-cyberpunk-neon-anthropic-founders-rich-list](./info-cyberpunk-neon-anthropic-founders-rich-list.webp) | 全球富豪榜史无前例的空降:Anthropic 7 位联合创始人同日闯进彭博全球 500 大富豪榜,每人持股不到 1%、身家约 80 亿美元;H 轮 650 亿美元融资 → 投后估值 9650 亿美元,完成对 OpenAI(8520 亿)的反超,深色金橙霓虹 + 创始人头像卡 + 估值对比 | `anthropic` `founders` `rich-list` `valuation` `vs` `dark-gold` `chinese` `gpt-image-2` | 新智元 | — |
 | [info-cyberpunk-neon-a-share-sector-rotation](./info-cyberpunk-neon-a-share-sector-rotation.webp) | A 股市场情绪轮动监测「主线不变·节奏轮动」:科技/半导体/原油等投资赛道,卡通操盘手角色对暴跌的反应(「风险大大,但 I will be back」),赛博霓虹城市 + 中央发光芯片 + 底部发光赛道路线图 | `a-share` `stock-market` `sector-rotation` `finance` `cyberpunk` `neon` `comic-scene` `chinese` | — | — |
+| [info-cyberpunk-neon-ai-therapeutic-binders](./info-cyberpunk-neon-ai-therapeutic-binders.webp) | From Millions to Tens:AI 让治疗性结合蛋白(binders)可编程设计 — 传统抗体发现(高通量/库构建/多轮筛选)的发现负担从 10⁶ 候选压缩到 10¹,14 个候选→实测→51 pM 亲和力 / 90.9% 成功率,深蓝科技数据可视化(英文) | `ai-drug-discovery` `protein-binder` `biotech` `data-viz` `dark-blue` `funnel-layout` `english` | — | — |
+| [info-cyberpunk-neon-data-to-trainingset](./info-cyberpunk-neon-data-to-trainingset.webp) | 医疗数据治理流水线:原始医疗数据(噪音:格式不统一/标准不一)→ 专业治理(标准化/结构化/清洗过滤/质量控制)→ 可用训练数据(信号),病历/手写/影像 → 数据粒子流 → 模型训练立方体,深色蓝电光科技 UI + 医学专家参与 | `medical-data` `data-pipeline` `training-set` `data-governance` `dark-blue` `neon` `tech-ui` `chinese` | — | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

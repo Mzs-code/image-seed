@@ -19,6 +19,9 @@
     <img src="./info-grid-cards-claude-feishu-5-agent-overview.jpg" alt="info-grid-cards-claude-feishu-5-agent-overview" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-grid-cards-industrial-ai-safety-monitor.jpg" alt="info-grid-cards-industrial-ai-safety-monitor" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-grid-cards-mobile-llm-refusal-dilemma.webp" alt="info-grid-cards-mobile-llm-refusal-dilemma" loading="lazy">
   </div>
   <div class="tile">
@@ -51,6 +54,7 @@
 | [info-grid-cards-no-agents-md-pain](./info-grid-cards-no-agents-md-pain.webp) | 没有 AGENTS.md 的日子:前后端割裂/不识别私域组件/不知项目规矩/不会启动自测,4 格手绘卡片 | `agents-md` `claude-code` `hand-drawn` `pain-points` `kawaii` | — | — |
 | [info-grid-cards-six-coffee-beans](./info-grid-cards-six-coffee-beans.webp) | 全球六大咖啡豆种类：产地、风味、咖啡因含量全解析 | `coffee` `food` `knowledge` `warm` `grid-cards` `gpt-image-2` | — | — |
 | [info-grid-cards-claude-feishu-5-agent-overview](./info-grid-cards-claude-feishu-5-agent-overview.jpg) | Claude Code × 飞书 5 大玩法总览版:CLI 协同/会议系列/工作流编排/重复任务/生成可视化网页,科技蓝 | `claude-code` `feishu` `agent` `overview` `tech-blue` `chinese` `gpt-image-2` | — | — |
+| [info-grid-cards-industrial-ai-safety-monitor](./info-grid-cards-industrial-ai-safety-monitor.jpg) | 高温制造关键工序 AI 监管(U安智巡):发现异常立即纠正确保生产质量,铝合金熔炼铸造/有色金属加工/高温作业现场;铸造车间 + 涂装车间双监控,4 步流程卡(扒渣按周期/成品质检/模具更换/喷洒维护)+ 4 功能点(周期监管/实时预警/过程留痕/现场纠偏)+ 监管看板,真实工厂照片合成 + 绿色科技 UI 仪表盘 | `industrial-ai` `safety-monitor` `manufacturing` `cv` `photo-composite` `dashboard` `green-tech` `chinese` | U安智巡 | — |
 | [info-grid-cards-baoyu](./info-grid-cards-baoyu.webp) | `grid-cards` 参考示例 | `baoyu-skills` `grid-cards` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;标签用反引号包裹。

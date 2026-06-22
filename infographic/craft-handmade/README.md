@@ -49,7 +49,13 @@
     <img src="./info-craft-handmade-autowired-iceberg.webp" alt="info-craft-handmade-autowired-iceberg" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./info-craft-handmade-birthday-email-kindness.jpeg" alt="info-craft-handmade-birthday-email-kindness" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./info-craft-handmade-claude-code-three-frameworks.jpeg" alt="info-craft-handmade-claude-code-three-frameworks" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./info-craft-handmade-codex-update-rules.jpeg" alt="info-craft-handmade-codex-update-rules" loading="lazy">
   </div>
   <div class="tile">
     <img src="./info-craft-handmade-core-ability-to-skill.webp" alt="info-craft-handmade-core-ability-to-skill" loading="lazy">
@@ -142,6 +148,8 @@
 | [info-craft-handmade-agent-os-future](./info-craft-handmade-agent-os-future.jpg) | 通用 Agent 就是未来的操作系统(Agent OS):以后人跟 AI 通信都经 Agent OS;App 的几种结局(消亡 / 变成 CLI 或 MCP / Agent GUI 插件)+ SaaS 趋势(推出 CLI+Skill 才不被淘汰),浅色手绘讲义 + 绿色 Agent OS 卡通吉祥物 | `agent` `agent-os` `operating-system` `hand-drawn` `cute-creature` `chinese` | 宝玉 | — |
 | [info-craft-handmade-meta-skill-workflow](./info-craft-handmade-meta-skill-workflow.webp) | Meta Skill 与端到端长程 Workflow:把零散技能拼装成一本「技能书」+ 从提问到火箭交付的长程工作流,卡通机器人吉祥物 + pastel 手绘卡通 | `meta-skill` `workflow` `agent` `hand-drawn` `cute-creature` `pastel` `chinese` | — | — |
 | [info-craft-handmade-opensource-digital-human](./info-craft-handmade-opensource-digital-human.jpeg) | 开源数字人 5 步搭建流程:一张照片 → 语音优先 → WebRTC → 记忆/RAG/工具 → 实时通话,GitHub 开源仓库 + 蓝发萌系动漫女孩实时通话演示,浅色手绘蜡笔讲义 | `digital-human` `open-source` `webrtc` `rag` `flow` `hand-drawn` `pastel` `kawaii` `chinese` | — | — |
+| [info-craft-handmade-codex-update-rules](./info-craft-handmade-codex-update-rules.jpeg) | 「别只修 Bug,让 Codex 更新规则」错误也可以变成项目资产:① Codex 犯错 → ② 先修复问题 → ③ 追因(根因分析)→ ④ 写入 AGENTS.md(把经验沉淀为可复用规则);以后 AI 应该记住(不只改结果要追根因 / 类似任务先查旧规则 / 沉淀进 AGENTS.md),浅色黑白线描卡通人物手绘讲义 | `codex` `agents-md` `bug-fix` `workflow` `hand-drawn` `linework` `chinese` | — | — |
+| [info-craft-handmade-birthday-email-kindness](./info-craft-handmade-birthday-email-kindness.jpeg) | 「A Birthday Email — A small request. A big kindness.」一个俄罗斯少年攒钱想买 mole 工具、请求按原价购买,开发者回赠生日优惠码(MOLEMOLE 20% off → HAPPYMOLE 100% off)的暖心邮件往来故事,7 格叙事 + mole 鼹鼠吉祥物,浅色手绘讲义 | `storytelling` `kindness` `open-source` `email` `hand-drawn` `linework` `mole` `english` | — | — |
 | [info-craft-handmade-baoyu](./info-craft-handmade-baoyu.webp) | `craft-handmade` 参考示例 | `baoyu-skills` `craft-handmade` | [baoyu-skills](https://github.com/JimLiu/baoyu-skills) | — |
 
 **说明**:来源/Prompt 缺失填 `—`;Prompt 有 sidecar 写带 20 字摘要的链接,跨 trunk 共享时多行指向同一模板 sidecar(打 `` `template-shared` `` 标签便于识别);标签用反引号包裹。

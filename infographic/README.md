@@ -47,7 +47,13 @@
     <img src="./craft-handmade/info-craft-handmade-autowired-iceberg.webp" alt="info-craft-handmade-autowired-iceberg" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-birthday-email-kindness.jpeg" alt="info-craft-handmade-birthday-email-kindness" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-claude-code-three-frameworks.jpeg" alt="info-craft-handmade-claude-code-three-frameworks" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./craft-handmade/info-craft-handmade-codex-update-rules.jpeg" alt="info-craft-handmade-codex-update-rules" loading="lazy">
   </div>
   <div class="tile">
     <img src="./craft-handmade/info-craft-handmade-core-ability-to-skill.webp" alt="info-craft-handmade-core-ability-to-skill" loading="lazy">
@@ -130,6 +136,9 @@
     <img src="./cyberpunk-neon/info-cyberpunk-neon-ai-everyday-creators.webp" alt="info-cyberpunk-neon-ai-everyday-creators" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./cyberpunk-neon/info-cyberpunk-neon-ai-therapeutic-binders.webp" alt="info-cyberpunk-neon-ai-therapeutic-binders" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-anthropic-founders-rich-list.webp" alt="info-cyberpunk-neon-anthropic-founders-rich-list" loading="lazy">
   </div>
   <div class="tile">
@@ -137,6 +146,9 @@
   </div>
   <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-asi-finals-openai-vs-anthropic.jpg" alt="info-cyberpunk-neon-asi-finals-openai-vs-anthropic" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./cyberpunk-neon/info-cyberpunk-neon-data-to-trainingset.webp" alt="info-cyberpunk-neon-data-to-trainingset" loading="lazy">
   </div>
   <div class="tile">
     <img src="./cyberpunk-neon/info-cyberpunk-neon-five-day-ai-hacker-blitz.webp" alt="info-cyberpunk-neon-five-day-ai-hacker-blitz" loading="lazy">
@@ -252,6 +264,9 @@
     <img src="./circular-flow/info-circular-flow-agent-loop-diagram.webp" alt="info-circular-flow-agent-loop-diagram" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./circular-flow/info-circular-flow-product-death-loop.webp" alt="info-circular-flow-product-death-loop" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./circular-flow/info-circular-flow-baoyu.webp" alt="info-circular-flow-baoyu" loading="lazy">
   </div>
   <div class="tile">
@@ -259,6 +274,9 @@
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-ai-coding-era.jpg" alt="info-comparison-table-ai-coding-era" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comparison-table/info-comparison-table-blockade-vs-open.jpg" alt="info-comparison-table-blockade-vs-open" loading="lazy">
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-cache-hit-miss.webp" alt="info-comparison-table-cache-hit-miss" loading="lazy">
@@ -273,10 +291,16 @@
     <img src="./comparison-table/info-comparison-table-claude-code-access.webp" alt="info-comparison-table-claude-code-access" loading="lazy">
   </div>
   <div class="tile">
+    <img src="./comparison-table/info-comparison-table-cost-openai-vs-deepseek.jpg" alt="info-comparison-table-cost-openai-vs-deepseek" loading="lazy">
+  </div>
+  <div class="tile">
     <img src="./comparison-table/info-comparison-table-script-vs-agent.webp" alt="info-comparison-table-script-vs-agent" loading="lazy">
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-script-vs-skills.webp" alt="info-comparison-table-script-vs-skills" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./comparison-table/info-comparison-table-slow-is-hardcore.jpg" alt="info-comparison-table-slow-is-hardcore" loading="lazy">
   </div>
   <div class="tile">
     <img src="./comparison-table/info-comparison-table-us-chip-giants-chinese-ceos.jpeg" alt="info-comparison-table-us-chip-giants-chinese-ceos" loading="lazy">
@@ -331,6 +355,9 @@
   </div>
   <div class="tile">
     <img src="./grid-cards/info-grid-cards-claude-feishu-5-agent-overview.jpg" alt="info-grid-cards-claude-feishu-5-agent-overview" loading="lazy">
+  </div>
+  <div class="tile">
+    <img src="./grid-cards/info-grid-cards-industrial-ai-safety-monitor.jpg" alt="info-grid-cards-industrial-ai-safety-monitor" loading="lazy">
   </div>
   <div class="tile">
     <img src="./grid-cards/info-grid-cards-mobile-llm-refusal-dilemma.webp" alt="info-grid-cards-mobile-llm-refusal-dilemma" loading="lazy">
